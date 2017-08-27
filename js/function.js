@@ -97,7 +97,7 @@ ipt3.onclick = function () {
     //inner3.innerText="<span>23333</span>";//打印<span>2333</span> 作为字符串
     console.log(inner3.innerText);//打印2333 作为标签
 }
-//value 表单 submit
+//value 表单 submit等
 var ipt4 = document.getElementById("ipt4");
 var txt = document.getElementById("txt");
 var slt = document.getElementById("slt");
@@ -105,14 +105,3 @@ var con = document.getElementById("con");
 sub.onclick = function () {
     con.innerHTML = ipt4.value+","+txt.value+","+slt.value;
 }
-
-
-
-
-
-
-
-
-
-
-

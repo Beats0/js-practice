@@ -105,3 +105,109 @@ var con = document.getElementById("con");
 sub.onclick = function () {
     con.innerHTML = ipt4.value+","+txt.value+","+slt.value;
 }
+
+// test3 数组arr
+// var arr = [];
+var arr1 = ["1","2","3"];//创建数组
+console.log(arr1[0]);
+arr1[0] = "newarr1";//赋新值
+console.log(arr1[0]);//newarr1
+console.log(arr1.length);//数组长度
+var arr2 = new Array();//创建数组
+//var arr3 = new Array(size);//创建数组的长度
+var arr4 = new Array("b1","b2","b3","b4");
+// 数组操作
+// var len = arr4.push("b5","b6");//将元素添加到末尾，并返回新长度
+// console.log(arr4);//["b1", "b2", "b3", "b4", "b5", "b6"]
+// console.log(len);//6
+
+// var len = arr4.unshift("b5","b6");//将元素添加到开始，并返回新长度
+// console.log(arr4);//["b5", "b6", "b1", "b2", "b3", "b4"]
+// console.log(len);//6
+
+// var last = arr4.pop();//删除数最后一项，并返回删除的元素
+// console.log(arr4);//["b1", "b2", "b3"]
+// console.log(last);//b4
+
+// var first = arr4.shift();//删除数组第一项，并返回删除的元素
+// console.log(arr4);//["b2", "b3", "b4"]
+// console.log(first);//b1
+
+//for循环
+// for (var i = 0; i <arr.length; i++) {
+//      document.write(arr[i]+",");
+//  }
+for (var i2 = 0; i2 < arr4.length; i2++) {
+    document.write(arr4[i2]+",");//b1,b2,b3,b4,
+}
+//for-in循环遍历
+// for (var item in arr) {
+//     document.write(arr[item]+",");
+// }
+for (var i3 in arr4) {
+    document.write(arr4[i3]+",");//b1,b2,b3,b4,
+}
+//for each
+var newarr4 = arr4.forEach(function (item,index) {
+    document.write(item+",");//b1,b2,b3,b4,
+})
+//map
+var newarr5 = arr4.map(function (item2,index) {
+    document.write(item2+",");//b1,b2,b3,b4,
+    return item2+2;
+})
+console.log(newarr5);
+//["b12", "b22", "b32", "b42"]
+
+//数组操作
+/*splice*/
+// splice(1,2) 从1的位置开始（含1）向后删除2个元素，以数组形式返回所有移除的元素
+// var newArray = arrsplice(1,2);
+// arr.splice(1,2,v1,v2);在删除元素的位置添加元素v1，v2
+var arr6 = ["a2","b2","c2","d2"];
+// var newarr6 = arr6.splice(1,2);
+// console.log(arr6);//["a2", "d2"]
+// console.log(newarr6);//["b2", "c2"]
+arr6.splice(0,3,"newa2","newb2","newc2");
+console.log(arr6);
+// ["newa2", "newb2", "newc2", "d2"]
+/*slice*/
+// slice(start,end)以数组的形式返回数组的一部分，不包括end位置的元素，如果省略end将会复制start及以后的所有元素
+var newarr7 = arr4.slice(0,2);
+console.log(newarr7);//["b1", "b2"]
+console.log(arr4);
+// ["b1", "b2", "b3", "b4"]原数组无变化
+/*jion*/
+// join(‘分隔符’)用数组的元素组成字符串
+// var str = arr.join('-');
+var str = arr4.join('-');
+console.log(str);
+// b1-b2-b3-b4 string
+/*concat*/
+// concat用于合并数组并返回一个新数组
+// var newArray = arr.concat(arra1.array2,.....arrayN);
+var arrconcat = arr4.concat(arr6);
+console.log(arrconcat);
+// ["b1", "b2", "b3", "b4", "newa2", "newb2", "newc2", "d2"]
+/*reverse*/
+// reverse将数组反转
+// var newArray = arr.reverse();
+var arrreverse = arr4.reverse();
+console.log(arrreverse);
+// ["b4", "b3", "b2", "b1"]
+/*sort*/
+// newArray = arr.sort() 对数组进行排序（ASCll码方式）
+var arrsort = [5,23,6,9,42,63,78,91];
+console.log(arrsort.sort());
+// [23, 42, 5, 6, 63, 78, 9, 91]
+/**sort(function(a,b){return a-b})升序（冒泡排序方式）**/
+ console.log(arrsort.sort(function (a,b) {
+     return a-b;
+ }))
+// [5, 6, 9, 23, 42, 63, 78, 91]
+// /**sort(function(a,b){return a-b})降序（冒泡排序方式）**/
+// console.log(arrsort.sort(function (a,b) {
+//     return a+b;
+// }))
+// // [91, 9, 78, 63, 6, 5, 42, 23]
+

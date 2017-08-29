@@ -4,57 +4,41 @@
     <meta charset="UTF-8">
     <title>js-practice</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
 <body>
+<div class="navbar navbar-inverse text-center mybody1">
+    <div class="container">
+        <a class="navbar-brand" href="https://github.com/Beats0/js-practice" title="GitHub" target="_blank">js-practice</a>
+    </div>
+    </div>
 <div class="container">
-    <div class="test1">
-    <p>点击一下</p>
-    <ul id="list">
-        <li>111</li>
-        <li>222</li>
-        <li>333</li>
-        <li>444</li>
-        <li>555</li>
-    </ul>
-    <ul id="list2">
-        <li>666</li>
-        <li style="background: hotpink">777</li>
-        <li>888</li>
-    </ul>
-    </div>
-    <div class="test2">
-        账号：<input type="text" name="" value="输入账号"> 密码：<input type="text" name="" value="输入密码">
-        <p>
-        <input type="button" id="ipt" value="点击">
-        <div id="inner">
-            变化的值
-        </div>
-        </p>
-        <p>
-            <input type="button" id="ipt3" value="点击3">
-        <div id="inner3">
-            变化的值<span>2333</span>
-        </div>
-        </p>
-        <p>
-            <input type="text" id="ipt4" value="输入">
-            <textarea name="" id="txt" cols="30" rows="10">输入内容</textarea>
-            <select name="" id="slt">
-                <option value="北京">北京</option>
-                <option value="上海">上海</option>
-                <option value="重庆">重庆</option>
-            </select>
-            <input type="submit" value="提交" id="sub">
-            <h1 id="con">h1 value:</h1>
-        </p>
-    </div>
-    <div class="test3">
+    <div class="row">
+        <div id="mainstay">
+            <div id="article-list">
+                <div class="article well clearfix">
+                    <a href="#"><button type="button" class="btn btn-success">Chapter1</button></a>
+                    <a href="#"><button type="button" class="btn btn-success">Array</button></a>
+                    <a href=""><button type="button" class="btn btn-success">Code</button></a>
+                    <a href=""><button type="button" class="btn btn-success">Demo</button></a>
+                    <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div></div>
+                </div>
+                <div class="article well clearfix">
+                    <a href="#"><button type="button" class="btn btn-success">Chapter2</button></a>
+                    <a href="#"><button type="button" class="btn btn-success">String</button></a>
+                    <a href=""><button type="button" class="btn btn-success">Code</button></a>
+                    <a href=""><button type="button" class="btn btn-success">Demo</button></a>
+                    <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:20%">20%</div></div>
+                </div>
+            </div>
 
+        </div>
     </div>
-
 </div>
 
-<script type="text/javascript" src="js/function.js"></script>
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>

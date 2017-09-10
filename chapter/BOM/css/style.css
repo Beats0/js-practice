@@ -1,0 +1,20 @@
+body, html, div, header, footer, nav, ul, li, h1, h2, h3, h4, h5, h6 ,pre,form,fieldset,input,textarea,p,blockquote,th,td,img { padding: 0; margin: 0; box-sizing: border-box; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    background: #e8e8e8;
+}
+#btn {
+    width: 200px;
+    height: 200px;
+    background: #ffb9b9;
+}
+#con {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+}
+#ipt {
+    width: 200px;
+}

@@ -38,7 +38,6 @@ var  lis = list.getElementsByTagName('li');
 //test2焦点
 //onfocus与onblur
 var userName = document.getElementsByTagName('input')[0];
-var userPasswd = document.getElementsByTagName('input')[1];
 userName.onfocus = function () {
     if (userName.value=="输入账号") {
         userName.value="";
@@ -77,6 +76,32 @@ alert(x)
 // function fn2() {
 //     alert("222");//222函数名优先于变量名，将会覆盖变量名
 // }
+
+//调用
+var calculator = {
+    x: 1,
+    y: 1,
+    add: function () {
+        this.result = this.x + this.y;//this当前对象
+    }
+};
+calculator.add();//调用1+1
+console.log(calculator.result);//2 结果
+
+//this值调用
+var o = {                               //对象o
+    m: function () {                    //对象中的方法m()
+        var self = this;                //将this值保存在一个变量中
+        console.log(this === o);        //“true”：this就是这个对象{m：f}
+        f();                            //调用辅助函数f()
+
+        function f() {                  //定义嵌套函数f()
+            console.log(this === o);    //"faLse"：this的值为全局对象或undefined
+            console.log(self === o);    //“true”：self指外部函数的this值{m：f}
+        }
+    }
+};
+o.m();                                  //调用对象o的方法
 
 //元素值
 // innerHTML获取标签中的内容（包含标签）
@@ -148,9 +173,15 @@ for (var i3 in arr4) {
     document.write(arr4[i3]+",");//b1,b2,b3,b4,
 }
 //for each
-var newarr4 = arr4.forEach(function (item,index) {
-    document.write(item+",");//b1,b2,b3,b4,
+// var newarr4 = arr4.forEach(function (item,index) {
+//     document.write(item+",");//b1,b2,b3,b4,
+// })
+var date = [1,2,3,4,5];
+var sumofSquares = 0;
+date.forEach(function (x) {
+    sumofSquares += x*x;
 })
+console.log(sumofSquares);
 //map
 var newarr5 = arr4.map(function (item2,index) {
     document.write(item2+",");//b1,b2,b3,b4,
@@ -210,4 +241,32 @@ console.log(arrsort.sort());
 //     return a+b;
 // }))
 // // [91, 9, 78, 63, 6, 5, 42, 23]
+
+// //多维数组与查询
+// var table = new  Array(10);//表格10行
+// for (var i = 0;i < table;i++)
+//      table[i] = new Array(10);//表格10列
+//  //初始化数组
+// for (var row = 0;row < table.length;row++) {
+//     for (col = 0;col < table[row].length;col++) {
+//         table[row][col] = row*col;
+//     }
+// }
+// //查询9*9表
+// var product = table[5][7];
+// console.log(table);
+// console.log(product);
+
+document.write("<table style='border: 1px solid black'>");
+ for (var i = 1;i <= 9;i++) {
+     document.write("<tr>");
+     for (var j = 1;j <= i;j++) {
+         document.write("<td style='text-align: center;border: 1px solid black'>");
+         document.write(i + "X" + j + "=" + i*j);
+         document.write("</td>");
+     }
+     // document.write("<br/>");
+     document.write("</tr>");
+ }
+document.write("</table>");
 

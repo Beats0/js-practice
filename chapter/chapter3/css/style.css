@@ -1,0 +1,46 @@
+body, html, div, header, footer, nav, ul, li, h1, h2, h3, h4, h5, h6 ,pre,form,fieldset,input,textarea,p,blockquote,th,td,img { padding: 0; margin: 0; box-sizing: border-box; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+#title {
+    width: 600px;
+    height: 40px;
+    overflow: hidden;
+    margin: 30px auto 0px;
+}
+#title > span {
+    width: 198px;
+    height: 40px;
+    float: left;
+    color: #ccc;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#title .select {
+    background: #999;
+}
+#con {
+    width: 598px;
+    height: 298px;
+    border: 1px solid red;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#con > li {
+    width: 598px;
+    height: 298px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 298px;
+    text-align: center;
+    display: none;
+    /*****display: none*****/
+}
+#con .show {
+    display: block;
+    background: #faebcc;
+}

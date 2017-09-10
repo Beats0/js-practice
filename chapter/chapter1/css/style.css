@@ -4,3 +4,25 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
     width: 500px;
     border: 1px solid red;
 }
+.header-search {
+    width: 300px;
+    border: 1px solid red;
+    font-size: 13px;
+}
+.header-search .link-ranking {
+    left: 2px;
+    top: 2px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 4px;
+    width: 68px;
+    transition: .2s background-color;
+}
+.header-search .link-ranking span {
+    padding-left: 26px;
+    color: #f25d8e;
+    display: inline-block;
+    background: url(//static.hdslb.com/images/base/icons.png) -659px -655px no-repeat;
+}

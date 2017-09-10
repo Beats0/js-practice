@@ -8,24 +8,34 @@
 <body>
 <div class="container">
     <div class="test1">
-    <p>点击一下</p>
-    <ul id="list">
-        <li>111</li>
-        <li>222</li>
-        <li>333</li>
-        <li>444</li>
-        <li>555</li>
-    </ul>
-    <ul id="list2">
-        <li>666</li>
-        <li style="background: hotpink">777</li>
-        <li>888</li>
-    </ul>
+        <p>点击一下</p>
+        <ul id="list">
+            <li>111</li>
+            <li>222</li>
+            <li>333</li>
+            <li>444</li>
+            <li>555</li>
+        </ul>
+        <ul id="list2">
+            <li>666</li>
+            <li style="background: hotpink">777</li>
+            <li>888</li>
+        </ul>
     </div>
     <div class="test2">
-        账号：<input type="text" name="" value="输入账号"> 密码：<input type="text" name="" value="输入密码">
         <p>
-        <input type="button" id="ipt" value="点击">
+            账号：<input type="text" name="" value="输入账号">
+        </p>
+
+        <div class="header-search">
+            <a class="link-ranking" href="//www.bilibili.com/ranking" target="_blank"><span>排行榜</span></a>
+            <form id="searchform" action="//search.bilibili.com/all" target="_blank">
+                <input type="text" placeholder="search in bilibili">
+            </form>
+        </div>
+
+        <p>
+            <input type="button" id="ipt" value="点击">
         <div id="inner">
             变化的值
         </div>
@@ -45,7 +55,7 @@
                 <option value="重庆">重庆</option>
             </select>
             <input type="submit" value="提交" id="sub">
-            <h1 id="con">h1 value:</h1>
+        <h1 id="con">h1 value:</h1>
         </p>
     </div>
     <div class="test3">

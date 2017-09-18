@@ -1,0 +1,13 @@
+{
+  "name":"AAA",
+  "sex":"girl",
+  "age":20,
+  "a":null,
+  "b":true,
+  "c":false,
+  "add":{
+    "local":"Beijing",
+    "live":"Shanghai"
+  }
+  "score":[12,23,34,45]
+}

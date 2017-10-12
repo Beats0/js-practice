@@ -144,7 +144,6 @@ function inputnum() {
                     break;
                 }
             }
-
         }
         else {
             alert("输入的不是一个整数");
@@ -155,3 +154,81 @@ function inputnum() {
     }
 }
 inputnum();
+
+function displayInfo(args) {
+    var output = "";
+    if (typeof  args.name == "string") { //判断是否含有这个属性
+        output += "Name:" + args.name + "\n";
+    }
+    if (typeof args.age == "number") {
+        output += "Age:" + args.age + "\n";
+    }
+    alert(output);
+}
+displayInfo({
+    name: "Ni",
+    age: 29
+});
+displayInfo({
+    name: "Ni2"
+});
+
+//使用arguments.callee取消耦合
+function factorial(num) {
+    if (num <= 1) {
+        return 1;
+    }
+    else {
+        return num * arguments.callee(num - 1)//使用arguments.callee取消耦合
+    }
+}
+var trueFactorial = factorial;//传递指针
+factorial = function () {
+    return 0;
+}
+console.log(trueFactorial(5));//120
+console.log(factorial(5));//0
+
+//返回随机数函数
+function selectFrom(lowerValue, upperValue) {
+    var choices = upperValue - lowerValue + 1;//值得总数
+    return Math.floor(Math.random() * choices + lowerValue)//lowerValue第一个可能的值
+}
+var selectNum = selectFrom(2, 10);//介于2-10的范围
+console.log(selectNum);//selectNum随机数
+
+
+// //test
+// console.log(a);//1.ƒunction a(){console.log(10)}
+// a();
+// var a=3;
+// function a(){
+//     console.log(10)
+// }
+// console.log(a);//2.10
+// var a=6;
+// a();//3.3
+//等价于：
+// function a() {
+//     console.log(10);
+// }
+// console.log(a);
+// a()
+
+//访问原型
+function Person() {
+}
+Person.prototype.name="Beats0";
+Person.prototype.age=19;
+Person.prototype.job="student";
+Person.prototype.sayname=function () {
+    alert(this.name);
+}
+var person1=new Person();
+var person2=new Person();
+person1.name="AnotherBeats0";
+console.log(person1.name);//AnotherBeats0 来自实例
+console.log(person2.name);//Beats0 来自原型
+delete person1.name;
+console.log(person1.name);//Beats0 来自原型
+console.log(person1.hasOwnProperty("name"));//false

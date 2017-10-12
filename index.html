@@ -88,6 +88,43 @@
                     <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:40%">40%</div></div>
                 </div>
                 <div class="article well clearfix">
+                    <a href="#"><button type="button" class="btn btn-success">RegExp</button></a>
+                    <a href="#"><button type="button" class="btn btn-success">RegExp</button></a>
+                    <a href="https://github.com/Beats0/js-practice/tree/master/chapter/bilibili"><button type="button" class="btn btn-success">Code</button></a>
+                    <a href="chapter/RegExp/index.html"><button type="button" class="btn btn-success">Demo</button></a>
+                    <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:10%">10%</div></div>
+                </div>
+                <div class="article well clearfix">
+                    <a href="#"><button type="button" class="btn btn-success">cookie</button></a>
+                    <a href="#"><button type="button" class="btn btn-success">cookie</button></a>
+                    <a href="https://github.com/Beats0/js-practice/tree/master/chapter/cookie"><button type="button" class="btn btn-success">Code</button></a>
+                    <a href="chapter/cookie/index.html"><button type="button" class="btn btn-success">Demo</button></a>
+                    <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:10%">10%</div></div>
+                </div>
+                <div class="article well clearfix">
+                    <a href="#"><button type="button" class="btn btn-success">xml</button></a>
+                    <a href="#"><button type="button" class="btn btn-success">xml</button></a>
+                    <a href="https://github.com/Beats0/js-practice/tree/master/chapter/xml"><button type="button" class="btn btn-success">Code</button></a>
+                    <a href="chapter/xml/index.html"><button type="button" class="btn btn-success">Demo</button></a>
+                    <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:10%">10%</div></div>
+                </div>
+                <div class="article well clearfix">
+                    <a href="#"><button type="button" class="btn btn-success">Json</button></a>
+                    <a href="#"><button type="button" class="btn btn-success">Json</button></a>
+                    <a href="https://github.com/Beats0/js-practice/tree/master/chapter/Json"><button type="button" class="btn btn-success">Code</button></a>
+                    <a href="chapter/Json/index.html"><button type="button" class="btn btn-success">Demo</button></a>
+                    <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:10%">10%</div></div>
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="article well clearfix">
                     <a href="#"><button type="button" class="btn btn-success">jscalculate</button></a>
                     <a href="#"><button type="button" class="btn btn-success">jscalculate</button></a>
                     <a href="https://github.com/Beats0/js-practice/tree/master/chapter/jscalculate"><button type="button" class="btn btn-success">Code</button></a>
@@ -102,13 +139,25 @@
                     <div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:10%">10%</div></div>
                 </div>
 
-
-
             </div>
         </div>
     </div>
 </div>
-
+<script>
+    var num=null;
+    outer:
+    for (var i=0;i<10;i++) {
+        for (var j=0;j<10;j++) {
+            if (i==5 && j==5) {
+                console.log("it is"+num);
+                continue outer;
+            }
+            num++;
+            console.log(num);
+        }
+    }
+    console.log(num);
+</script>
 <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

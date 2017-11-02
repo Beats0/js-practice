@@ -1,6 +1,6 @@
 # js-practice
 
-### This is a test
+### 这是一个简单的js初识
 
 #### [chapter1](https://github.com/Beats0/js-practice/tree/master/chapter/chapter1)
 #### [chapter2](https://github.com/Beats0/js-practice/tree/master/chapter/chapter2)

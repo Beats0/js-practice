@@ -4062,7 +4062,7 @@ var scenario;
             }])
         }], e.te1 = [function () {
             return t.scene.toMode("ADV")["with"](800, "normal").create("street")
-        }, func1tion () {
+        }, function () {
             return t.altair.withShow().posture("普通").face("疑惑").at(3).from("right").say("喂，你有没有见到……")
         }, function () {
             return t.altair.face("惊讶").say("呃，你怎么知道我是33？——22！？你见过22？她在哪？")

@@ -1,4 +1,6 @@
-//节点关系
+## DOM
+#### 节点关系
+```
 var outer = document.getElementById("outer");
 var inner = document.getElementById("inner");
 var lis = document.getElementsByTagName("li");
@@ -16,7 +18,10 @@ if (lis[1].previousElementSibling) {//浏览器先判断
     console.log(lis[1].previousSibling);
 }
 //1
-//or
+```
+
+#### 或者
+```
 function prenode(obj) {
     if (obj.previousElementSibling) {//浏览器先判断
         return obj.previousElementSibling.innerHTML;
@@ -55,8 +60,9 @@ function prenode4(obj) {
     }
 }
 console.log(prenode4(inner));//3
-
-//可正常执行的inner元素方法
+```
+#### 可正常执行的inner元素方法
+```
 //错误
 div.innerHTML = "<script defer>alert('Hi');<\/script>";
 
@@ -66,9 +72,10 @@ div.innerHTML = "<div>&nbsp;</div><script defer>alert('Hi');<\/script>";
 div.innerHTML = "<input type=\"hidden\"><script defer>alert('Hi);<\/script>";
 //最直观的方法
 div.innerHTML = "<style type=\"text/css\">body {background-color: red;}</style>";
+```
 
-
-//创建节点
+#### 创建节点
+```
 //createElement() 创建一个元素节点，但不会自动被添加到文档document中
 var outer2 = document.getElementById("outer2");
 var inner2 = document.getElementById("inner2");
@@ -81,8 +88,9 @@ console.log(newtext.nodeName);//#text
 //Node.setAttribute("title","abc") 设置node节点中的title属性值为abc
 newli.setAttribute("title","abc");
 console.log(newli);//<li title="abc"></li>
-
-//插入节点
+```
+#### 插入节点
+```
 //appendChild() 节点插入到最后，文档上面两个创建的节点不会自动添加到文档中时使用
 newli.appendChild(newtext);
 console.log(newli);//<li title="abc">createTextNode</li>
@@ -106,8 +114,9 @@ var newul = inner2.cloneNode(true);
 outer2.appendChild(newul);//深复制
 var newul2 = inner2.cloneNode(false);
 outer2.appendChild(newul);//潜复制
-
-//查询字符串参数
+```
+#### 查询字符串参数
+```
 function getQueryStringArgs() {
     //取得并去掉问号
     var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
@@ -136,24 +145,25 @@ var args=getQueryStringArgs();
 var qs="?q=javascript&num=10";
 console.log(args["q"]);
 console.log(args["num"]);
-
-// //遍历元素特性
-// function outputAttributes(element) {
-//     var pairs = new Array(),
-//         attrName,
-//         attrValue,
-//         i,
-//         len;
-//
-//     for (i = 0, len = element.attributes.length; i < len; i++) {
-//         attrName = element.attributes[i].nodeName;
-//         attrValue = element.attributes[i].nodeValue;
-//         paras.push(attrName + "=\"" + attrValue + "\"";
-//     }
-//     return pairs.join("");
-// }
-
-//遍历元素特性兼容
+```
+#### 遍历元素特性
+```
+function outputAttributes(element) {
+    var pairs = new Array(),
+        attrName,
+        attrValue,
+        i,
+        len;
+    for (i = 0, len = element.attributes.length; i < len; i++) {
+        attrName = element.attributes[i].nodeName;
+        attrValue = element.attributes[i].nodeValue;
+        paras.push(attrName + "=\"" + attrValue + "\"";
+    }
+    return pairs.join("");
+}
+```
+#### 遍历元素特性兼容
+```
 function outputAttributes(element) {
     var pairs = new Array(),
         attrName,
@@ -170,8 +180,9 @@ function outputAttributes(element) {
     }
     return pairs.join("");
 }
-
-//标准的DOM文本节点样式
+```
+#### 标准的DOM文本节点样式
+```
 function loadScriptString(code) {
     var script = document.createElement("script");
     script.type = "text/javascript";
@@ -184,22 +195,24 @@ function loadScriptString(code) {
 }
 
 loadScriptString("function sayHi(){alert('Hi');}");
+```
 
 
+#### 动态样式
+```
+function loadStyle(url) {
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = "style.css";
+    var head = document.getElementsByTagName("head")[0];
+    head.appendChild(link);
+}
+loadStyle("styles.css");
+```
 
-// //动态样式
-// function loadStyle(url) {
-//     var link = document.createElement("link");
-//     link.rel = "stylesheet";
-//     link.type = "text/css";
-//     link.href = "style.css";
-//     var head = document.getElementsByTagName("head")[0];
-//     head.appendChild(link);
-// }
-//
-// loadStyle("styles.css");
-
-//表格操作
+#### 表格操作
+```
 var table=document.createElement("table");
 table.border=1;
 table.width="100%";
@@ -221,8 +234,9 @@ tbody.rows[1].insertCell(1);
 tbody.rows[1].cells[1].appendChild(document.createTextNode("cell 2,2"));
 
 document.body.appendChild(table);
-
-//跨浏览器遍历元素
+```
+#### 跨浏览器遍历元素
+```
 var i,
     len,
     child = element.firstElementChild;
@@ -230,24 +244,27 @@ while (child != element.lastElementChild) {
     processChild(child);
     child = child.nextElementSibling;
 }
-//classList方法
+```
+#### classList方法
+```
 // <div class="bd user disable"></div>
-//div.classList.remove("disable")
-//div.classList.add("current")
-//div.classList.toggle("user")
+div.classList.remove("disable")
+div.classList.add("current")
+div.classList.toggle("user")
 
 //确定元素中是否包含既定的类名
 if (div.classList.contains("bd") && !div.classList.contains("disable")) {
     //......
 }
+```
 
-//迭代类名
+#### 迭代类名
 for (var i = 0, len = div.classList.length; i < len; i++) {
     //......
 }
 
-//自定义数据属性,如：<div id="myDiv" data-appid="123" data-myname="Nicholas"></div>
-
+自定义数据属性,如：<div id="myDiv" data-appid="123" data-myname="Nicholas"></div>
+```
 var div=document.getElementById("myDiv");
 var appId=div.dataset.appId;
 var myName=div.dataset.myName;
@@ -258,8 +275,9 @@ div.dataset.myName="Nicholas";
 if (div.dataset.myName) {
     console.log("hello,"+ div.dataset.myName);
 }
-
-//DOM循环
+```
+#### DOM循环
+```
 //不要这样使用，会占用资源
 for (var i = 0, len = values.length; i < len; i++) {
     ul.innerHTML += "<li>" + values[i] + "</li>";
@@ -270,8 +288,10 @@ for (var i = 0, len = values.length; i < len; i++) {
     itemsHtml += "<li>" + values[i] + "</li>";
 }
 ul.innerHTML = itemsHtml;
-
-//跨浏览器向样式表中插入规则
+//这样效率高很多，因为它只执行了一次赋值操作
+```
+#### 跨浏览器向样式表中插入规则
+```
 function insertRule(sheet, sellectorText, cssText, position) {
     if (sheet.innerRule) {
         sheet.innerRule(sellectorText + "(" + cssText + ")", position);
@@ -282,10 +302,11 @@ function insertRule(sheet, sellectorText, cssText, position) {
 
 //调用
 insertRule(document.styleSheets[0],"body","background-color:red",0);
-
-//用DOM范围实现复杂选择
-var range1 = document.createRange();
-range2 = document.createRang();
+```
+#### 用DOM范围实现复杂选择
+```
+var rang1 = document.createRange();
+rang2 = document.createRang();
 p1 = document.getElementById("p1");
 p1Index = -1;
 i, len;
@@ -300,3 +321,4 @@ range1.setStart(p1.parentNode, p1Index);
 range1.setEnd(p1.parentNode, p1Index + 1);
 range2.setStart(p1, 0);
 range2.setEnd(p1, p1.childNodes.length);
+```

@@ -30,7 +30,7 @@ function trace(o,m) {
     };
 }
 ```
-####　bind()
+#### bind()
 ```
 // function f(y) {
 //     return this.x+y;

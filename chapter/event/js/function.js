@@ -87,3 +87,162 @@ try {
 catch (ex) {
     alert(ex);
 }
+
+//事件清除
+//这是无效的,因为这样使用了不同的函数
+var btn = document.getElementById("myBtn");
+btn.addEventListener("click", function () {
+    alert(this.id);
+}, false);
+btn.removeEventListener("clik", function () {
+    alert(this.id);
+}, false);
+
+//正确的
+var btn = document.getElementById("myBtn");
+var handler = function () {
+    alert(this.id);
+};
+btn.addEventListener("click", handler, false);
+btn.removeEventListener("clik", handler, false);
+
+//支持IE和Opera，注意是用attachEvent()和detachEvent()方法,点击为onclick
+btn.attachEvent("onclick", function () {
+    alert("Clicked");
+});
+//IE事件清除
+var btn = document.getElementById("myBtn");
+var handler = function () {
+    alert("Clicked");
+};
+
+btn.attachEvent("onclick", handler);
+
+btn.detachEvent("onclick", handler);
+
+//在需要通过一个函数处理多个事件时可以使用type属性
+var handler = function (event) {
+    switch (event.type) {
+        case "click":
+            alert("Clicked");
+            break;
+
+        case "mouseover":
+            event.target.style.backgroundColor = "red";
+            break;
+
+        case "mouseout":
+            event.target.style.backgroundColor = "blue";
+            break;
+    }
+};
+
+btn.onclick = handler;
+btn.onmouseover = handler;
+btn.onmouseout = handler;
+
+
+//eventPhase属性，确定事件当前正位于事件流的那个阶段，如果在捕获阶段调用的时间处理程序，那么eventPhase为1，如果事件处理程序位于目标对象上，则eventPhase为2；如果在冒泡阶段调用的事件处理程序，eventPhase为3，注意“处于目标”发生在冒泡阶段，但eventPhase仍然一直等于2，如：
+btn.onclick = function (event) {
+    alert(event.eventPhase);        //2
+};
+
+document.body.addEventListener("click", function (event) {
+    alert(event.eventPhase);        //1
+});
+
+document.body.onclick = function (event) {
+    alert(event.eventPhase);        //3
+};
+
+//跨浏览器的事件对象(4种方法)
+var EventUtil = {
+    addHanler: function (element, type, handler) {
+        //......
+    },
+    getEvent: function (event) {
+        return event ? event : window.event;
+    },
+    getTarget: function (event) {
+        return event.target || event.srcElement;
+    },
+    praventDefault: function (event) {
+        if (event.preventDefault) {
+            event.preventDefault();
+        } else {
+            event.returnValue = false;
+        }
+    },
+
+    removeHandler: function (element, type, hanlder) {
+        //......
+    },
+
+    stopPropagation: function (event) {
+        if (event.stopPropagation) {
+            event.stopPropagation();
+        } else {
+            event.cancelBubble = true;
+        }
+    }
+};
+
+//load事件
+//<img src="01.gig" onload="alter('Image loaded')"
+var image = document.getElementById("myImage");
+EventUtil.addHanler(image, "load", function (event) {
+    event = EventUtil.getEvent(event);
+    alert(EventUtil.getTarget(event).src);
+});
+
+//scroll事件,Safair3.1兼容
+EventUtil.addHanler(window, "scroll", function (event) {
+    if (document.compatMode == "CSS1Compat") {
+        alert(document.documentElement.scrollTop);
+    } else {
+        alert(document.body.scrollTop);
+    }
+});
+
+//mouse属性
+//1.客户区坐标,clientX,clientY
+var clientDiv = document.getElementById("clientDiv");
+EventUtil.addHanler(clientDiv, "click", function (event) {
+    event = EventUtil.getEvent(event);
+    alert("Client coordinates: " + event.clientX + "," + event.clientY);
+});
+
+//2.页面坐标,pageX,pageY
+var pageDiv = document.getElementById("pageDiv");
+EventUtil.addHanler(pageDiv, "click", function (event) {
+    event = EventUtil.getEvent(event);
+    alert("Client coordinates: " + event.pageX + "," + event.pageY);
+});
+
+//IE8兼容
+var div = document.getElementById("myDiv");
+EventUtil.addHanler(div, "click", function (event) {
+    event = EventUtil.getEvent(event);
+    var pageX = event.pageX,
+        pageY = event.pageY;
+
+    if (pageX === undefined) {
+        pageX = event.clientX + (document.body.scrollLeft || document.documentElement.scrollLeft);
+    }
+
+    if (pageY === undefined) {
+        pageY = event.clientY + (document.body.scrollTop || document.documentElement.scrollTop);
+    }
+
+    alert("page coordinates:" + pageX + "," + pageY);
+});
+
+//3.屏幕坐标位置
+var div = document.getElementById("myDiv");
+EventUtil.addHanler(pageDiv, "click", function (event) {
+    event = EventUtil.getEvent(event);
+    alert("Client coordinates: " + event.scaleX + "," + event.screenY);
+});
+
+//4.修改键
+//包含shiftKey，ctrlKey，altKey，metaKey

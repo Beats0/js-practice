@@ -16,6 +16,7 @@
 #### [Event](https://github.com/Beats0/js-practice/tree/master/chapter/event)
 #### [BOM](https://github.com/Beats0/js-practice/tree/master/chapter/BOM)
 #### [DOM](https://github.com/Beats0/js-practice/tree/master/chapter/DOM)
+#### [Form](https://github.com/Beats0/js-practice/tree/master/chapter/Form)
 #### [Ajax](https://github.com/Beats0/js-practice/tree/master/chapter/Ajax)
 #### [Cookie](https://github.com/Beats0/js-practice/tree/master/chapter/cookie)
 #### [Json](https://github.com/Beats0/js-practice/tree/master/chapter/Json)

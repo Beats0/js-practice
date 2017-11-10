@@ -260,3 +260,47 @@ EventUtil.addHanler(pageDiv, "click", function (event) {
 ```
 #### 4.修改键
 包含shiftKey，ctrlKey，altKey，metaKey
+
+#### 简单的点击菜单效果
+```
+EventUtil.addHanler(window, "lode", function (event) {
+    var div = document.getElementById("mydiv");
+
+    EventUtil.addHanler(div, "contextmenu", function (event) {
+        event = EventUtil.getEvent(event);
+        EventUtil.preventDefault(event);
+
+        var menu = document.getElementById("myMenu");
+        menu.style.left = event.clientX + "px";
+        menu.style.top = event.clientY + "px";
+        menu.style.visibility = "visible";
+    });
+
+    EventUtil.addHanler(document, "click", function (event) {
+        document.getElementById("myMenu").style.visibility = "hidden";
+    });
+});
+```
+#### 事件委托 提高性能
+适合用于click,mousedown,mouseup,keydown,keyup和keypress
+```
+var list = document.getElementById("myLinks");
+EventUtil.addHanler(list, "click", function (event) {
+    event = EventUtil.getEvent(event);
+    var taget = EventUtil.getEvent(event);
+
+    switch (taget.id) {
+        case "sometsthing1":
+            document.title = "change title";
+            break;
+
+        case "sometsthing2":
+            location.href = "http://www.w3cschool.com";
+            break;
+
+        case "sometsthing3":
+            alert("Hi!");
+            break;
+    }
+});
+```

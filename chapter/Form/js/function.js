@@ -5,15 +5,15 @@ var firstForm=document.forms[0];
 var secondForm=document.forms["form2"];//不推荐
 
 //重置表单
-form.reset();
+// form.reset();
 
 //表单字段
 //获得
-var field1=form1.elements[0];
-//获得名为“textbox1”的字段
-var field2=form1.elements["textbox1"];
-//获得表单中包含的字段的数量
-var fieldCount=form1.elements.length;
+// var field1=form1.elements[0];
+// //获得名为“textbox1”的字段
+// var field2=form1.elements["textbox1"];
+// //获得表单中包含的字段的数量
+// var fieldCount=form1.elements.length;
 
 var myForm = document.getElementById("myForm");
 var colorFields = myForm.elements["color"];
@@ -30,7 +30,7 @@ console.log(firstColorFields === firstFormField);   //true
 // <button type="submit">Submit</button>
 // <!--图像按钮-->
 // <input type="image" src="">
-form1.submit();
+// form1.submit();
 //注意表单提交的重复性，解决方案有两个，在第一次提交后就禁用提交或者利用onsubmit事件处理
 //依然使用 EventUtil方法
 var EventUtil = {
@@ -71,3 +71,125 @@ EventUtil.addHanler(myForm, "submit", function (event) {
     btn.disabled = true;
 });
 
+//表单字段脚本化
+var textbox = document.getElementById('input1');
+EventUtil.addHanler(textbox, "focus", function (event) {
+    event = EventUtil.getEvent(event);
+    var taget = EventUtil.getTarget(event);
+    if (target.style.backgroundColor != "red") {
+        taget.style.backgroundColor = "yellow";
+    }
+});
+EventUtil.addHanler(textbox, "blur", function (event) {
+    event = EventUtil.getTarget(event);
+    var target = EventUtil.getTarget(event);
+
+    if (/[^\d]/.test(target.value)) {       //非数字字符
+        target.style.backgroundColor = "red";
+    } else {
+        target.style.backgroundColor = "";
+    }
+});
+
+//文本框脚本化
+//直接使用value方法，不要使用DOM方法
+var input3 = document.getElementById('input3');
+console.log(input3.value);
+input3.value = "new value";
+console.log(input3.value);
+
+// input3.select();
+EventUtil.addHanler(input3, "focus", function (event) {
+    var target = EventUtil.getTarget(event);
+
+    target.select();
+});
+
+//跨浏览器
+function selectText(textbox, startIndex, stopIndex) {
+    if (textbox.setSelectionRange) {
+        textbox.setSelectionRange(startIndex, stopIndex);
+    } else if (textbox.createTextRange()) {
+        var range = textbox.createTextRange();
+        range.collapse(true);
+        range.moveStart("character", startIndex);
+        range.moveStart("character", stopIndex - startIndex);
+        range.select();
+    }
+    textbox.focus();
+}
+
+//字符屏蔽
+EventUtil.addHanler(textbox, "keypress", function (event) {
+    event = EventUtil.getEvent(event);
+    var target = EventUtil.getTarget(event);
+    var charCode = EventUtil.getCharCode(event);
+
+    if (!/\d/.test(String.fromCharCode(charCode)) && charCode > 9 && !event.ctrlKey) {      //匹配为数字键，不可使用ctrl粘贴
+        EventUtil.preventDefault(event);
+    }
+});
+
+//表单序列化
+function serialize(form) {
+    var parts = [],
+        field = null,
+        i,
+        len,
+        j,
+        optLen,
+        option,
+        optValue;
+
+    for (i = 0, len = form.elements.length; i < len; i++) {
+        field = form.elements[i];
+        switch (field.type) {
+            case "select-one":
+            case "select-multiple":
+                if (field.name.length) {
+                    for (i = 0, optLen = field.options.length; j < optLen; j++) {
+                        option = field.options[j];
+                        if (option.selected) {
+                            optValue = "";
+                            if (option.hasAttribute) {
+                                optValue = (option.hasAttribute("value") ? option.value : option.text);
+                            } else {
+                                optValue = (option.attributes["value"].specified ? option.value : option.text);
+                            }
+                            parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
+                        }
+                    }
+                }
+                break;
+            case undefined:     //字段集
+            case "file":        //文件输入
+            case "submit":      //提交按钮
+            case "reset":       //重置按钮
+            case "button":      //自定义按钮
+                break;
+            case "radio":       //点选框按钮
+            case "checkbox":    //多选框按钮
+                if (!field.checked) {
+                    break;
+                }
+            /*执行默认操作*/
+            default:
+                //不包含没有名字的
+                if (field.name.length) {
+                    parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(field.value));
+                }
+        }
+    }
+    return parts.join("&");
+}
+
+//富文本编辑
+//exeCoommand()
+//转为粗体
+// frames["richedit"].document.execCommand("blod",false,null);
+// //转为斜体
+// frames["richedit"].document.execCommand("italic",false,null);
+// //格式化为一级标题
+// frames["richedit"].document.execCommand("formablock",false,"<h1>");
+//
+//

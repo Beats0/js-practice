@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<p>把鼠标悬停在下面的矩形上可以看到坐标：</p>
+
+<div id="coordiv" style="float:left;width:199px;height:99px;border:1px solid #c3c3c3" onmousemove="cnvs_getCoordinates(event)" onmouseout="cnvs_clearCoordinates()"></div>
+<br />
+<br />
+<br />
+<div id="xycoordinates"></div>
+
+<canvas id="drawing" width="200" height="200" class="has_border"></canvas>
+
+<canvas id="drawing2" width="200" height="200" class="has_border"></canvas>
+
+<canvas id="drawing3" width="200" height="200" class="has_border"></canvas>
+
+<canvas id="drawing4" width="200" height="200" class="has_border"></canvas>
+
+<canvas id="drawing5" width="200" height="200" class="has_border"></canvas>
+
+<script type="text/javascript" src="js/function.js"></script>
+</body>
+</html>

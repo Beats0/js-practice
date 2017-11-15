@@ -89,6 +89,53 @@ context2.drawImage(image,0,10,50,50,0,100,40,60);
 ```
 *9个参数意为：要绘制的图像，原图像的x坐标，原图像的y坐标，原图像的宽度，原图像的高度，目标图像的x坐标，目标图像的y坐标，目标图像的宽度，目标图像的高度。*
 
+
+#### 绘制科赫棉花
+```
+var drawing6 = document.getElementById("drawing6");
+var c=drawing6.getContext('2d');
+
+var deg = Math.PI / 180;
+
+function snowflake(c, n, x, y, len) {
+    c.save();
+    c.translate(x, y);
+    c.moveTo(0, 0);
+    leg(n);
+    c.rotate(-120 * deg);
+    leg(n);
+    c.rotate(-120 * deg);
+    leg(n);
+    c.closePath();
+    c.restore();
+
+    function leg(n) {
+        c.save();
+        if (n == 0) {
+            c.lineTo(len, 0);
+        } else {
+            c.scale(1 / 3, 1 / 3);
+            leg(n - 1);
+            c.rotate(60 * deg);
+            leg(n - 1);
+            c.rotate(-120 * deg);
+            leg(n - 1);
+            c.rotate(60 * deg);
+            leg(n - 1);
+        }
+        c.restore();
+        c.translate(len, 0);
+    }
+}
+
+snowflake(c, 0, 5, 115, 125);
+snowflake(c, 1, 145, 115, 125);
+snowflake(c, 2, 285, 115, 125);
+snowflake(c, 3, 425, 115, 125);
+snowflake(c, 4, 565, 115, 125);
+c.stroke();
+```
+
 #### 阴影
 ```
 var drawing3 = document.getElementById("drawing3");
@@ -176,12 +223,47 @@ if (drawing.getContext) {
 *指定在画布上绘制的内容的不透明度。这个值的范围在 0.0（完全透明）和 1.0（完全不透明）之间。默认值为 1.0。*
 
 #### WebGL
+*WebGL (Web图形库) 是一种JavaScript API，用于在任何兼容的Web浏览器中呈现交互式3D和2D图形，而无需使用插件。WebGL通过引入一个与OpenGL ES 2.0紧密相符合的API，可以在HTML5 `<canvas>` 元素中使用。*
+##### 初级教程
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/Tutorial">WebGL教程</a>学习WebGL核心概念的入门指南。WebGL初学者很好的起点。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/WebGL_best_practices">WebGL最佳实践</a> 大量技巧和建议来提高你的WebGL的知识。</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/Using_Extensions">使用扩展</a> 在WebGL如何进行有用的扩展。</li>
+</ul>
 
-##### 类型化数组
+##### 高级教程
 
+<ul>
+ <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/WebGL_model_view_projection">WebGL模型、视图、投影</a>详述了常用于显示3D物体视图的三种核心矩阵：模型，视图和投影矩阵。</li>
+ <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/Matrix_math_for_the_web">web中的矩阵运算</a>讲述3D变换矩阵工作原理的指南，这也能在WebGL计算和CSS3变换中派上用场。</li>
+</ul>
 
+##### Demo
 
+1. [Aquarium](http://webglsamples.org/aquarium/aquarium.html)
+2. [3Dreams of Black](http://www.ro.me/)
+3. [WebGL Image Filter](http://evanw.github.io/webgl-filter/)
+4. [3Dtin](http://www.3dtin.com/)
+5. [WebGL Bookcase](http://workshop.chromeexperiments.com/bookcase/)
 
+#### 资源
+
+<ul>
+ <li><a href="https://www.youtube.com/embed/H4c8t6myAWU/?feature=player_detailpage" class="external external-icon">Raw WebGL: WebGL入门</a>&nbsp;Nick Desaulniers 主讲的WebGL 基础知识。如果你从未接触过底层的图形编程，这是一个开始学习初级图形编程的好地方。</li>
+ <li><a href="http://www.khronos.org/webgl/" class="external external-icon" title="http://www.khronos.org/webgl/">WebGL官网</a>&nbsp;Khronos Group 的WebGL官方站点。</li>
+ <li><a href="http://learningwebgl.com/blog/?page_id=1217" class="external external-icon" title="http://learningwebgl.com/blog/">学习WebGL</a> 一个关于如何使用WebGL的教程站点。</li>
+ <li><a href="http://www.html5rocks.com/en/tutorials/webgl/webgl_fundamentals/" class="external external-icon" title="http://www.html5rocks.com/en/tutorials/webgl/webgl_fundamentals/">WebGL基础</a> 一个关于WebGL的基础教程。</li>
+ <li><a href="http://webglplayground.net" class="external external-icon" title="http://webglplayground.net">WebGL试炼</a> 一个在线创建和分享WebGL的工具站点，非常适合快速创建一个原型或者体验一个成品。</li>
+ <li><a href="http://www.webglacademy.com" class="external external-icon" title="http://www.webglacademy.com">WebGL Academy</a> 通过一个 HTML/JavaScript 编辑器来学习一个基础的WebGl基础知识。</li>
+ <li><a href="http://webglstats.com/" class="external external-icon">WebGL Stats</a>&nbsp;一个统计WebGL在不同平台上能力表现的网站。</li>
+</ul>
+
+#### 库类
+
+<ul>
+ <li><a href="https://github.com/toji/gl-matrix" class="external link-https external-icon" title="https://github.com/toji/gl-matrix">glMatrix</a>&nbsp;创建高性能WebGL应用的JavaScript矩阵矢量库。</li>
+ <li><a href="http://sylvester.jcoglan.com/" class="external external-icon" title="http://sylvester.jcoglan.com/">Sylvester</a>&nbsp;一个开源的 JavaScript矩阵矢量库，不仅为WebGL优化过，而且很健壮。</li>
+</ul>
 
 #### CanvasRenderingContext2D 对象的方法
 

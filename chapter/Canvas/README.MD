@@ -292,3 +292,18 @@ save()                  |保存 CanvasRenderingContext2D 对象的属性、剪�
 scale()                 |标注画布的用户坐标系统。
 stroke()                |沿着当前路径绘制或画一条直线。
 strokeRect()            |绘制（但不填充）一个矩形。
+
+
+#### 附录 Canvas库及工具
+
+<li><a href="https://github.com/Ziv-Barber/officegen">d3.js</a>  Bring data to life with SVG, Canvas and HTML. https://d3js.org</li>
+<li><a href="https://github.com/mrdoob/three.js">three.js</a>  JavaScript 3D library. https://threejs.org</li>
+<li><a href="https://github.com/chartjs/Chart.js">Chart.js</a>  Simple HTML5 Charts using the <canvas> tag http://www.chartjs.org</li>
+<li><a href="https://github.com/pixijs/pixi.js">pixi.js</a>  The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer. http://pixijs.com</li>
+<li><a href="https://github.com/Flipboard/react-canvas">react-canvas</a>  High performance <canvas> rendering for React components</li>
+<li><a href="https://github.com/kangax/fabric.js">fabric.js</a>  Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser http://fabricjs.com</li>
+<li><a href="https://github.com/paperjs/paper.js">paper.js</a> The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey http://paperjs.org</li>
+<li><a href="https://github.com/CreateJS/EaselJS">EaselJS</a> The Easel Javascript library provides a full, hierarchical display list, a core interaction model, and helper classes to make working with the HTML5 Canvas element much easier. http://createjs.com/</li>
+<li><a href="https://github.com/supperjet/H5-Animation">H5-Animation</a>  每周一点canvas动画代码文件</li>
+
+

@@ -318,3 +318,13 @@ function transform(context, xslt) {
 var result = transform(xmldom, xsltdom);
 ```
 
+#### 附录：解释器及其他
+
+<li><a href="https://github.com/jindw/xmldom">xmldom</a>  A PURE JS W3C Standard based(XML DOM Level2 CORE) DOMParser and XMLSerializer.</li>
+<li><a href="https://github.com/sergeche/xmlview">xmlview</a>  Powerful XML viewer for Google Chrome and Safari</li>
+<li><a href="https://github.com/ilinsky/xmlhttprequest">xmlhttprequest</a>  XMLHttpRequest.js - Standard-compliant cross-browser XMLHttpRequest object implementation</li>
+<li><a href="https://github.com/SheetJS/js-xlsx">js-xlsx</a>  SheetJS Community Edition -- Spreadsheet Parser and Writer http://sheetjs.com/</li>
+<li><a href="https://github.com/fb55/htmlparser2">htmlparser2</a>  forgiving html and xml parser</li>
+<li><a href="https://github.com/tautologistics/node-htmlparser">node-htmlparser</a>  Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers</li>
+<li><a href="https://github.com/posthtml/posthtml">posthtml</a>  PostHTML is a tool to transform HTML/XML with JS plugins. By http://theprotein.io team.</li>
+<li><a href="https://github.com/Ziv-Barber/officegen">officegen</a>  Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.</li>

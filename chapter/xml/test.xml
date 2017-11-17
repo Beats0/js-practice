@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE note SYSTEM "Note.dtd">
+<note>
+<!--A book store-->
+<bookstore>
+
+    <book category="COOKING">
+        <title lang="en">Everyday Italian</title>
+        <author>Giada De Laurentiis</author>
+        <year>2005</year>
+        <price>30.00</price>
+    </book>
+    <book category="CHILDREN">
+        <title lang="en">Harry Potter</title>
+        <author>J K. Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book category="WEB">
+        <title lang="en">Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+
+    <note>
+        <date>2008-08-08</date>
+        <to>George</to>
+        <from>John</from>
+        <heading>Reminder</heading>
+        <body>Don't forget the meeting!</body>
+    </note>
+
+    <person sex="female">
+        <firstname>Anna</firstname>
+        <lastname>Smith</lastname>
+    </person>
+
+    <person>
+        <sex>female</sex>
+        <firstname>Anna</firstname>
+        <lastname>Smith</lastname>
+    </person>
+
+
+    <messages>
+        <note id="501">
+            <to>George</to>
+            <from>John</from>
+            <heading>Reminder</heading>
+            <body>Don't forget the meeting!</body>
+        </note>
+        <note id="502">
+            <to>John</to>
+            <from>George</from>
+            <heading>Re: Reminder</heading>
+            <body>I will not</body>
+        </note>
+    </messages>
+
+
+</bookstore>
+</note>
+

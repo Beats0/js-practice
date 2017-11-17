@@ -7,14 +7,14 @@
 </head>
 <body>
 <div class="container">
-
+    <form name="myForm">
+        用户: <input type="text" name="username" />
+        时间: <input type="text" name="time" />
+    </form>
 </div>
-
 <script type="text/javascript" src="js/function.js"></script>
 </body>
 </html>
-
-
 
 
 <!--xmlHttp.open("GET","time.asp",true);-->
@@ -23,39 +23,39 @@
 <!--<html>-->
 <!--<body>-->
 <!--<script type="text/javascript">-->
-    <!--function ajaxFunction() {-->
-        <!--var xmlHttp;-->
-        <!--try {-->
-            <!--// Firefox, Opera 8.0+, Safari-->
-            <!--xmlHttp = new XMLHttpRequest();-->
-        <!--}-->
-        <!--catch (e) {-->
-            <!--// Internet Explorer-->
-            <!--try {-->
-                <!--xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");-->
-            <!--}-->
-            <!--catch (e) {-->
-                <!--try {-->
-                    <!--xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");-->
-                <!--}-->
-                <!--catch (e) {-->
-                    <!--alert("您的浏览器不支持AJAX！");-->
-                    <!--return false;-->
-                <!--}-->
-            <!--}-->
-        <!--}-->
-        <!--xmlHttp.onreadystatechange = function () {-->
-            <!--if (xmlHttp.readyState == 4) {-->
-                <!--document.myForm.time.value = xmlHttp.responseText;-->
-            <!--}-->
-        <!--}-->
-        <!--xmlHttp.open("GET", "time.asp", true);-->
-        <!--xmlHttp.send(null);-->
-    <!--}-->
+<!--function ajaxFunction() {-->
+<!--var xmlHttp;-->
+<!--try {-->
+<!--// Firefox, Opera 8.0+, Safari-->
+<!--xmlHttp = new XMLHttpRequest();-->
+<!--}-->
+<!--catch (e) {-->
+<!--// Internet Explorer-->
+<!--try {-->
+<!--xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");-->
+<!--}-->
+<!--catch (e) {-->
+<!--try {-->
+<!--xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");-->
+<!--}-->
+<!--catch (e) {-->
+<!--alert("您的浏览器不支持AJAX！");-->
+<!--return false;-->
+<!--}-->
+<!--}-->
+<!--}-->
+<!--xmlHttp.onreadystatechange = function () {-->
+<!--if (xmlHttp.readyState == 4) {-->
+<!--document.myForm.time.value = xmlHttp.responseText;-->
+<!--}-->
+<!--}-->
+<!--xmlHttp.open("GET", "time.asp", true);-->
+<!--xmlHttp.send(null);-->
+<!--}-->
 <!--</script>-->
 <!--<form name="myForm">-->
-    <!--用户: <input type="text" name="username" onkeyup="ajaxFunction();"/>-->
-    <!--时间: <input type="text" name="time"/>-->
+<!--用户: <input type="text" name="username" onkeyup="ajaxFunction();"/>-->
+<!--时间: <input type="text" name="time"/>-->
 <!--</form>-->
 <!--</body>-->
 <!--</html>-->

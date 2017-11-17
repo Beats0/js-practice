@@ -2,14 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>cookie</title>
+    <title>Json</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div class="container">
 
+
 </div>
 
+<script>
+    let book = {
+        title: "JavaScript",
+        autor: [
+            "Nicjolas"
+        ],
+        edition: 3,
+        year: 2012
+    };
+
+    let JsonText = JSON.stringify(book);
+    console.log(JsonText);          //{"title":"JavaScript","autor":["Nicjolas"],"edition":3,"year":2012}
+
+    let JsonTextArray = JSON.stringify(book, ["title", "edition"]);
+    console.log(JsonTextArray);     //{"title":"JavaScript","edition":3}
+
+
+    let NewBook = {
+        title: "JavaScript",
+        autor: [
+            "Nicjolas"
+        ],
+        edition: 3,
+        year: 2012,
+        releaseDate: new Date(2017, 11, 16)
+    };
+    let NewJsonText = JSON.stringify(NewBook);
+    let bookCopy = JSON.parse(NewJsonText, function (key, value) {
+        if (key == "releaseDate") {
+            return new Date(value);
+        } else {
+            return value;
+        }
+    });
+    console.log(bookCopy.releaseDate.getFullYear());        //2017
+
+</script>
 <script type="text/javascript" src="js/function.js"></script>
 </body>
 </html>

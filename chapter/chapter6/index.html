@@ -2,8 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>chapter3</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>chapter6</title>
+    <link rel="stylesheet" type="text/css" href="https://beats0.github.io/js-practice/css/style.css">
+    <style>
+        #outer {
+            width: 1000px;
+            margin: 0 auto;
+            border: 1px solid red;
+            overflow: hidden;
+        }
+        #inner {
+            width: 2000px;
+            height: 150px;
+            overflow: hidden;
+        }
+        #inner > img {
+            width: 200px;
+            height: 150px;
+            float: left;
+            text-align: center;
+            line-height: 150px;
+            font-size: 30px;
+            background: #faebcc;
+            border: 1px solid #9d9d9d;
+        }
+
+        #demo {
+            background: #9d9d9d;
+            overflow: hidden;
+            border: 1px solid red;
+            width: 500px;
+        }
+        #demo img {
+            border: 1px solid black;
+        }
+        #indemo {
+            float: left;
+            width: 800%;
+        }
+        #demo2 {
+            float: left;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid white;
+            background-color: rgba(10,10,0,0.7);
+            top: auto;
+            display: block;
+            cursor: pointer;
+            z-index: 999;
+        }
+        .back-to-top > a {
+            text-decoration: none;
+            font-size: 30px;
+            line-height: 36px;
+            text-align: center;
+            display: block;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <div class="container">

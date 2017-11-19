@@ -76,7 +76,6 @@ let rect = new Rectangle(5, 10);
 console.log(rect.sides);     //2
 
 
-
 let EventUtil = {
     addHanler: function (element, type, handler) {
         //......
@@ -146,8 +145,8 @@ function curriedAdd(num2) {
     return add(5, num2);
 }
 
-console.log(add(2, 3));          //5:2+3
-console.log(curriedAdd(3));     //8:5+3
+console.log(add(2, 3));            //5:2+3
+console.log(curriedAdd(3));        //8:5+3
 
 //柯里化(真正意义上的柯里化)
 function curry(fn) {
@@ -275,8 +274,125 @@ function Person(name, age) {
     this.age = age;
 }
 
-inheritPrototype(Person, EventTarget);       //继承
-Person.prototype.say = function (message) {
-    this.fire({type: "message", message: message});
-};
+// inheritPrototype(Person, EventTarget);       //继承
+// Person.prototype.say = function (message) {
+//     this.fire({type: "message", message: message});
+// };
 
+//拖放
+var DragDrop = function () {
+    var dragging = null;
+
+    function handleEvent(event) {
+        //优化鼠标拖动方式
+        var dragging = null;
+        diffX = 0;
+        diffY = 0;
+
+        //获取事件和目标
+        event = EventUtil.getEvent(event);
+        var target = EventUtil.getTarget(event);
+        //确定事件类型
+        switch (event.type) {
+            case "mousedown":
+                if (target.className.indexOf("draggable") > -1) {
+                    dragging = target;
+                    diffX = event.clientX - target.offsetLeft;
+                    diffY = event.clientY - target.offsetTop;
+                }
+                break;
+
+            case  "mousemove":
+                if (dragging !== null) {
+                    //指定位置
+                    dragging.style.left = (event.clientX - diffX) + "px";
+                    dragging.style.top = (event.clientY - diffY) + "px";
+                }
+                break;
+
+            case "mouseup":
+                dragging = null;
+                break;
+        }
+    };
+    //接口
+    return {
+        enable: function () {
+            EventUtil.addHanler(document, "mousedown", handleEvent);
+            EventUtil.addHanler(document, "mousemove", handleEvent);
+            EventUtil.addHanler(document, "mouseup", handleEvent);
+        },
+        disabled: function () {
+            EventUtil.removeHandler(document, "mousedown", handleEvent);
+            EventUtil.removeHandler(document, "mousemove", handleEvent);
+            EventUtil.removeHandler(document, "mouseup", handleEvent);
+        }
+    }
+}();
+
+//添加自定义事件
+var DragDrop = function () {
+    var dragdrop = new EventTarget(),
+        dragging = null,
+        diffX = 0;
+        diffY = 0;
+
+    function handleEvent(event) {
+        //获取事件和目标
+        event = EventUtil.getEvent(event);
+        var target = EventUtil.getTarget(event);
+        //确定事件类型
+        switch (event.type) {
+            case "mousedown":
+                if (target.className.indexOf("draggable") > -1) {
+                    dragging = target;
+                    diffX = event.clientX - target.offsetLeft;
+                    diffY = event.clientY - target.offsetTop;
+                    dragdrop.fire({type: "dragstart", target: dragging, x: event.clientX, y: event.clientY});
+                }
+                break;
+
+            case  "mousemove":
+                if (dragging !== null) {
+                    //指定位置
+                    dragging.style.left = (event.clientX - diffX) + "px";
+                    dragging.style.top = (event.clientY - diffY) + "px";
+
+                    //触发自定义事件
+                    dragdrop.fire({type: "drag", target: dragging, x: event.clientX, y: event.clientY});
+
+                }
+                break;
+
+            case "mouseup":
+                dragdrop.fire({type: "dragend", target: dragging, x: event.clientX, y: event.clientY});
+                dragging = null;
+                break;
+        }
+    };
+    //接口
+    dragdrop.enable = function () {
+        EventUtil.addHanler(document, "mousedown", handleEvent);
+        EventUtil.addHanler(document, "mousemove", handleEvent);
+        EventUtil.addHanler(document, "mouseup", handleEvent);
+    };
+    dragdrop.disabled = function () {
+        EventUtil.removeHandler(document, "mousedown", handleEvent);
+        EventUtil.removeHandler(document, "mousemove", handleEvent);
+        EventUtil.removeHandler(document, "mouseup", handleEvent);
+    };
+    return dragdrop;
+}();
+
+DragDrop.addHanler("dragstart", function (event) {
+    var status = document.getElementById("status");
+    status.innerHTML = "Start dragging" + event.target.id;
+});
+DragDrop.addHanler("drag", function (event) {
+    var status = document.getElementById("status");
+    status.innerHTML += "<br/> Dragged" + event.target.id + " to (" + event.x + "," + event.y + ")";
+});
+DragDrop.addHanler("dragend", function (event) {
+    var status = document.getElementById("status");
+    status.innerHTML += "<br/> Dragged" + event.target.id + " at (" + event.x + "," + event.y + ")";
+});

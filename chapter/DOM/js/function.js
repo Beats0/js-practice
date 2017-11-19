@@ -56,16 +56,16 @@ function prenode4(obj) {
 }
 console.log(prenode4(inner));//3
 
-//可正常执行的inner元素方法
-//错误
-div.innerHTML = "<script defer>alert('Hi');<\/script>";
+// //可正常执行的inner元素方法
+// //错误
+// div.innerHTML = "<script defer>alert('Hi');<\/script>";
 
-//正确
-div.innerHTML = "_<script defer>alert('Hi');<\/script>";
-div.innerHTML = "<div>&nbsp;</div><script defer>alert('Hi');<\/script>";
-div.innerHTML = "<input type=\"hidden\"><script defer>alert('Hi);<\/script>";
-//最直观的方法
-div.innerHTML = "<style type=\"text/css\">body {background-color: red;}</style>";
+// //正确
+// div.innerHTML = "_<script defer>alert('Hi');<\/script>";
+// div.innerHTML = "<div>&nbsp;</div><script defer>alert('Hi');<\/script>";
+// div.innerHTML = "<input type=\"hidden\"><script defer>alert('Hi);<\/script>";
+// //最直观的方法
+// div.innerHTML = "<style type=\"text/css\">body {background-color: red;}</style>";
 
 
 //创建节点

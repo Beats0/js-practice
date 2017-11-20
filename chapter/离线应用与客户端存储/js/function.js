@@ -138,3 +138,80 @@ let SubCookieUtil = {
     //更多代码
 };
 
+
+//Web存储机制
+//sessionStorage对象
+// sessionStorage存储
+//使用方法存储
+sessionStorage.setItem("name", "Beats0");
+//使用属性存储
+sessionStorage.book = "JavaScript";
+
+//sessionStorage读取
+//使用方法读取
+let name = sessionStorage.getItem("name");
+//使用属性读取
+let book = sessionStorage.book;
+//使用for,length结合Key()方法迭代
+for (let i = 0, len = sessionStorage.length; i < len; i++) {
+    let key = sessionStorage.key(i);
+    let value = sessionStorage.getItem(key);
+    console.log(key + "=" + value);
+}
+//使用for-in迭代
+for (let key in sessionStorage) {
+    let value = sessionStorage.getItem(key);
+    console.log(key + "=" + value);
+}
+//sessionStorage删除
+sessionStorage.removeItem("book");
+
+// globalStorage对象
+//保存数据
+globalStorage["www.github.com"].name = "Beats0";
+//获取数据
+let name = globalStorage["www.github.com"].name;
+
+//localStorage对象
+//兼容性
+function getLocalStorage() {
+    if (typeof localStorage == "object") {
+        return localStorage;
+    } else if (typeof globalStorage == "object") {
+        return globalStorage[localtion.host];
+    } else {
+        throw new Error("Local storage not available!")
+    }
+}
+
+//调用
+let storage = getLocalStorage();
+
+//storage事件
+
+//数据库
+let request, database;
+request = IndexedDB.open("admin");
+request.onerror = function (event) {
+    console.log("Bad happened while trying to open:" + event.target.errorCode);
+};
+request.onerror = function (event) {
+    database = event.target.result;
+};
+//对象存储空间
+//每次调用add()或put()都会创建一个新的请求，并将返回的请求保存到一个变量中
+let i = 0,
+    request,
+    requests = [],
+    len = user.length;
+
+while (i < len) {
+    request = storage.add(users[i++]);
+    request.onerror = function () {
+        //处理error
+    };
+    request.onsuccess = function () {
+        //处理success
+    };
+    request.push(request);
+}

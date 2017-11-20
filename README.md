@@ -28,6 +28,8 @@
 ##### [Cookie](https://github.com/Beats0/js-practice/tree/master/chapter/cookie)
 ##### [高级技巧](https://github.com/Beats0/js-practice/tree/master/chapter/%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7)
 ##### [离线应用与客户端存储](https://github.com/Beats0/js-practice/tree/master/chapter/%E7%A6%BB%E7%BA%BF%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AD%98%E5%82%A8)
+##### [实践](https://github.com/Beats0/js-practice/tree/master/chapter%E5%AE%9E%E8%B7%B5)
+##### [附录](https://github.com/Beats0/js-practice/tree/master/chapter/%E9%99%84%E5%BD%95)
 ##### [jscalculate](https://github.com/Beats0/js-practice/tree/master/chapter/jscalculate)
 ##### [Test](https://github.com/Beats0/js-practice/tree/master/chapter/test)
 

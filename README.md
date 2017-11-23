@@ -38,7 +38,7 @@
 ##### [《JavaScript 权威指南》勘误表中文版](https://dream4ever.github.io/Chinese-Errata-for-JavaScript-The-Definitive-Guide)
 ##### [JS_Calculate](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JS_Calculate)
 ### 一、 JavaScript语言核心
-#### <font color=#FF69B4 face="微软雅黑">`类型、值、变量`</font>
+#### `类型、值、变量`
  -  全局对象
  -  包装对象
  -  类型转换
@@ -46,29 +46,28 @@
  -  变量作用域
  -  作用域链
  -  this关键字
- -  [参考]()
 
-#### <font color=#FF69B4 face="微软雅黑">`对象`</font>
+#### `对象`
  -  属性
  -  特性
  -  序列化
  -  对象方法
 
-#### <font color=#FF69B4 face="微软雅黑">`数组`</font>
+#### `数组`
 
  -  添加删除
  -  数组遍历
  -  数组方法
  -  类数组对象
 
-#### <font color=#FF69B4 face="微软雅黑">`函数`</font>
+#### `函数`
  -  函数的定义与调用
  -  实参形参
  -  闭包
  -  函数的属性、方法、构造
  -  函数式编程
 
-#### <font color=#FF69B4 face="微软雅黑">`类和模块`</font>
+#### `类和模块`
 
  -  类和原型
  -  继承
@@ -97,18 +96,18 @@
 
 #### window对象
 
-#### <font color=#FF69B4 face="微软雅黑">脚本化文档</font>
+#### 脚本化文档
  -  DOM
  -  节点操作
  -  表单
 
 #### 脚本化CSS
 
-#### <font color=#FF69B4 face="微软雅黑">事件处理</font>
+#### 事件处理
  -  注册事件
  -  事件处理
 
-#### <font color=#FF69B4 face="微软雅黑">脚本化http</font>
+#### 脚本化http
  -  Json
  -  Jsonp跨域
 
@@ -201,7 +200,7 @@
 <br>
 
 ##### [answershuto/learnVue](https://github.com/answershuto/learnVue)
- - :octocat:Vue.js 源码解析 https://github.com/answershuto/learnVue
+ - Vue.js 源码解析 https://github.com/answershuto/learnVue
 <br>
 
 ##### [ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
@@ -228,7 +227,7 @@
 ### Git:
 
 ##### [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
- - :trollface:Git的奇技淫巧
+ - Git的奇技淫巧
 <br>
 
 ### HTTP:

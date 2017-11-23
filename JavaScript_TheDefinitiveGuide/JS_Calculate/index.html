@@ -147,6 +147,33 @@
         return new f();         //使用f()创建p的继承对象
     }
 </script>
+<script>
+    var name = "Jay";
+    var person = {
+        name: "KKK",
+        pro: {
+            name: "Micheal",
+            getName: function () {
+                console.log(this);      //{name: "Micheal", getName: ƒ}
+                return this.name;
+            }
+        }
+    };
+    console.log(person.pro.getName());  //Micheal
+    var people = person.pro.getName;
+    console.log(people());              //Jay this指向undefined，在非严格模式下自动转为全局window对象
 
+    var a = 20;
+    function getA() {
+        return this.a;
+    }
+    var foo = {
+        a: 10,
+        getA: getA
+    };
+    console.log(foo.getA);              //ƒ getA() { return this.a;}
+    console.log(foo.getA());            //10
+
+</script>
 </body>
 </html>

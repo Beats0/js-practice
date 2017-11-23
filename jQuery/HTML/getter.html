@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getter</title>
+    <script>
+        var p = {
+            x: 1.0,
+            y: 1.0,
+            get r() {
+                return Math.sqrt(this.x * this.x + this.y * this.y);
+            },
+            set r(newValue) {
+                var oldValue = Math.sqrt(this.x * this.x + this.y * this.y);
+                var ratio = newValue / oldValue;
+                this.x *= ratio;
+                this.y *= ratio;
+            },
+            get theta() {
+                return Math.atan2(this.x, this.y);
+            }
+        };
+        console.log(p.theta)            //0.7853981633974483
+    </script>
+</head>
+<body>
+</body>
+</html>

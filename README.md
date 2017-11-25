@@ -32,7 +32,7 @@
 ##### [附录](https://github.com/Beats0/js-practice/tree/master/chapter/%E9%99%84%E5%BD%95)
 ##### [Test](https://github.com/Beats0/js-practice/tree/master/chapter/test)
 ##### [《JavaScript高级程序设计》（第三版） 随书源码](https://github.com/zhanglongde/book-professional-javascript-for-web-developers)
-
+<br>
 
 ## 《JavaScript权威指南》
 ##### [《JavaScript 权威指南》勘误表中文版](https://dream4ever.github.io/Chinese-Errata-for-JavaScript-The-Definitive-Guide)
@@ -132,12 +132,17 @@
  - [效果](https://github.com/Beats0/js-practice/tree/master/jQuery/%E6%95%88%E6%9E%9C/)
  - [HTML](https://github.com/Beats0/js-practice/tree/master/jQuery/HTML/)
  - [CSS](https://github.com/Beats0/js-practice/tree/master/jQuery/CSS/)
- - [JQuery归纳](https://github.com/Beats0/js-practice/tree/master/jQuery/JQuery%E5%BD%92%E7%BA%B3/JQuery%E5%BD%92%E7%BA%B3/)
+ - [JQuery归纳](https://github.com/Beats0/js-practice/tree/master/jQuery/JQuery%E5%BD%92%E7%BA%B3/)
+<br>
 
 ## ES6语法
 
 ##### [ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
  - 《ECMAScript 6入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新增的语法特性。 http://es6.ruanyifeng.com/
+<br>
+
+##### [SimplyWenjing/ES6](https://github.com/SimplyWenjing/ES6)
+ - ES6的学习笔记and代码练习
 <br>
 
 ## Node.js
@@ -157,6 +162,11 @@
 ## 文章及博客
 
 ## CSS:
+
+##### [chadluo/CSS-Guidelines](https://github.com/chadluo/CSS-Guidelines)
+ - 通用 CSS 笔记、建议与指导
+<br>
+
 
 ##### [cssmagic/blog](https://github.com/cssmagic/blog)
  - CSS魔法 - 博客 http://blog.cssmagic.net/
@@ -182,6 +192,10 @@
 
 ##### [jawil/blog](https://github.com/jawil/blog)
  - Too young, too simple. Sometimes, naive & stupid 🐌
+<br>
+
+##### [JavaScript 秘密花园](https://bonsaiden.github.io/JavaScript-Garden/zh/)
+ - https://bonsaiden.github.io/JavaScript-Garden/zh/
 <br>
 
 ##### [justjavac/the-front-end-knowledge-you-may-dont-know](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know)
@@ -213,10 +227,14 @@
  - 前端(Not just)工程师终究要掌握的知识
 <br>
 
-
 ##### [ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
  - Javascript tutorial book http://javascript.ruanyifeng.com
 <br>
+
+##### [jikeytang/front-end-collect](https://github.com/jikeytang/front-end-collect)
+ - 分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者
+<br>
+
 
 ##### [stone0090/javascript-lessons](https://github.com/stone0090/javascript-lessons)
  - 《JavaScript 闯关记》，部分章节精心设计了挑战关卡，通过提供更多的实战机会，让大家可以循序渐进地、有目的地、有挑战地开展学习。
@@ -242,9 +260,17 @@
  - Vue.js 源码解析 https://github.com/answershuto/learnVue
 <br>
 
+##### [OOP-Code-Bunny/angular](https://github.com/OOP-Code-Bunny/angular)
+ - 所有angular学习过程中的代码
+<br>
+
 ##### [chokcoco/jQuery-](https://github.com/chokcoco/jQuery-)
  - jQuery- v1.10.2 源码解读
 <br>
+
+##### [nefe/You-Dont-Need-jQuery](https://github.com/nefe/You-Dont-Need-jQuery)
+ - Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.
+ <br>
 
 
 ## Git:
@@ -256,6 +282,12 @@
 ## HTTP:
 
 ##### [woai30231/http](https://github.com/woai30231/http)
- - 我自己提炼的关于《HTTP权威指南》每章的知识点总结！
+ - 提炼的关于《HTTP权威指南》每章的知识点总结！
 <br>
+
+## 其他:
+##### [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
+- 免费的计算机编程类中文书籍，欢迎投稿 http://weibo.com/justjavac
+<br>
+
 

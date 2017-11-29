@@ -126,6 +126,8 @@
 
 #### API
 
+#### [JavaScript_TheDefinitiveGuide](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/)
+
 ## JQuery
  - [选择器](https://github.com/Beats0/js-practice/tree/master/jQuery/%E9%80%89%E6%8B%A9%E5%99%A8/)
  - [事件](https://github.com/Beats0/js-practice/tree/master/jQuery/%E4%BA%8B%E4%BB%B6/)
@@ -158,6 +160,9 @@
 ##### [alsotang/node-lessons](https://github.com/alsotang/node-lessons)
  - 📕《Node.js 包教不包会》 by alsotang
 <br>
+
+#### [Node](https://github.com/Beats0/js-practice/tree/master/Node)
+
 
 ## 文章及博客
 

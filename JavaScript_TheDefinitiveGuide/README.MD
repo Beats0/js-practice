@@ -15,3 +15,7 @@
 ##### [生成目录表](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E8%A1%A8)
 
 ##### [几何形状及滚动](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/%E5%87%A0%E4%BD%95%E5%BD%A2%E7%8A%B6%E5%8F%8A%E6%BB%9A%E5%8A%A8)
+
+##### [CSS操作](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/CSS)
+
+##### [Event](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/Event)

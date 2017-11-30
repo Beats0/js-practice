@@ -19,7 +19,7 @@ var Insert = (function () {
     }
     //如果没有原生的insertAdjacentHTML()
     //插入4个属性
-    function fargment(html) {
+    function fragment(html) {
         var elt = document.createElement("div");          //创建空元素
         var frag = document.createDocumentFragment();     //创建空白文档片段
         elt.innerHTML = html;                             //设置元素内容
@@ -48,7 +48,7 @@ var Insert = (function () {
     //基于以上函数实现
     Element.prototype.insertAdjacentHTML = function (pos, html) {
         switch (pos.toLowerCase()) {
-            case "beforbegin":
+            case "beforebegin":
                 return Insert.before(this, html);
             case "afterend":
                 return Insert.after(this, html);

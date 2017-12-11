@@ -1,6 +1,6 @@
 ## DOM
 #### 节点关系
-```
+```js
 var outer = document.getElementById("outer");
 var inner = document.getElementById("inner");
 var lis = document.getElementsByTagName("li");
@@ -21,7 +21,7 @@ if (lis[1].previousElementSibling) {//浏览器先判断
 ```
 
 #### 或者
-```
+```js
 function prenode(obj) {
     if (obj.previousElementSibling) {//浏览器先判断
         return obj.previousElementSibling.innerHTML;
@@ -62,7 +62,7 @@ function prenode4(obj) {
 console.log(prenode4(inner));//3
 ```
 #### 可正常执行的inner元素方法
-```
+```js
 //错误
 div.innerHTML = "<script defer>alert('Hi');<\/script>";
 
@@ -75,7 +75,7 @@ div.innerHTML = "<style type=\"text/css\">body {background-color: red;}</style>"
 ```
 
 #### 创建节点
-```
+```js
 //createElement() 创建一个元素节点，但不会自动被添加到文档document中
 var outer2 = document.getElementById("outer2");
 var inner2 = document.getElementById("inner2");
@@ -90,7 +90,7 @@ newli.setAttribute("title","abc");
 console.log(newli);//<li title="abc"></li>
 ```
 #### 插入节点
-```
+```js
 //appendChild() 节点插入到最后，文档上面两个创建的节点不会自动添加到文档中时使用
 newli.appendChild(newtext);
 console.log(newli);//<li title="abc">createTextNode</li>
@@ -116,7 +116,7 @@ var newul2 = inner2.cloneNode(false);
 outer2.appendChild(newul);//潜复制
 ```
 #### 查询字符串参数
-```
+```js
 function getQueryStringArgs() {
     //取得并去掉问号
     var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
@@ -147,7 +147,7 @@ console.log(args["q"]);
 console.log(args["num"]);
 ```
 #### 遍历元素特性
-```
+```js
 function outputAttributes(element) {
     var pairs = new Array(),
         attrName,
@@ -163,7 +163,7 @@ function outputAttributes(element) {
 }
 ```
 #### 遍历元素特性兼容
-```
+```js
 function outputAttributes(element) {
     var pairs = new Array(),
         attrName,
@@ -182,7 +182,7 @@ function outputAttributes(element) {
 }
 ```
 #### 标准的DOM文本节点样式
-```
+```js
 function loadScriptString(code) {
     var script = document.createElement("script");
     script.type = "text/javascript";
@@ -199,7 +199,7 @@ loadScriptString("function sayHi(){alert('Hi');}");
 
 
 #### 动态样式
-```
+```js
 function loadStyle(url) {
     var link = document.createElement("link");
     link.rel = "stylesheet";
@@ -212,7 +212,7 @@ loadStyle("styles.css");
 ```
 
 #### 表格操作
-```
+```js
 var table=document.createElement("table");
 table.border=1;
 table.width="100%";
@@ -236,7 +236,7 @@ tbody.rows[1].cells[1].appendChild(document.createTextNode("cell 2,2"));
 document.body.appendChild(table);
 ```
 #### 跨浏览器遍历元素
-```
+```js
 var i,
     len,
     child = element.firstElementChild;
@@ -246,7 +246,7 @@ while (child != element.lastElementChild) {
 }
 ```
 #### classList方法
-```
+```js
 // <div class="bd user disable"></div>
 div.classList.remove("disable")
 div.classList.add("current")
@@ -259,12 +259,15 @@ if (div.classList.contains("bd") && !div.classList.contains("disable")) {
 ```
 
 #### 迭代类名
+```js
 for (var i = 0, len = div.classList.length; i < len; i++) {
     //......
 }
-
-自定义数据属性,如：<div id="myDiv" data-appid="123" data-myname="Nicholas"></div>
 ```
+##### 自定义数据属性,如：
+```js
+<div id="myDiv" data-appid="123" data-myname="Nicholas"></div>
+
 var div=document.getElementById("myDiv");
 var appId=div.dataset.appId;
 var myName=div.dataset.myName;
@@ -277,7 +280,7 @@ if (div.dataset.myName) {
 }
 ```
 #### DOM循环
-```
+```js
 //不要这样使用，会占用资源
 for (var i = 0, len = values.length; i < len; i++) {
     ul.innerHTML += "<li>" + values[i] + "</li>";
@@ -291,7 +294,7 @@ ul.innerHTML = itemsHtml;
 //这样效率高很多，因为它只执行了一次赋值操作
 ```
 #### 跨浏览器向样式表中插入规则
-```
+```js
 function insertRule(sheet, sellectorText, cssText, position) {
     if (sheet.innerRule) {
         sheet.innerRule(sellectorText + "(" + cssText + ")", position);
@@ -304,7 +307,7 @@ function insertRule(sheet, sellectorText, cssText, position) {
 insertRule(document.styleSheets[0],"body","background-color:red",0);
 ```
 #### 用DOM范围实现复杂选择
-```
+```js
 var rang1 = document.createRange();
 rang2 = document.createRang();
 p1 = document.getElementById("p1");

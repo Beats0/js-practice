@@ -1,5 +1,5 @@
 #### scroller属性相关
-```
+```js
 var outer = document.getElementById('outer');
 var inner = document.getElementById('inner');
 var btns = document.getElementsByTagName('button');
@@ -54,7 +54,7 @@ tab.onmouseout = function () {
 ```
 
 
-```
+```js
 // console.log(document.getElementById("post").clientWidth);
 // console.log(document.getElementById("post").clientHeight);
 // console.log((document.documentElement.offsetHeight));

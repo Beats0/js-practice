@@ -1,7 +1,7 @@
 ## 高级函数
 ##### 类型检测
 测试某个值是不是原生函数或者正则表达式
-```
+```js
 function idFunction(value) {
     return Object.prototype.toString.call(value) == "[object Function]";
 }
@@ -12,7 +12,7 @@ function isRegExp(value) {
 ```
 ##### 作用域与构造函数
 检测作用域安全性,防止this进入window全局变量
-```
+```js
 function Person(name, age, job) {
     if (this instanceof Person) {
         this.name = name;
@@ -28,7 +28,7 @@ var person2 = Person("002", 20, "javascript");      //person2.name      002
 ```
 例子：通过长方形体积计算表面积
 *错误性的*
-```
+```js
 function Polygon(sides) {
     if (this instanceof Polygon) {
         this.sides = sides;
@@ -53,7 +53,7 @@ var rect = new Rectangle(5, 10);
 console.log(rect.sides);     //undefined
 ```
 *正确性的，使用原型链和寄生组合*
-```
+```js
 function Polygon(sides) {
     if (this instanceof Polygon) {
         this.sides = sides;
@@ -84,7 +84,7 @@ console.log(rect.sides);     //2
 
 ##### 函数绑定
 *错误性的*
-```
+```js
 var handler = {
     message: "Event handled",
     handlerClick: function (event) {
@@ -97,7 +97,7 @@ EventUtil.addHanler(btn, "click", function (event) {
 });
 ```
 使用`bind()`方法
-```
+```js
 function bind(fn, context) {
     return function () {
         return fn.apply(context, arguments);
@@ -105,7 +105,7 @@ function bind(fn, context) {
 }
 ```
 正确性的
-```
+```js
 var handler = {
     message: "Event handled",
     handlerClick: function (event) {
@@ -118,7 +118,7 @@ EventUtil.addHanler(btn, "click", handler.handlerClick.bind(handler));
 ##### 函数`柯里化`
 是把接受多个参数的函数变换成接受一个单一参数(最初函数的第一个参数)的函数，并且返回接受余下的参数且返回结果的新函数,技术上来讲就是使用闭包返回函数
 *柯里化(非真正意义上的柯里化，只做展示)*
-```
+```js
 function add(num1, num2) {
     return num1 + num2;
 }
@@ -131,7 +131,7 @@ console.log(add(2, 3));          //5:2+3
 console.log(curriedAdd(3));     //8:5+3
 ```
 *柯里化(真正意义上的柯里化)*
-```
+```js
 function curry(fn) {
     var args = Array.prototype.slice.call(arguments, 1);
     return function () {
@@ -150,7 +150,7 @@ console.log(curriedAdd());      //17
 ```
 
 *柯里化与`bind()`*
-```
+```js
 function bind(fn, context) {
     var args = Array.prototype.slice.call(arguments, 2);
     return function () {
@@ -173,7 +173,7 @@ function bind(fn, context) {
  - 间歇调用setInterval()
 
 ## 函数节流
-```
+```js
 let processor = {
     timeoutId: null,
 
@@ -194,7 +194,7 @@ let processor = {
 processor.process();
 ```
 *作为throttle()简化版*
-```
+```js
 function throttle(method, context) {
     clearTimeout(method.timeoutId);     //写入ID
     method.timeoutId = setTimeout(function () {
@@ -203,7 +203,7 @@ function throttle(method, context) {
 }
 ```
 *再例如：写一个div，让它的高度根据界面进行回流而产生改动*
-```
+```js
 function resizeDiv() {      //放入resize()的单独函数中
     let div = document.getElementById("myDiv");
     div.style.height = div.offsetWidth + "px";
@@ -217,7 +217,7 @@ window.onresize = function () {
 ## 自定义事件
 ##### 观察者模式
 *与DOM交互*
-```
+```js
 function EventTarget() {
     this.handlers = {};
 }
@@ -260,7 +260,7 @@ function handleMassage(event) {
 }
 ```
 *添加一个新对象*
-```
+```js
 var target = new EventTarget();
 //添加一个事件处理程序
 target.addHanler("message", handleMassage);
@@ -285,7 +285,7 @@ Person.prototype.say = function (message) {
 ```
 
 ## 拖放
-```
+```js
 var DragDrop = function () {
     var dragging = null;
 
@@ -337,7 +337,7 @@ var DragDrop = function () {
 }();
 ```
 *添加自定义事件*
-```
+```js
 var DragDrop = function () {
     var dragdrop = new EventTarget(),
         dragging = null,

@@ -1,13 +1,13 @@
 #### HTTP客户端工具模块
 ##### 使用
-```
+```js
 var httputils = require("./httputils");
 httputils.get(url, function (status, headers, body) {
     console.log(body);
 });
 ```
 ##### Node httputils模块
-```
+```js
 //指定HTTP状态，头和响应主体传递改指定的回调函数
 //exports对象导出方法
 exports.get = function (url, callback) {

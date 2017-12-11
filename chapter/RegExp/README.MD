@@ -1,5 +1,5 @@
 #### RegExp正则表达式
-```
+```js
 //new RegExp(pattern/*字符串，正则*/,attributes/*可选字符串包含属性g（全局匹配）i（区分大小写）*/)
 //var pattern = new RegExp("n+","g")
 var reg = "abc";
@@ -13,7 +13,7 @@ var reg2 = /abc/gi;
 // . :匹配任意一个字符，除(\n)
 ```
 #### 参数reg.test()是否有ture or false | reg.exec返回结果第一个值 | reg.compile()编辑正则表达式
-```
+```js
 var reg3 = /[0-9a-z]{4,7}/gi;
 var string = "aasdfghjkl112233";
 console.log(reg3.test(string));//ture 4-7个连续的

@@ -1,6 +1,6 @@
 ## 文档加载事件
 #### whenReady()
-```
+```js
 //whenReady()作为Document对象函数的方法调用
 var whenReady = (function () {
     var funcs = [];

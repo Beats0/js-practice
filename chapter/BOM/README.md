@@ -1,5 +1,5 @@
 #### 全局变量指向window.name
-```
+```js
 var name = "abc";
 function myname() {
     alert(this.name);
@@ -13,20 +13,20 @@ var con = document.getElementById("con");
 var ipt = document.getElementsByName("ipt");
 ```
 #### 窗口位置
-```
+```js
 var left = window.screenLeft;
 var left = window.screenX;//FireFox
 alert(left);
 ```
 #### 窗口打开
-```
+```js
 //window.open() 参数：URL(link)，name（targe），feature(字符串)
  btn.onclick = function () {
      window.open("https://www.baidu.com","_blank","resizable=no,height=500,width=800,left=300,top=100");
  }
 ```
 #### 系统对话框
-```
+```js
 //alert()，confirm()，prompt()
 var choose = confirm("你是coder吗？");
  if (choose) {
@@ -51,7 +51,7 @@ btn.onclick = function () {
 }
 ```
 #### 获取元素样式
-```
+```js
 //getComputedStyle(nodeObj,false); 1为节点对象，2为false或null，建议为null兼容IE9，IE8以下不支持
 var con_style_width = getComputedStyle(con,false).width;
 var attr = "width";
@@ -70,7 +70,7 @@ if (con.currentStyle) {
 console.log(con_style);//兼容性
 ```
 #### 封装类库
-```
+```js
 function getStyle(obj,attr) {
     if (obj.currentStyle) {
         var style = obj.currentStyle[attr];

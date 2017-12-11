@@ -1,5 +1,6 @@
 #### try-catch语句
-```try {
+```js
+try {
     //可能导致错误的代码
 } catch (error) {
     //错误时怎么处理
@@ -7,7 +8,7 @@
 }
 ```
 #### finally子句
-```
+```js
 function testFinally() {
     try {
         return 2;
@@ -19,7 +20,7 @@ function testFinally() {
 }
 ```
 #### 类型错误
-```
+```js
 try {
     somfunction{};
 } catch (error) {
@@ -34,7 +35,7 @@ try {
 ```
 
 #### 抛出错误 throw
-```
+```js
 throw new Error("Something bad happened!");
 
 //原型链继承error
@@ -48,7 +49,7 @@ throw new CustomError("my masssage");
 
 
 #### 抛出错误的时机
-```
+```js
 function process(values) {
     values.sort();
 
@@ -61,7 +62,7 @@ function process(values) {
 }
 ```
 =>抛出错误的时机的处理
-```
+```js
 function processs(values) {
     if (!(values instanceof Array)) {
         throw new Error("process():Argument must be an array!");        //判断类型，如果不是Array类型则报错
@@ -77,7 +78,7 @@ function processs(values) {
 ```
 #### 错误类型
 ##### 流控制错误
-```
+```js
 function concat(str1, str2, str3) {
     var result = str1 + str2;
     if (str3) {
@@ -87,7 +88,7 @@ function concat(str1, str2, str3) {
 }
 ```
 =>以上这句话的意思即判断str3使用concat方法，但是在if中，会将str3装换为3个数值：true、false、undefined，这样会影响结果，应更改适当的比较
-```
+```js
 function concat(str1,str2,str3) {
     var result = str1+str2;
     if (typeof str3 == "string"){
@@ -98,7 +99,7 @@ function concat(str1,str2,str3) {
 //str3装换为布尔值：true、false
 ```
 ##### 数据类型错误
-```
+```js
 function getQuerString(url) {
     var pos = url.indexOf("?");
     if (pos > -1) {
@@ -108,7 +109,7 @@ function getQuerString(url) {
 }
 ```
 =>两个函数只能操作字符串，如果传入其他数据类型就会报错
-```
+```js
 function getQuerString(url) {
     if (typeof url == "string") {         //正确，先检测是否为字符串类型
         var pos = url.indexOf("?");
@@ -121,7 +122,7 @@ function getQuerString(url) {
 ```
 ##### 检测方法
 *检测参数中是否存在sort()方法*
-```
+```js
 function reverseSort(values) {
     if (typeof values.sort == "function") {          //不要这样
         values.sort();
@@ -130,7 +131,7 @@ function reverseSort(values) {
 }
 ```
 =>使用instanceof检测
-```
+```js
 function reverseSort(values) {
     if (values instanceof Array) {          //正确
         values.sort();
@@ -140,7 +141,7 @@ function reverseSort(values) {
 ```
 ##### 通信错误(Ajax)
 *必须使用encodeURLComponent()方法*
-```
+```js
 function addQueryStringArg(url, name, value) {
     if (url.indexOf("?") == -1) {
         url += "?";
@@ -156,20 +157,20 @@ var newurl = addQueryStringArg(url, "redir", "?a=b&c=d");
 alert(newurl);
 ```
 #### 记录错误日志
-```
+```js
 function logError(sev, msg) {
     var img = new img;
     img.src = "log.php?sev=" + encodeURIComponent(sev) + "&msg" + encodeURIComponent(msg);
 }
 ```
 #### 数值检测
-```
+```js
  function divide(num1,num2) {
      return num1 / num2;
  }
 ```
 *检测数值*
-```
+```js
 function divide(num1,num2) {
      //num1与num2必须是number数值
      if (typeof num1 != "number"|| num2 != "number") {
@@ -180,7 +181,7 @@ function divide(num1,num2) {
 ```
 
 #### 使用assert()函数替代if语句
-```
+```js
 function divide(num1, num2) {
     assert(typeof num1 == "number" && typeof num2 == "number", "divide():Both arguments must be numbers!");
     return num1 / num2;
@@ -189,18 +190,15 @@ function divide(num1, num2) {
 
 #### IE未知运行错误
 *从技术上讲，<span>标签不能包含<div>之类的块级元素*
-```
+```js
 span.innerHTML="<div>div</div>";     //在span中添加div元素
 ```
 
 #### 语法错误
-```
-```
-
 
 #### 系统无法找到指定资源
 *IE url最长不能超过2083个字符限制*
-```
+```js
 function creatLongURL(url) {
     var s = "?";
     for (var i = 0; len = 2500; i++) {

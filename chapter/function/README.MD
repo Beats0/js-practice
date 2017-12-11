@@ -1,5 +1,5 @@
 #### 闭包
-```
+```js
 function counter(n) {
     return{
      get count() {return n++;},
@@ -19,7 +19,7 @@ console.log(c.count);//2001
 console.log(c.count);//2002
 ```
 #### apply()
-```
+```js
 function trace(o,m) {
     var org = o[m];//闭包原始方法
     o[m] = function () {//定义新的方法
@@ -31,7 +31,7 @@ function trace(o,m) {
 }
 ```
 #### bind()
-```
+```js
 // function f(y) {
 //     return this.x+y;
 // }
@@ -47,7 +47,7 @@ function bind(f,o) {
 }
 ```
 #### 柯里化(crring)
-```
+```js
 var sum = function (x,y) {
     return x+y;
 }

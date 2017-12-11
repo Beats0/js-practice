@@ -1,5 +1,5 @@
 #### 跨浏览器处理xml
-```
+```js
 function parseXml(xml) {
     var xmldom = null;
 
@@ -25,7 +25,7 @@ parseXml()函数只接收一个参数即可解析xml字符串，使用这个函�
 
 
 #### 序列化XML处理
-```
+```js
 function serializer(xmldom) {
     if (typeof XMLSerializer != "undefined") {
         return (new XMLSerializer()).serializeToString(xmldom);
@@ -43,7 +43,7 @@ var xml = serialize(xmldom);
 #### 跨浏览器使用Xpath
 *保证DOM3级XPath对象浏览器中,可以使用`selecSingleNode()函数`或`selectNodes()函数`*
 ##### 使用`selecSingleNode()`函数
-```
+```js
 XML
 {
   prefix1:"uri1",
@@ -52,7 +52,7 @@ XML
 }
 ```
 js
-```
+```js
 function selectSingleNode(context, expression, namespaces) {
     var doc = (context.nodeType != 9 ? context.ownerDocument : context);
     if (typeof doc.evaluate != "undefined") {
@@ -88,7 +88,7 @@ alert(serializeXML(result));
 ```
 
 ##### 使用`selectNodes()`函数
-```
+```js
 function selectNodes(context, expression, namespaces) {
     var doc = (context.nodeType != 9 ? context.ownerDocument : context);
 
@@ -136,7 +136,7 @@ alert(result.length);
 
 
 #### XML
-```
+```js
 <!DOCTYPE html>
 
 <!--<html>-->
@@ -261,13 +261,12 @@ alert(result.length);
 <!--</script>-->
 <!--</body>-->
 <!--</html>-->
-
 ```
 
 #### XSLT
 XSL模板与XSL处理器
 
-```
+```js
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -293,14 +292,14 @@ XSL模板与XSL处理器
 </xsl:stylesheet>
 ```
 *=>调用*
-```
+```js
 processor.input = xmldom.documentElement;
 processor.addParameter("message","Hello World!");
 processor.transform();
 ```
 
 #### 跨浏览器使用XSLT
-```
+```js
 function transform(context, xslt) {
     if (typeof XSLTProcessor != "undefined") {
         var processor = new XSLTProcessor();

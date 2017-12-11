@@ -3,7 +3,9 @@
 `navigator.onLine`,`navigator.offonLine`
 
 #### 应用缓存
-`<html lang="en" manifest="/appcache">`
+```js
+<html lang="en" manifest="/appcache">
+```
 
 
 ## 客户端存储
@@ -12,7 +14,7 @@
  - `sessionStorage`对象
 
 sessionStorage存储
-```
+```js
 //使用方法存储
 sessionStorage.setItem("name", "Beats0");
 //使用属性存储
@@ -25,7 +27,7 @@ var name = sessionStorage.getItem("name");
 var book = sessionStorage.book;
 ```
 使用for,length结合Key()方法迭代
-```
+```js
 for (var i = 0, len = sessionStorage.length; i < len; i++) {
     var key = sessionStorage.key(i);
     var value = sessionStorage.getItem(key);
@@ -33,26 +35,26 @@ for (var i = 0, len = sessionStorage.length; i < len; i++) {
 }
 ```
 使用for-in迭代
-```
+```js
 for (var key in sessionStorage) {
     var value = sessionStorage.getItem(key);
     console.log(key + "=" + value);
 }
 ```
 sessionStorage删除
-```
+```js
 sessionStorage.removeItem("book");
 ```
 
  - `globalStorage`对象
-```
+```js
 //保存数据
 globalStorage["www.github.com"].name = "Beats0";
 //获取数据
 var name = globalStorage["www.github.com"].name;
 ```
  - `localStorage`对象
-```
+```js
 //兼容性
 function getLocalStorage() {
     if (typeof localStorage == "object") {
@@ -72,7 +74,7 @@ var storage = getLocalStorage();
 
 ### IndexedDB
 ##### 1. 数据库(感觉还是使用API算了= =)
-```
+```js
 let request, database;
 request = IndexedDB.open("admin");
 request.onerror = function (event) {
@@ -83,7 +85,7 @@ request.onerror = function (event) {
 };
 ```
 ##### 2. 对象存储空间
-```
+```js
 //每次调用add()或put()都会创建一个新的请求，并将返回的请求保存到一个变量中
 let i = 0,
     request,

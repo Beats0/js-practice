@@ -3,7 +3,7 @@
  - 实现两种特殊的URL用于测试
  - http://localhost:8080
 
-```
+```js
 //加载模块
 var http = require('http');
 var fs = require('fs');

@@ -1,5 +1,5 @@
 #### 排序
-```
+```js
 // var a =['ant','Big','cat','Dog'];
 // console.log(a);
 // a.sort();
@@ -14,7 +14,7 @@
 // console.log("不区分大小写"+a);
 ```
 #### 数组
-```
+```js
  var a = [1,2,3,4,5];
 // console.log(a);
 // console.log(a.splice(4));
@@ -30,7 +30,7 @@ console.log(a.splice(2,2,[1,2],3));
 console.log("a="+a);
 ```
 #### name 是 Person 本身的属性
-```
+```js
 function Person(name) {
     this.name = name;
 }
@@ -58,7 +58,7 @@ with (o) {
 console.log(p.join('')) // "Hello Alice!"
 ```
 #### with模板抽插
-```
+```js
 // var str = 'Hello <%= name %>!';
 // var o = {
 //     name: 'Alice'
@@ -74,7 +74,7 @@ console.log(p.join('')) // "Hello Alice!"
 // // "Hello Alice!"
 ```
 #### 数组的某个位置是空位，与某个位置是undefined，是不一样的。如果是空位，使用数组的forEach方法、for...in结构、以及Object.keys方法进行遍历，空位都会被跳过。
-```
+```js
 var a = [undefined, undefined, undefined];
 a.forEach(function (x, i) {
     console.log(i + '. ' + x);
@@ -91,15 +91,13 @@ for (var i in a) {
 Object.keys(a)
 // ['0', '1', '2']
 
-
-
 function add(x, y) {
     return x + y;
 }
 console.log(add(1,2));
 ```
 #### 变量提升
-```
+```js
 if (false) {
     function f() {}
 }
@@ -135,7 +133,7 @@ var f = foo();
 f() // 1
 ```
 #### switch选择
-```
+```js
 function inputnum() {
     var sinputnum=prompt("输入一个1-7的整数");
     try {
@@ -168,7 +166,7 @@ function inputnum() {
 inputnum();
 ```
 #### 耦合性
-```
+```js
 function displayInfo(args) {
     var output = "";
     if (typeof  args.name == "string") { //判断是否含有这个属性
@@ -188,7 +186,7 @@ displayInfo({
 });
 ```
 #### 使用arguments.callee取消耦合
-```
+```js
 function factorial(num) {
     if (num <= 1) {
         return 1;
@@ -205,8 +203,8 @@ console.log(trueFactorial(5));//120
 console.log(factorial(5));//0
 ```
 
-####　返回随机数函数
-```
+#### 返回随机数函数
+```js
 function selectFrom(lowerValue, upperValue) {
     var choices = upperValue - lowerValue + 1;//值得总数
     return Math.floor(Math.random() * choices + lowerValue)//lowerValue第一个可能的值
@@ -216,7 +214,7 @@ console.log(selectNum);//selectNum随机数
 ```
 
 #### test
-```
+```js
 // console.log(a);//1.ƒunction a(){console.log(10)}
 // a();
 // var a=3;
@@ -234,7 +232,7 @@ console.log(selectNum);//selectNum随机数
 // a()
 ```
 #### 访问原型
-```
+```js
 function Person() {
 }
 Person.prototype.name="Beats0";

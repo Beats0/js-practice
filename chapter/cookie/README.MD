@@ -1,12 +1,12 @@
 ## cookie
-```
+```js
 var paras = document.getElementsByTagName("p");
 for (var i = 0; i < paras.length; i++)
      var title_text = paras[i].getAttribute("title");
 if (title_text) alert((title_text));
 ```
 *创建一个函数来检查是否已设置 cookie：*
-```
+```js
 function getCookie(c_name) {
     if (document.cookie.length > 0) {
         c_start = document.cookie.indexOf(c_name + "=")
@@ -22,7 +22,7 @@ function getCookie(c_name) {
 ```
 
 *创建一个可在 cookie 变量中存储访问者姓名的函数：参数存有 cookie 的名称、值以及过期天数。*
-```
+```js
 function setCookie(c_name, value, expiredays) {
     var exdate = new Date()
     exdate.setDate(exdate.getDate() + expiredays)
@@ -64,7 +64,7 @@ for (var i=0;i<cookiesArr.length;i++) {
 }
 ```
 #### cookie封装
-```
+```js
 function getCookie(key) {
     var CookieArr = document.cookie.split("; ");
     for (var i = 0; i < CookieArr.length; i++) {
@@ -83,7 +83,7 @@ document.cookie="password=123;expires="+date2;
 ```
 ## cookie
 ## `CookieUtil()`
-```
+```js
 let CookieUtil = {
     get: function (name) {
         let cookieName = encodeURIComponent(name) + "=",
@@ -134,7 +134,7 @@ CookieUtil.set("name", "Beats0", "/book/project", "www.github.com", new Date("No
 ```
 ## 子Cookie
 ## `SubCookieUtil()`
-```
+```js
 let SubCookieUtil = {
     get: function (name, subName) {
         let subCookies = this.getAllResponseHeaders(name);
@@ -186,7 +186,7 @@ console.log(SubCookieUtil.get("data", "book"));
 ```
 #### 设置子Cookie
 ## `SubCookieUtil()`
-```
+```js
 let SubCookieUtil = {
     set: function (name, subName, value, expiress, path, domain, secure) {
         let subcookies = this.getAll(name) || {};

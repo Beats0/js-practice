@@ -10,7 +10,7 @@
 
 ##### 媒体事件
 *一个简单的播放器*
-```
+```js
 <div class="mediaplayer">
         <div class="video">
             <video src="movie.mov" id="player" poster="mymovoe.png" width="300" height="200">
@@ -77,7 +77,7 @@ setInterval(function () {
 
 
 #### 使用http post请求上传文件
-```
+```js
 //查找data-uploadto属性的全部<input type="file">元素
 //注册onchange事件
 //文件会自动通过post方法发送到指定的“uploadto”url

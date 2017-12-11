@@ -3,7 +3,7 @@
 #### 对象
 
 ##### JS-JSON
-```
+```js
 var json = {
     "name": "AAA", "sex": "girl", "age": 20
 };
@@ -16,7 +16,7 @@ for (var i in json2) {
 ```
 
 ##### JSON-JSON
-```
+```js
 {
   "name":"AAA",
   "sex":"girl",
@@ -35,17 +35,17 @@ for (var i in json2) {
 
 Json数组没有赋值语句和分号
 JavaScript中：
-```
+```js
 var values = [12,"Hi",true];
 ```
 Json中：
-```
+```js
 {25,"Hi",true}
 ```
 #### 解析与序列化
 1. stringify()
 
-```
+```js
     let book = {
         title: "JavaScript",
         autor: [
@@ -59,21 +59,21 @@ Json中：
     console.log(JsonText);
 ```
 解析后：
-```
+```js
 {"title":"JavaScript","autor":["Nicjolas"],"edition":3,"year":2012}
 ```
 
 序列化为数组后：
-```
+```js
 let JsonTextArray = JSON.stringify(book,["title","edition"]);
 ```
 解析后：
-```
+```js
 console.log(JsonTextArray);     //{"title":"JavaScript","edition":3}
 ```
 
 2. parse()
-```
+```js
     let NewBook = {
         title: "JavaScript",
         autor: [
@@ -93,6 +93,6 @@ console.log(JsonTextArray);     //{"title":"JavaScript","edition":3}
     });
 ```
 解析后：
-```
+```js
 console.log(bookCopy.releaseDate.getFullYear());        //2017
 ```

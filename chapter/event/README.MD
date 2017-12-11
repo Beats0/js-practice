@@ -1,6 +1,6 @@
 ### 事件处理
 #### event事件
-```
+```js
 //event属性：type获取 | target绑定DOM元素 | keyCode键码 | relatedTarget移入移出DOM元素 | currenTarge获取冒泡前触发DOM元素与this | pageX/pageY获取相对页面的水平垂直坐标
 var con = document.getElementById("con");
 con.onclick = function (e) {
@@ -22,7 +22,7 @@ con.oncontextmenu = function (e) {
 }
 ```
 #### math对象 为全局对象
-```
+```js
 //math.PI | abs() | ceil()向上舍入最近的整数 | floor()向下舍入最近的整数 | min() | max() |
 var a = 1;
 var b = -1;
@@ -53,7 +53,7 @@ console.log(Math.random());//0-1中的随机数0.6072557380996593
 console.log(Math.floor(Math.random()*10+20));//20-30的随机整数
 ```
 #### Date对象
-```
+```js
 document.write(new Date());
 //new Date(milliseconds)指定时间毫秒数
 document.write(new Date(1412312323231));
@@ -76,7 +76,7 @@ function test(o) {
 }
 ```
 #### 抛出异常
-```
+```js
 // function fa(x) {
 //     if (x<0)
 //         throw new Error("不能是负数");
@@ -94,7 +94,7 @@ catch (ex) {
 }
 ```
 #### 事件清除
-```
+```js
 //这是无效的,因为这样使用了不同的函数
 var btn = document.getElementById("myBtn");
 btn.addEventListener("click", function () {
@@ -127,7 +127,7 @@ btn.attachEvent("onclick", handler);
 btn.detachEvent("onclick", handler);
 ```
 #### 在需要通过一个函数处理多个事件时可以使用type属性
-```
+```js
 var handler = function (event) {
     switch (event.type) {
         case "click":
@@ -150,7 +150,7 @@ btn.onmouseout = handler;
 ```
 
 #### eventPhase属性，确定事件当前正位于事件流的那个阶段，如果在捕获阶段调用的时间处理程序，那么eventPhase为1，如果事件处理程序位于目标对象上，则eventPhase为2；如果在冒泡阶段调用的事件处理程序，eventPhase为3，注意“处于目标”发生在冒泡阶段，但eventPhase仍然一直等于2，如：
-```
+```js
 btn.onclick = function (event) {
     alert(event.eventPhase);        //2
 };
@@ -164,7 +164,7 @@ document.body.onclick = function (event) {
 };
 ```
 #### 跨浏览器的事件对象(4种方法)
-```
+```js
 var EventUtil = {
     addHanler: function (element, type, handler) {
         //......
@@ -197,7 +197,7 @@ var EventUtil = {
 };
 ```
 #### load事件
-```
+```js
 //<img src="01.gig" onload="alter('Image loaded')"
 var image = document.getElementById("myImage");
 EventUtil.addHanler(image, "load", function (event) {
@@ -206,7 +206,7 @@ EventUtil.addHanler(image, "load", function (event) {
 });
 ```
 #### scroll事件,Safair3.1兼容
-```
+```js
 EventUtil.addHanler(window, "scroll", function (event) {
     if (document.compatMode == "CSS1Compat") {
         alert(document.documentElement.scrollTop);
@@ -217,7 +217,7 @@ EventUtil.addHanler(window, "scroll", function (event) {
 ```
 ### mouse属性
 #### 1.客户区坐标,clientX,clientY
-```
+```js
 var clientDiv = document.getElementById("clientDiv");
 EventUtil.addHanler(clientDiv, "click", function (event) {
     event = EventUtil.getEvent(event);
@@ -225,7 +225,7 @@ EventUtil.addHanler(clientDiv, "click", function (event) {
 });
 ```
 #### 2.页面坐标,pageX,pageY
-```
+```js
 var pageDiv = document.getElementById("pageDiv");
 EventUtil.addHanler(pageDiv, "click", function (event) {
     event = EventUtil.getEvent(event);
@@ -251,7 +251,7 @@ EventUtil.addHanler(div, "click", function (event) {
 });
 ```
 #### 3.屏幕坐标位置
-```
+```js
 var div = document.getElementById("myDiv");
 EventUtil.addHanler(pageDiv, "click", function (event) {
     event = EventUtil.getEvent(event);
@@ -262,7 +262,7 @@ EventUtil.addHanler(pageDiv, "click", function (event) {
 包含shiftKey，ctrlKey，altKey，metaKey
 
 #### 简单的点击菜单效果
-```
+```js
 EventUtil.addHanler(window, "lode", function (event) {
     var div = document.getElementById("mydiv");
 
@@ -283,7 +283,7 @@ EventUtil.addHanler(window, "lode", function (event) {
 ```
 #### 事件委托 提高性能
 适合用于click,mousedown,mouseup,keydown,keyup和keypress
-```
+```js
 var list = document.getElementById("myLinks");
 EventUtil.addHanler(list, "click", function (event) {
     event = EventUtil.getEvent(event);
@@ -367,5 +367,3 @@ onsuspend           |当浏览器已在取媒介数据但在取回整个媒介�
 ontimeupdate        |当媒介改变其播放位置时运行脚本
 onvolumechange      |当媒介改变音量亦或当音量被设置为静音时运行脚本
 onwaiting           |当媒介已停止播放但打算继续播放时运行脚本
-
-

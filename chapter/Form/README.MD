@@ -1,8 +1,8 @@
 #### 表单
-获取表单
+获取表单:
 
 可以同时为表单指定id与name属性，但他们的值不一定相等
-```
+```js
 var form1=document.getElementById("form1");
 var firstForm=document.forms[0];
 var secondForm=document.forms["form2"];//不推荐
@@ -27,7 +27,7 @@ var firstFormField = myForm.elements[0];    //<input type="radio" name="color" v
 console.log(firstColorFields === firstFormField);   //true
 ```
 #### 提交表单
-```
+```js
 <!--通用-->
 <input type="submit" value="Submit">
 <!--自定义-->
@@ -37,7 +37,7 @@ console.log(firstColorFields === firstFormField);   //true
 form1.submit();
 ```
 #### 注意表单提交的重复性，解决方案有两个，在第一次提交后就禁用提交或者利用onsubmit事件处理
-```
+```js
 //依然使用 EventUtil方法
 var EventUtil = {
     addHanler: function (element, type, handler) {
@@ -78,7 +78,7 @@ EventUtil.addHanler(myForm, "submit", function (event) {
 });
 ```
 #### 表单字段脚本化
-```
+```js
 var textbox = document.getElementById('input1');
 EventUtil.addHanler(textbox, "focus", function (event) {
     event = EventUtil.getEvent(event);
@@ -100,7 +100,7 @@ EventUtil.addHanler(textbox, "blur", function (event) {
 ```
 #### 文本框脚本化
 直接使用value方法，不要使用DOM方法
-```
+```js
 var input3 = document.getElementById('input3');
 console.log(input3.value);
 input3.value = "new value";
@@ -128,7 +128,7 @@ function selectText(textbox, startIndex, stopIndex) {
 }
 ```
 #### 字符屏蔽
-```
+```js
 EventUtil.addHanler(textbox, "keypress", function (event) {
     event = EventUtil.getEvent(event);
     var target = EventUtil.getTarget(event);
@@ -140,7 +140,7 @@ EventUtil.addHanler(textbox, "keypress", function (event) {
 });
 ```
 #### 表单序列化
-```
+```js
 function serialize(form) {
     var parts = [],
         field = null,
@@ -194,7 +194,7 @@ function serialize(form) {
 }
 ```
 #### 富文本编辑
-```
+```js
 //exeCoommand()
 //转为粗体
 frames["richedit"].document.execCommand("blod",false,null);

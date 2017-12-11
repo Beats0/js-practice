@@ -1,6 +1,6 @@
 ### 几何形状及滚动
 ##### 查询窗口滚动条的位置
-```
+```js
 function getScrollOffsets(w) {
     //指定窗口，默认当前窗口
     w = w || window;
@@ -25,7 +25,7 @@ function getScrollOffsets(w) {
 }
 ```
 ##### 查询窗口视图大小
-```
+```js
 function getViewportSize(w) {
     //指定窗口，默认当前窗口
     w = w || window;
@@ -50,13 +50,13 @@ function getViewportSize(w) {
 }
 ```
 ##### 查询元素的几何尺寸
-```
+```js
 var box = e.getBoundingClientRect();
 var w = box.width || (box.right - box.left);
 var h = box.height || (box.bottom - box.top);
 ```
 ##### 滚动
-```
+```js
 var docunmentHeight=document.documentElement.offsetHeight;
 var viewportHeight=window.innerHeight;
 window.scrollTo(0,docunmentHeight-viewportHeight);

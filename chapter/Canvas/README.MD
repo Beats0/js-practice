@@ -1,5 +1,5 @@
 #### 展示鼠标坐标
-```
+```js
 function cnvs_getCoordinates(e) {
     x = e.clientX;
     y = e.clientY;
@@ -10,7 +10,7 @@ function cnvs_clearCoordinates() {
 }
 ```
 #### 绘制矩形
-```
+```js
 //绘制矩形
 var drawing = document.getElementById("drawing");
 //是否支持
@@ -36,7 +36,7 @@ if (drawing.getContext) {
 *描边线的宽度有linewidth数值决定，还可通过lineCap决定线条末端平头(butt),圆头(round),方头(square),lineJoin控制线条相交方式：圆交(round),斜交(bevel),斜接(miter)*
 
 #### 绘制表盘
-```
+```js
 var drawing2 = document.getElementById("drawing2");
 //是否支持
 if (drawing2.getContext) {
@@ -84,14 +84,14 @@ if (drawing2.getContext) {
 ```
 
 #### 绘制图像
-```
+```js
 context2.drawImage(image,0,10,50,50,0,100,40,60);
 ```
 *9个参数意为：要绘制的图像，原图像的x坐标，原图像的y坐标，原图像的宽度，原图像的高度，目标图像的x坐标，目标图像的y坐标，目标图像的宽度，目标图像的高度。*
 
 
 #### 绘制科赫棉花
-```
+```js
 var drawing6 = document.getElementById("drawing6");
 var c=drawing6.getContext('2d');
 
@@ -137,7 +137,7 @@ c.stroke();
 ```
 
 #### 阴影
-```
+```js
 var drawing3 = document.getElementById("drawing3");
 var drawing3_con = drawing3.getContext("2d");
 drawing3_con.shadowOffsetX = 5;
@@ -152,7 +152,7 @@ drawing3_con.fillStyle = "rgba(0,0,255,1)";
 drawing3_con.fillRect = (30, 30, 50, 50);
 ```
 #### 渐变
-```
+```js
 var drawing4 = document.getElementById("drawing4");
 var drawing4_con = drawing4.getContext("2d");
 
@@ -167,7 +167,7 @@ drawing4_con.fillStyle = gradient;
 drawing4_con.fillRect = (30, 30, 50, 50);
 ```
 #### 圆心渐变
-```
+```js
 var drawing5 = document.getElementById("drawing5");
 var drawing5_con = drawing5.getContext("2d");
 
@@ -182,7 +182,7 @@ drawing5_con.fillStyle = gradient_arc;
 drawing5_con.fillRect = (30, 30, 50, 50);
 ```
 #### 使用图像数据
-```
+```js
 var imageDate = context.getImageData(10, 5, 50, 50);
 var date = imageDate.data,
     red = date[0],

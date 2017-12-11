@@ -1,7 +1,7 @@
 ### 计时器
 #### 计时器分为间歇调用和超时调用
 ##### 间歇调用为每一段时间执行一段代码，超时调用指在指定时间后执行代码
-```
+```js
 // 如果要取消，可以在超时之前取消调用计划：clearTimeout(计时器)
 var time = null;
 //超时调用指：setTimeout(函数/函数名，毫秒数)
@@ -19,7 +19,7 @@ btn2.onclick = function () {
 }
 ```
 #### 间歇调用：setInterval(函数/函数名，毫秒数)
-```
+```js
 var time2 = null;
 time2 = setInterval(function () {
     alert("持续执行");

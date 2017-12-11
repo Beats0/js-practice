@@ -1,4 +1,4 @@
-```
+```js
 // var name = "A";
 // function text() {
 //     var name = "B";

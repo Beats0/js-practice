@@ -1,5 +1,5 @@
 #### 事件、冒泡
-```
+```js
 var btn = document.getElementById("btn");
 var outer = document.getElementById("outer");
 var inner = document.getElementById("inner");
@@ -16,7 +16,7 @@ document.onclick = function () {
 // }
 ```
 #### 事件捕获冒泡处理程序
-```
+```js
 //ele.addEventListener('click',doSomething,true) true采用事件捕获，false为采用事件冒泡（兼容性好）
 function EventListener() {//尽量在外部声明变量
     alert("click con use EventListener")
@@ -42,7 +42,7 @@ document.addEventListener("click",function (e) {
 },false);
 ```
 #### 事件委托
-```
+```js
 var btn2 = document.getElementById("btn2");
 var outer2 = document.getElementById("outer2");
 var box = document.getElementById("box");
@@ -62,9 +62,9 @@ box.onclick = function (e) {
     var target = e.target || target.srcElement;
     alert(target.innerHTML);
 }
-``
-#### reatedTarget返回与事件的目标节点相关的节点
 ```
+#### reatedTarget返回与事件的目标节点相关的节点
+```js
 //当发生mouseover与mouseout时，还会涉及更多元素，这两个事件会涉及把鼠标指针从一个元素的边界之内移动到你一个元素边界之内
 //mouseover移到目标节点上时离开的那个节点，mouseout离开目标时鼠标指针进入的节点
 var outer3 = document.getElementById("outer3");
@@ -75,7 +75,7 @@ outer3.onmouseover = function (e) {
 }
 ```
 #### 定义存储器属性
-```
+```js
 //var o {
 // data_prop:value,
 // get accessor_prop() {函数},

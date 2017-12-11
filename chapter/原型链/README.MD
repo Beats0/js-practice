@@ -1,5 +1,5 @@
 #### 原型链
-```
+```js
 function SuperType() {
     this.property = true
 }
@@ -13,7 +13,7 @@ function SubType() {
 }
 ```
 #### 添加方法
-```
+```js
 SubType.prototype = new SuperType();
 SubType.prototype.getSuperValue = function () {
     return this.subproperty;
@@ -46,7 +46,7 @@ var instance = new SubType();
 console.log(instance.getSuperValue()); //false -->Error
 ```
 #### 使用字面添加方法（错误）
-```
+```js
 function SuperType() {
     this.property=true
 }

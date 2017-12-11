@@ -1,5 +1,5 @@
 Table
-```
+```html
 <table>
     <tr>
         <th>输入贷款数据</th>
@@ -52,7 +52,7 @@ Table
 </table>
 ```
 JS
-```
+```js
 function calculate() {
     //引入变量
     var amount = document.getElementById("amount");//贷款贷款

@@ -1,7 +1,6 @@
 `This`指向：
 
-
-```
+```js
     var name = "Jay";
     var person = {
         name: "KKK",
@@ -29,7 +28,7 @@
     console.log(foo.getA());            //10
 ```
 例：
-```
+```js
     function foo() {
         console.log(this.a)
     }

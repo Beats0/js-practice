@@ -1,7 +1,7 @@
 ### 算法优化
 #### `Duff装置`
 例如，如果数数组中有10个值，则startAt=2，那么第一次process()调用2次，在接下来的循环中，startAt重置为0，这样之后每次循环调用8次process()
-```
+```js
 假设values.lenth > 0
 let values = 10;
 let iterations = Math.ceil(values.length / 8);
@@ -32,7 +32,7 @@ do {
 
 ##### 更快的`do-while Duff装置`
 每8次调用一次
-```
+```js
 //credit:Speed Up Your Site (New Riders, 2003)
 let iteration = Math.floor(values.length / 8);
 let leftover = values.length % 8;
@@ -55,19 +55,19 @@ do {
 ```
 #### 避免双重解释
 - 代码求值
-```
+```js
 //  eval("console.log('Hellow world!')");
     console.log('Hello world!');
 ```
 - 创建新的函数
-```
+```js
 //  let sayHi = new Function("console.log(Hi)");
     let sayHi = function () {
     console.log(Hi);
     };
 ```
 - 设置超时
-```
+```js
 //  setTimeout("alert('Hello world!')");
     setTimeout(function () {
         alert('Hello world!');
@@ -75,19 +75,19 @@ do {
 ```
 #### 最小化语句数
 1. 多个变量声明
-```
+```js
 let count = 5,
     color = "red",
     value = [1,2,3],
     now = new Date();
 ```
 2. 插入迭代值
-```
+```js
 let name = values[i++];
 ```
 3. 使用数组和对象字面符
 不推荐：
-```
+```js
 let person = new Object();
     person.name = "Beats0";
     person.age = 19;
@@ -96,7 +96,7 @@ let person = new Object();
   }
 ```
 推荐：
-```
+```js
 let person = {
     name: "Beats0",
     age: 19,
@@ -108,7 +108,7 @@ let person = {
 
 ### 优化DOM交互
 1. 优化DOM，最小化现场更新
-```
+```js
 let list = document.getElementById("myList"),
     fragment = document.createDocumentFragment(),
     item,
@@ -121,7 +121,7 @@ for (i = 0; i < 10; i++) {
 list.appendChild(fragment);
 ```
 2. 使用innerHTML
-```
+```js
 let list = document.getElementById("myList"),
     html = "",
     i;
@@ -132,7 +132,7 @@ list.innerHTML = html;
 ```
 3. 注意HTMLCollection
 不推荐:
-```
+```js
 let images = document.getElementsByTagName("img"),
     i, len;
 for (i = 0, len = images.length; i < len; i++) {
@@ -140,7 +140,7 @@ for (i = 0, len = images.length; i < len; i++) {
 }
 ```
 推荐：
-```
+```js
 let images = document.getElementsByTagName("img"),
     image,
     i, len;

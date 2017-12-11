@@ -1,3 +1,5 @@
+#### 创建一个node并访问:
+```js
 'use strict';
 
 var fs = require('fs');
@@ -46,3 +48,4 @@ var server = http.createServer(function (request, response) {
     });
 });
 server.listen(8080);
+```

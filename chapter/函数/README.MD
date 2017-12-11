@@ -1,5 +1,5 @@
 #### this对象
-```
+```js
 var name = "The Window";
 var object = {
     name: "The Object",
@@ -12,7 +12,7 @@ var object = {
 console.log(object.getNameFunc()());//The Window（在非严格模式下）
 ```
 #### 闭包访问
-```
+```js
 var name = "The Window";
 var object = {
     name: "My Object",
@@ -27,7 +27,7 @@ console.log(object.getNameFunc()());//My Object
 ```
 
 #### 特殊情况
-```
+```js
 var name = "The Window";
 var object = {
     name: "My Object",
@@ -49,7 +49,7 @@ function output(count) {
 }
 ```
 #### 全局引入
-```
+```js
 (function (globalVariable) {
 
     // 在函数的作用域中下面的变量是私有的
@@ -101,7 +101,7 @@ function output(count) {
 }(globalVariable));
 ```
 #### 接口对象
-```
+```js
 var myGradesCalculate = (function () {
     // 在函数的作用域中下面的变量是私有的
     var myGrades = [93, 95, 88, 0, 55, 91];

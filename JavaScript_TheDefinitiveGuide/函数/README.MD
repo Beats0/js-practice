@@ -1,13 +1,13 @@
 ## 面向对象编程
 ### 类和构造函数
-```
+```js
 var F = function () {};         //函数对象
 var P = F.prototype;            //与F相关联的原型对象
 var C = P.constructor;          //与原型相关联的函数
 C === F                         //true
 ```
 `Range()`
-```
+```js
 function Range(from, to) {
         this.from = from;
         this.to = to;
@@ -30,7 +30,7 @@ function Range(from, to) {
     console.log(r);
 ```
 `Range()`简单的封装
-```
+```js
     //保存到闭包中
     function Range(from,to) {
         this.from=function () {

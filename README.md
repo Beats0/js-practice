@@ -1,5 +1,13 @@
 # JavaScript Learning And Practice
 
+##### 记录着自己的学习之路
+
+有一些JavaScript代码是看《JavaScript高级程序设计》和《JavaScript权威指南》两本书所写的代码，这两本书确实是好书，减少了不少学习路上的坑。还有一些是自己看其他博客或文章所归纳的,但是最后归纳在一起有反而有点乱了，书籍归纳得很好，~~但是在我看完书后，反而觉得看书不如看博客文章~~
+
+最后只想说一句:
+
+##### 纸上得来终觉浅，绝知此事要躬行
+
 ## 简单的js初识
 ##### [chapter1-声明变量](https://github.com/Beats0/js-practice/tree/master/chapter/chapter1)
 ##### [chapter2-常用数组和字符串方法](https://github.com/Beats0/js-practice/tree/master/chapter/chapter2)

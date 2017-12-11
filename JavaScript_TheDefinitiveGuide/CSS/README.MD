@@ -1,5 +1,5 @@
 ### CSS shake
-```
+```js
 //1.id,2.e为参数,3.指定shake距离,默认为5px,4.shake时间
 function shake(e, oncomplete, distance, time) {
     //句柄参数
@@ -54,7 +54,7 @@ function fadeOut(e, oncomplete, time) {
 }
 ```
 ##### `classList()`
-```
+```js
 //使用classList():将className当做一个css类集合
 //返回对象有contains(),add(),remove(),toggle()和toString()方法
 function classList(e) {
@@ -115,7 +115,7 @@ CSSClassList.prototype.toArray = function () {
 };
 ```
 调用:
-```
+```html
 <button ONCLICK="fadeOut(this);">fade</button>
 <button ONCLICK="shake(this);">shake</button>
 <button ONCLICK="shake(this,fadeOut);">shake and fade</button>
@@ -128,7 +128,7 @@ CSSClassList.prototype.toArray = function () {
 github:shake.css
 
 #### 创建样式表
-```
+```js
 //对文档添加一个样式表，用指定的样式填充
 //style参数为字符串时作为样式表的文本
 //为对象时将每个定义样式规则的每个属性添加大样式表中

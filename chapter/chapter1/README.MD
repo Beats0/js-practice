@@ -1,5 +1,5 @@
 #### test1声明变量与函数
-```
+```js
 function text(a,b) {
     var c = (a+b)*b;//var显示声明
     return c;
@@ -12,7 +12,7 @@ function fn1(color) {
 fn1("red");
 ```
 #### 全局变量与局部变量
-```
+```js
 var list = document.getElementById('list');
     console.log(list);
 var  lis = list.getElementsByTagName('li');
@@ -39,7 +39,7 @@ var  lis = list.getElementsByTagName('li');
 //     }
 ```
 #### test2焦点
-```
+```js
 //onfocus与onblur
 var userName = document.getElementsByTagName('input')[0];
 userName.onfocus = function () {
@@ -54,7 +54,7 @@ userName.onblur = function () {
 }
 ```
 #### 声明变量
-```
+```js
 var a1 = "100";//显式声明
 a2 = 200;//隐式声明，全局变量
 function fn2() {
@@ -65,7 +65,7 @@ fn2();
 ```
 
 #### 声明提升
-```
+```js
 var x = 10;//全局变量
 function outer() {
     //alert(x);//undefined
@@ -98,7 +98,7 @@ calculator.add();//调用1+1
 console.log(calculator.result);//2 结果
 ```
 #### this值调用
-```
+```js
 var o = {                               //对象o
     m: function () {                    //对象中的方法m()
         var self = this;                //将this值保存在一个变量中
@@ -114,7 +114,7 @@ var o = {                               //对象o
 o.m();                                  //调用对象o的方法
 ```
 #### 元素值
-```
+```js
 // innerHTML获取标签中的内容（包含标签）
 // var val = abj.innerHTML;获取值
 // abj.innerHTML = “新值”;设置值
@@ -135,7 +135,7 @@ ipt3.onclick = function () {
 }
 ```
 #### value 表单 submit等
-```
+```js
 var ipt4 = document.getElementById("ipt4");
 var txt = document.getElementById("txt");
 var slt = document.getElementById("slt");
@@ -145,7 +145,7 @@ sub.onclick = function () {
 }
 ```
 #### test3 数组arr
-```
+```js
 // var arr = [];
 var arr1 = ["1","2","3"];//创建数组
 console.log(arr1[0]);
@@ -157,7 +157,7 @@ var arr2 = new Array();//创建数组
 var arr4 = new Array("b1","b2","b3","b4");
 ```
 #### 数组操作
-```
+```js
 // var len = arr4.push("b5","b6");//将元素添加到末尾，并返回新长度
 // console.log(arr4);//["b1", "b2", "b3", "b4", "b5", "b6"]
 // console.log(len);//6
@@ -208,8 +208,8 @@ console.log(newarr5);
 ```
 
 #### 数组操作
-##### splice
-```
+##### splice()
+```js
 // splice(1,2) 从1的位置开始（含1）向后删除2个元素，以数组形式返回所有移除的元素
 // var newArray = arrsplice(1,2);
 // arr.splice(1,2,v1,v2);在删除元素的位置添加元素v1，v2
@@ -221,47 +221,47 @@ arr6.splice(0,3,"newa2","newb2","newc2");
 console.log(arr6);
 // ["newa2", "newb2", "newc2", "d2"]
 ```
-##### slice
-```
+##### slice()
+```js
 // slice(start,end)以数组的形式返回数组的一部分，不包括end位置的元素，如果省略end将会复制start及以后的所有元素
 var newarr7 = arr4.slice(0,2);
 console.log(newarr7);//["b1", "b2"]
 console.log(arr4);
 // ["b1", "b2", "b3", "b4"]原数组无变化
 ```
-#####　jion
-```
+##### join()
+```js
 // join(‘分隔符’)用数组的元素组成字符串
 // var str = arr.join('-');
 var str = arr4.join('-');
 console.log(str);
 // b1-b2-b3-b4 string
 ```
-##### concat
-```
+##### concat()
+```js
 // concat用于合并数组并返回一个新数组
 // var newArray = arr.concat(arra1.array2,.....arrayN);
 var arrconcat = arr4.concat(arr6);
 console.log(arrconcat);
 // ["b1", "b2", "b3", "b4", "newa2", "newb2", "newc2", "d2"]
 ```
-##### reverse
-```
+##### reverse()
+```js
 // reverse将数组反转
 // var newArray = arr.reverse();
 var arrreverse = arr4.reverse();
 console.log(arrreverse);
 // ["b4", "b3", "b2", "b1"]
 ```
-##### sort
-```
+##### sort()
+```js
 // newArray = arr.sort() 对数组进行排序（ASCll码方式）
 var arrsort = [5,23,6,9,42,63,78,91];
 console.log(arrsort.sort());
 // [23, 42, 5, 6, 63, 78, 9, 91]
 ```
 ##### sort(function(a,b){return a-b})升序（冒泡排序方式）
-```
+```js
  console.log(arrsort.sort(function (a,b) {
      return a-b;
  }))
@@ -273,7 +273,7 @@ console.log(arrsort.sort());
 // // [91, 9, 78, 63, 6, 5, 42, 23]
 ```
 ##### 多维数组与查询
-```
+```js
 // var table = new  Array(10);//表格10行
 // for (var i = 0;i < table;i++)
 //      table[i] = new Array(10);//表格10列

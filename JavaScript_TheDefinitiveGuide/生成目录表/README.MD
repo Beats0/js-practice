@@ -1,5 +1,5 @@
 ##### 使用innerHTML()实现insertAdjacentHTML()
-```
+```js
 var Insert = (function () {
     //如果元素有原生的insertAdjacentHTML()
     if (document.createElement("div").insertAdjacentHTML) {
@@ -69,7 +69,7 @@ var Insert = (function () {
 `<h1>`的className为"TOCLevel1",`<h2>`的className为"TOCLevel2"并以此类推段编号为"TOCSectNum"
 
 *CSS:*
-```
+```js
  #TOC {
             border: 1px solid black;
             margin: 10px;
@@ -103,7 +103,7 @@ var Insert = (function () {
         }
 ```
 *JavaScript:*
-```
+```js
 onload(function () {
     var toc = document.getElementById("TOC");
     if (!toc) {

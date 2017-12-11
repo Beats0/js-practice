@@ -1,5 +1,5 @@
 #### scroll系列属性：scrollLeft | scrollTop | scrollHeight | scrollWidth
-```
+```js
 var outer = document.getElementById('outer');
 var con = document.getElementById('con');
 var btn = document.getElementById('btn');
@@ -9,7 +9,7 @@ btn.onclick = function () {
 }
 ```
 #### offset系列属性：
-```
+```js
 // | offsetLeft | offsetTop| 获取与父级之间的距离（默认窗口）
 // | offsetHeight | offsetWidth | 获取元素自身的（包含边框）
 var con2 = document.getElementById('con2');
@@ -21,7 +21,7 @@ console.log(con2.offsetWidth);//800
 console.log(con2.offsetHeight);//800
 ```
 #### client系列属性：
-```
+```js
 // | clientLeft | clientTop| 获取与元素到边框的距离，少使用
 // | clientHeight | clientWidth | 获取元素自身的（不包含边框）
 console.log(mid.clientLeft);//5

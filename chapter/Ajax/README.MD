@@ -1,7 +1,7 @@
 ### Ajax
 *JAX 在浏览器与 Web 服务器之间使用异步数据传输（HTTP 请求），这样就可使网页从服务器请求少量的信息，而不是整个页面。*
 #### Ajax支持性
-```
+```js
     function ajaxFunction() {
         var xmlHttp;
         try {
@@ -27,7 +27,7 @@
 ```
 
 #### 兼容性
-```
+```js
 if (window.XMLHttpRequest) {
     var xhr=XMLHttpRequest();
 }
@@ -36,13 +36,39 @@ else {
 }
 ```
 #### 发送
-```
+[Demo](https://beats0.github.io/js-practice/chapter/Ajax/)
+```js
+function createXHR() {
+        if(typeof XMLHttpRequest != "undefined"){
+            return new XMLHttpRequest();
+        }else if (typeof ActiveXObject != "undefined"){
+            if(typeof arguments.callee.activeXString != "string"){
+                var version = [ "MSXML2.XMLHttp.6.0","MSXML2.XMLHttp.3.0","MSXML2.XMLHttp"],
+                    i,len;
+                for (i=0,len=versions.length; i<len;i++){
+                    try{
+                        new ActiveXObject(versions[i]);
+                        arguments.callee.activeXString = versions[i];
+                        break;
+                    }catch(ex){
+                    }
+                }
+            }return new ActiveXObject(arguments.callee.activeXString);
+        }else{
+            throw new Error("No XHR object available.");
+        }
+    }
+    var xhr1 = createXHR();
+    //如果你不用支持IE7以前的版本，直接使用下面方式来创建XHR对象即可
+    var xhr = new XMLHttpRequest();
+
 xhr.open("get", "example", false);
 xhr.send(null);
+//example即为想要发送的xhr
 ```
 
 #### 检查响应状态(注意不能太过依赖)
-```
+```js
 if ((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
     alert(xhr.responseText);
 } else {
@@ -61,7 +87,7 @@ if ((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
 4 |请求已完成（可以访问服务器响应并使用它）
 
 #### 一般是使用第4阶段
-```
+```js
 var xhr=createXHR();
 xhr.onreadystatechange=function () {
     if (xhr.readyState == 4) {
@@ -76,7 +102,7 @@ xhr.open("get","example",true);
 xhr.send(null);
 ```
 #### http头部信息
-```
+```js
 xhr.setRequestHeader("MyHeader","MyValue");
 
 
@@ -86,7 +112,7 @@ var allHeader = xhr.getAllResponseHeaders();
 ```
 
 #### GET请求
-```
+```js
 xhr.open("get", "example.php?name1=value1&name2=value2", true);
 
 function addURLparam(url, name, value) {
@@ -104,7 +130,7 @@ xhr.open("get", url, false);
 ```
 
 #### POST请求
-```
+```js
 function submitData() {
     var xhr = createXHR();
     xhr.onreadystatechange = function () {
@@ -124,7 +150,7 @@ function submitData() {
 }
 ```
 PHP文件：
-```
+```php
 <?php
     header("Content-Type:text/plain");
     echo<<<EOF
@@ -137,7 +163,7 @@ EOF;
 ### XMLHttpRequest 2级
 
 1. FormData()表单数据序列化
-```
+```js
 var data = new FormData(document.forms[0]);
 //send()方法
 var xhr = createXHR();
@@ -176,7 +202,7 @@ loadend         |在通信完成或触发error、abort或load事件后触发
 
 7. JSONP 跨域调用
 *例如通过地理位置查询ip*
-```
+```js
 function handleResponse(response) {
     alert("Your IP address" + response.ip + "which is in" + response.city + "," + response.region_name);
 }
@@ -188,7 +214,7 @@ document.body.insertBefore(script.body.firstChild);
 
 #### Comet 推送事件
 *Comet通过监听readystatechange事件或者检测readyState值是否为3*
-```
+```js
 function crearteStreamingClient(url, progress, finished) {
     var xhr = new XMLHttpRequest(),
         received = 0;
@@ -232,7 +258,7 @@ Fetch API 参考自[阮一峰JavaScript标准参考-Ajax-Fetch API](http://javas
 Fetch API是一种新规范，用来取代XMLHttpRequest对象。它主要有两个特点，一是接口合理化，Ajax是将所有不同性质的接口都放在XHR对象上，而Fetch是将它们分散在几个不同的对象上，设计更合理；二是Fetch操作返回Promise对象，避免了嵌套的回调函数。
 
 下面的代码检查浏览器是否部署了Fetch API。
-```
+```js
 if ("fetch" in window){
   // 支持
 } else {
@@ -240,7 +266,7 @@ if ("fetch" in window){
 }
 ```
 下面是一个Fetch API的简单例子。
-```
+```js
 fetch(url).then(function (response) {
   return response.json();
 }).then(function (jsonData) {
@@ -252,7 +278,7 @@ fetch(url).then(function (response) {
 上面代码向指定的URL发出请求，得到回应后，将其转为JSON格式，输出到控制台。如果出错，则输出一条提示信息。注意，fetch方法返回的是一个Promise对象。
 
 作为比较，XMLHttpRequest的写法如下。
-```
+```js
 var xhr = new XMLHttpRequest();
 xhr.open('GET', url);
 xhr.responseType = 'json';
@@ -267,7 +293,7 @@ xhr.send();
 #### stream数据流
 
 Fetch API最大的特点是，除了返回Promise对象，还有一点就是数据传送是以数据流（stream）的形式进行的。对于大文件，数据是一段一段得到的。
-```
+```js
 response.text().then(function (responseText) {
   console.log(responseText);
 }
@@ -282,7 +308,7 @@ Fetch API提供以下五个数据流读取器。
 - arrayBuffer()：返回一个二进制数组
 
 数据流只能读取一次，一旦读取，数据流就空了。再次读取就不会得到结果。解决方法是在读取之前，先使用.clone()方法，复制一份一模一样的副本。
-```
+```js
 var url = 'LargeFile.txt';
 var progress = 0;
 var contentLength = 0;
@@ -298,7 +324,7 @@ fetch(url).then(function (response) {
 });
 ```
 上面代码中，response.body.getReader()返回的就是数据流之中的一段。处理数据流的getStream函数代码如下。
-```
+```js
 var progress = 0;
 var contentLength = 0;
 
@@ -338,7 +364,7 @@ var getStream = function (reader) {
 fetch方法的第一个参数可以是URL字符串，也可以是后文要讲到的Request对象实例。Fetch方法返回一个Promise对象，并将一个response对象传给回调函数。
 
 response对象有一个ok属性，如果返回的状态码在200到299之间（即请求成功），这个属性为true，否则为false。因此，判断请求是否成功的代码可以写成下面这样。
-```
+```js
 fetch('./api/some.json').then(function (response) {
   if (response.ok) {
     response.json().then(function (data) {
@@ -366,7 +392,7 @@ fetch('users.json').then(function(response) {
 - cors：CORS机制下的跨域请求
 - opaque：非CORS机制下的跨域请求，这时无法读取返回的数据，也无法判断是否请求成功
 如果需要在CORS机制下发出跨域请求，需要指明状态。
-```
+```js
 fetch('http://some-site.com/cors-enabled/some.json', {mode: 'cors'})
   .then(function(response) {
     return response.text();
@@ -379,13 +405,13 @@ fetch('http://some-site.com/cors-enabled/some.json', {mode: 'cors'})
   });
   ```
 除了指定模式，fetch方法的第二个参数还可以用来配置其他值，比如指定cookie连同HTTP请求一起发出。
-```
+```js
 fetch(url, {
   credentials: 'include'
 })
 ```
 发出POST请求的写法如下。
-```
+```js
 fetch("http://www.example.org/submit.php", {
   method: "POST",
   headers: {

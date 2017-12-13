@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>InputFilter</title>
+</head>
+<body>
+
+<!--
+    data-allowed-chars 指定要匹配的正则
+    data-messageid 指定输入非法时要显示的消息元素的id
+-->
+<input id="zip" type="text"
+       data-allowed-chars="(^\-$)|(^\-?[0-9]{1,4}$)"
+       data-messageid="zipwarn">
+<span id="zipwarn" style="color:red;visibility: hidden;">只支持数字,位数最大为4</span>
+
+<input type="text" oninput="this.value = this.value.toUpperCase();"/>
+<input type="text" id="uppercase"/>
+
+
+<script type="text/javascript" src="InputFilter.js"></script>
+
+</body>
+</html>

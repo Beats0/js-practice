@@ -224,3 +224,4 @@ function calculate() {
     }
 }
 ```
+##### [Demo](https://beats0.github.io/js-practice/JavaScript_TheDefinitiveGuide/JS_Calculate/)

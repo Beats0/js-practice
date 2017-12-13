@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drag.js</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        .drag {
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            background-color: white;
+            overflow: hidden;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .drag .drag-header {
+            background-color: lightgreen;
+            padding: 3px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .drag .drag-header:hover {
+            cursor: move;
+        }
+    </style>
+    <script src="Drag.js"></script>
+</head>
+<body>
+<!--此为要拖动的元素的父元素-->
+<div class="drag">
+    <!--通过“标题栏”拖动整个元素，注意onmousedown属性-->
+    <div class="drag-header" onmousedown="drag(this.parentNode,event);">Drag Me</div>
+    <p>drag drag drag drag drag drag </p>
+    <p>drag drag drag drag drag drag </p>
+</div>
+</body>
+</html>

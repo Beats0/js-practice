@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>enclose</title>
+    <script>
+        //系哦啊用whenReady()方法
+        var whenReady = (function () {
+            var funcs = [];
+            var ready = false;
+
+            //文档就绪时，调用事件处理程序
+            function handler(e) {
+                if (ready) return;      //如果运行过一次就只需返回
+                //发生readystatechange事件
+                if (e.type === "readystatechange" && document.readyState !== "complete")
+                    return;
+                //运行所有注册函数
+                //每次计算funcs.length,防止调用导致注册更多函数
+                for (var i = 0; i < funcs.length; i++) {
+                    funcs[i].call(document);
+                }
+                ready = true;
+                funcs = null;
+            }
+
+            if (document.addEventListener) {
+                document.addEventListener("DOMContentLoaded", handler, false);
+                document.addEventListener("readystatechange", handler, false);
+                window.addEventListener("load", handler, false);
+            } else if (document.attachEvent) {
+                document.attachEvent("onreadystatechange", handler);
+                window.attachEvent("onload", handler);
+            }
+            //返回whenReady()函数
+            return function whenReady(f) {
+                if (ready) f.call(document);        //准备完毕调用
+                else funcs.push(f);                 //否则加入队列等待
+            }
+        }());
+    </script>
+    <script type="text/javascript" src="enclose.js"></script>
+    <script>
+        whenReady(function () {
+            enclose(document.getElementById("content"),400, 200, -50, -50);
+        })
+    </script>
+    <style>
+        #content {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .enclosure {
+            background-color: gray;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="content"></div>
+</body>
+</html>

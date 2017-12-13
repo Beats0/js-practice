@@ -1,7 +1,6 @@
 ## JQuery归纳
 ## Dom：
 
-
 `Attribute：`
 
 方法 |描述 |
@@ -83,7 +82,7 @@ each( callback )                        |以每一个匹配的元素作为上下
 
 
 ###### 举例：
-```
+```js
 jQuery.extend({
 min: function(a, b) { return a < b ? a : b; },
 max: function(a, b) { return a > b ? a : b; }
@@ -91,7 +90,7 @@ max: function(a, b) { return a > b ? a : b; }
 jQuery( expression, [context] ) ---$( expression, [context]); 在默认情况下，$()查询的是当前HTML文档中的DOM元素。
 ```
 ##### 举例：
-```
+```js
 $("span").click(function){
 $("li").each(function(){
 $(this).toggleClass("example");
@@ -99,7 +98,7 @@ $(this).toggleClass("example");
 });
 ```
 ##### 举例：
-```
+```js
 $("button").click(function () {
 $("div").each(function (index, domEle) {
 // domEle == this
@@ -127,7 +126,7 @@ $("p").unbind()                                        |移除所有段落上的
 $("p").unbind( "click" )                               |移除所有段落上的click事件
 
 over,out都是方法, 当鼠标移动到一个匹配的元素上面时，会触发指定的第一个函数。当鼠标移出这个元素时，会触发指定的第二个函数。
-```
+```js
 hover( over, out )
 $("p").hover(function(){
 $(this).addClass("over");
@@ -138,7 +137,7 @@ $(this).addClass("out");
 );
 ```
 如果点击了一个匹配的元素，则触发指定的第一个函数，当再次点击同一元素时，则触发指定的第二个函数。
-```
+```js
 toggle( fn, fn )
 $("p").toggle(function(){
 $(this).addClass("selected");
@@ -183,7 +182,7 @@ unload( fn )       |用户退出页面                      |    window
 -----|-----|
 load( url, [data], [callback] )                     |装入一个远程HTML内容到一个DOM结点。
 $("#feeds").load("feeds.html");                     |将feeds.html文件载入到id为feeds的div中
-```
+```js
 $("#feeds").load("feeds.php", {limit: 25}, function(){
 alert("The last 25 entries in the feed have been loaded");
 });
@@ -194,7 +193,7 @@ alert("The last 25 entries in the feed have been loaded");
 方法 |描述 |
 -----|-----|
 jQuery.get( url, [data], [callback] )               |使用GET请求一个页面。
-```
+```js
 $.get("test.cgi", { name: "John", time: "2pm" }, function(data){
 alert("Data Loaded: " + data);
 });
@@ -206,7 +205,7 @@ alert("Data Loaded: " + data);
 方法 |描述 |
 -----|-----|
 jQuery.getJSON( url, [data], [callback] )            |使用GET请求JSON数据。
-```
+```js
 $.getJSON("test.js", { name: "John", time: "2pm" }, function(json){
 alert("JSON Data: " + json.users[3].name);
 });
@@ -217,7 +216,7 @@ alert("JSON Data: " + json.users[3].name);
 方法 |描述 |
 -----|-----|
 jQuery.getScript( url, [callback] )                 |使用GET请求JavaScript文件并执行。
-```
+```js
 $.getScript("test.js", function(){
 alert("Script loaded and executed.");
 });
@@ -229,7 +228,7 @@ jQuery.post( url, [data], [callback], [type] ) 使用POST请求一个页面。
 方法 |描述 |
 -----|-----|
 ajaxComplete( callback )                            |当一个AJAX请求结束后，执行一个函数。这是一个Ajax事件
-```
+```js
 $("#msg").ajaxComplete(function(request, settings){
 $(this).append("<li>Request Complete.</li>");
 });
@@ -240,7 +239,7 @@ $(this).append("<li>Request Complete.</li>");
 方法 |描述 |
 -----|-----|
 ajaxError( callback )                               |当一个AJAX请求失败后，执行一个函数。这是一个Ajax事件
-```
+```js
 $("#msg").ajaxError(function(request, settings){
 $(this).append("<li>Error requesting page " + settings.url + "</li>");
 });
@@ -251,7 +250,7 @@ $(this).append("<li>Error requesting page " + settings.url + "</li>");
 方法 |描述 |
 -----|-----|
 ajaxSend( callback )                                |在一个AJAX请求发送时，执行一个函数。这是一个Ajax事件
-```
+```js
 $("#msg").ajaxSend(function(evt, request, settings){
 $(this).append("<li<Starting request at " + settings.url
 + "</li<");
@@ -263,7 +262,7 @@ $(this).append("<li<Starting request at " + settings.url
 方法 |描述 |
 -----|-----|
 ajaxStart( callback )                               |在一个AJAX请求开始但还没有激活时，执行一个函数。这是一个Ajax事件当AJAX请求开始(并还没有激活时)显示loading信息
-```
+```js
 $("#loading").ajaxStart(function(){
 $(this).show();
 });
@@ -274,7 +273,7 @@ $(this).show();
 方法 |描述 |
 -----|-----|
 ajaxStop( callback )                                |当所有的AJAX都停止时，执行一个函数。这是一个Ajax事件当所有AJAX请求都停止时，隐藏loading信息。
-```
+```js
 $("#loading").ajaxStop(function(){
 $(this).hide();
 });
@@ -285,7 +284,7 @@ $(this).hide();
 方法 |描述 |
 -----|-----|
 ajaxSuccess( callback )                             |当一个AJAX请求成功完成后，执行一个函数。这是一个Ajax事件当AJAX请求成功完成时，显示信息。
-```
+```js
 $("#msg").ajaxSuccess(function(evt, request, settings){
 $(this).append("<li>Successful Request!</li>");
 });
@@ -295,7 +294,7 @@ $(this).append("<li>Successful Request!</li>");
 方法 |描述 |
 -----|-----|
 jQuery.ajaxSetup( options )                         |为所有的AJAX请求进行全局设置。查看$.ajax函数取得所有选项信息。设置默认的全局AJAX请求选项。
-```
+```js
 $.ajaxSetup({
 url: "/xmlhttp/",
 global: false,
@@ -308,7 +307,7 @@ $.ajax({ data: myData });
 方法 |描述 |
 -----|-----|
 serialize()                                         |以名称和值的方式连接一组input元素。实现了正确表单元素序列
-```
+```js
 function showValues() {
 var str = $("form").serialize();
 $("#results").text(str);
@@ -322,7 +321,7 @@ showValues();
 方法 |描述 |
 -----|-----|
 serializeArray()                                   |连接所有的表单和表单元素(类似于.serialize()方法)，但是返回一个JSON数据格式。从form中取得一组值，显示出来
-```
+```js
 function showValues() {
 var fields = $(":input").serializeArray();
 alert(fields);
@@ -455,7 +454,7 @@ $("select option:selected")         |匹配所有已选择的元素
 -----|-----|
 css( name )                         |访问第一个匹配元素的样式属性。
 css( properties )                   |把一个"名/值对"对象设置为所有匹配元素的样式属性。
-```
+```js
 $("p").hover(function () {
 $(this).css({ backgroundColor:"yellow", fontWeight:"bolder" });
 }, function () {
@@ -473,7 +472,7 @@ $(this).css(cssObj);
 -----|-----|
 css( name, value )                  |在所有匹配的元素中，设置一个样式属性的值。
 offset( )                           |取得匹配的第一个元素相对于当前可视窗口的位置。返回的对象有2个属性，top和left，                           属性值为整数。这个函数只能用于可见元素。
-```
+```js
 var p = $("p:last");
 var offset = p.offset();
 p.html( "left: " + offset.left + ", top: " + offset.top );
@@ -496,7 +495,7 @@ height( val )                       |为每个匹配的元素设置指定的高�
 jQuery.browser.version              |读取用户浏览器的版本信息
 jQuery.boxModel                     |检测用户浏览器针对当前页的显示是否基于W3C CSS的盒模型
 jQuery.isFunction( obj )            |检测传递的参数是否为function
-```
+```js
 function stub() { }
 var objs = [
 function () {},
@@ -519,7 +518,7 @@ jQuery.each( object, callback )     |一个通用的迭代器，可以用来无�
 jQuery.extend( target, object1, [objectN] ) |扩展一个对象，修改原来的对象并返回，这是一个强大的实现继承的工具，这种继承是采用传值的方法来实现的，而不是JavaScript中的原型链方式。合并settings和options对象，返回修改后的settings对象
 
 合并defaults和options对象，defaults对象并没有被修改。options对象中的值代替了defaults对象的值传递给了empty。
-```
+```js
 var settings = { validate: false, limit: 5, name: "foo" };
 var options = { validate: true, name: "bar" };
 jQuery.extend(settings, options);
@@ -534,7 +533,7 @@ var settings = $.extend(empty, defaults, options);
 方法 |描述 |
 -----|-----|
 jQuery.grep( array, callback, [invert] )        |通过一个筛选函数来去除数组中的项
-```
+```js
 $.grep( [0,1,2], function(n,i){
 return n > 0;
 });
@@ -544,7 +543,7 @@ return n > 0;
 方法 |描述 |
 -----|-----|
 jQuery.makeArray( obj )                         |将一个类似数组的对象转化为一个真正的数组将选取的div元素集合转化为一个数组
-```
+```js
 var arr = jQuery.makeArray(document.getElementsByTagName("div"));
 arr.reverse(); // use an Array method on list of dom elements
 $(arr).appendTo(document.body);
@@ -556,7 +555,7 @@ $(arr).appendTo(document.body);
 jQuery.map( array, callback )                   |使用某个方法修改一个数组中的项，然后返回一个新的数组
 jQuery.inArray( value, array )                  |返回value在数组中的位置，如果没有找到，则返回-1
 jQuery.unique( array )                          |删除数组中的所有重复元素，返回整理后的数组
-```
+```js
 var x = $.ajax({ type: "POST",
     url: "example.php",
     data: "data=helle-world",
@@ -578,7 +577,7 @@ jQuery1.9删除了一些在1.8中已经过时的api,想要把那些不够安全�
 .toggle(function, function, … )                 |toggle()方法可实现点击一个元素来执行指定函数。此方法被删除以减少混乱和提高潜在的模块化程度。
 jQuery.browser()                                |jQuery.browser()通过UA信息来检测浏览器。此方法在1.3版本中已不赞成使用，并在1.9版本中被删除，jquery团队更建议通过特性检测来时您的代码兼容浏览器。
 .live()                                         |live()方法可以为未来生成的元素添加事件，此方法在1.7版本中已不赞成使用，并在1.9版本中被删除，您可以使用on()方法来代替。
-```
+```js
 <div class="testdiv" style="height:100px;width:100px;margin:10px;float:left;background:#f0f;"></div>
 $(document).on('click','.testdiv',function(){
     $('body').append($('<div class="testdiv" style="height:100px;width:100px;margin:10px;float:left;background:#f0f;"></div>'));

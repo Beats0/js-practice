@@ -19,3 +19,5 @@
 ##### [CSS操作](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/CSS)
 
 ##### [Event](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/Event)
+
+##### [HTTP](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/HTTP)

@@ -496,7 +496,7 @@ function forceToUpperCase(element) {
 
 ### 键盘事件
 ##### Keymap.js 键盘按下或释放时
-```
+```js
 // 构造函数
 function Keymap(bindings) {
     this.map = {}; // 按键标识符到handler的映射

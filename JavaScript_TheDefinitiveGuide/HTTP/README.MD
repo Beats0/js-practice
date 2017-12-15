@@ -6,6 +6,9 @@
 * [使用POST方法发送multipart/form-data请求](#使用post方法发送multipart或form-data请求)
 * [HTTP上传进度事件](#http上传进度事件)
 * [超时](#超时)
+* [HTTP跨域](#http跨域)
+* [linkDetail.js](#linkdetail)
+* [getJSONP](#getjsonp)
 
 ##### HTTP请求编码对象
 ```js
@@ -209,4 +212,89 @@ function timedGetText(url, timeout, callback) {
     };
     request.send();
 }
+```
+## HTTP跨域
+##### linkDetail
+```js
+/**
+ * linkdetails.js
+ * 查询有href但是没有title属性的<a>元素
+ * 将这些元素注册onmouseover事件处理，使用HttpRequest Head请求详细信息
+ * 将详细信息设置为链接的title属性并显示
+ */
+var supportsCORS = (new XMLHttpRequest()).withCredentials !== undefined;
+var links = document.getElementsByTagName('a');
+for (var i = 0; i < links.length; i++) {
+    var link = links[i];
+    if (!link.href) continue;
+    if (link.title) continue;
+
+    //如果是跨域链接
+    if (link.host !== location.host || link.protocol !== location.protocol) {
+        link.title = "外站链接";
+        if (!supportsCORS) continue;
+    }
+    if (link.addEventListener)
+        link.addEventListener("onmouseover", mouseoverHandler, false);
+    else link.attachEvent("onmouseover", mouseoverHandler);
+}
+
+function mouseoverHandler(e) {
+    var link = e.target || e.srcElement;            //<a>元素
+    var url = link.href;                            //url
+    var req = new XMLHttpRequest();                 //请求
+    req.open("HEAD", url);                           //查询头部
+    req.onreadystatechange = function () {
+        if (req.readyState !== 4) return;
+        if (req.status === 200) {
+            var type = req.getResponseHeader("Content-Type");
+            var size = req.getResponseHeader("Content-Length");
+            var date = req.getResponseHeader("Last-Modified");
+            link.title = "类型" + type + "\n" + "大小" + size + "\n" + "时间" + date;
+        } else {
+            //请求失败时
+            if (!link.title)
+                link.title = "Couldn't fetch details:\n" + req.status + " " + req.statusText;
+        }
+    };
+    req.send(null);
+    if (link.removeEventListener)
+        link.removeEventListener("mouseover", mouseoverHandler, false);
+    else link.detachEvent("onmouseover", onmouseoverHandler);
+}
+```
+##### getJSONP
+```js
+/*
+*指定url发送jsonp
+* 把解析到的响应数据传给回调函数
+* 在url添加一个名为jsonp的查询参数，用于指定名称
+* */
+function getJSONP(url, callback) {
+    var cbnum = "cb" + getJSONP.counter++;  //每次资政计数器
+    var cbname = "getJSONP." + cbnum;       //作为jsonp指定的函数属性
+
+    if (url.indexOf("?") === -1)          //url没有查询部分
+        url += "?jsonp=" + cbname;          //作为查询部分添加参数
+    else
+        url += "&jsonp" + cbname;         //作为新的参数添加它
+
+    //创建script元素发送请求
+    var script = document.createElement("script");
+    //定义将被脚本执行的回调函数
+    getJSONP[cbname] = function (response) {
+        try {
+            callback(response);         //处理响应数据
+        }
+        finally {                       //出错时
+            delete getJSONP([cbname]);  //移除该元素
+            script.parentNode.removeChild(script);
+        }
+    };
+    //HTTP请求
+    script.src = url;
+    document.body.appendChild(script);
+}
+
+getJSONP.counter = 0;                     //创建位移回调函数名称的计数器
 ```

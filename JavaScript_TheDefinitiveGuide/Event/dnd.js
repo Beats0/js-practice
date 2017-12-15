@@ -1,6 +1,6 @@
 var clock = document.getElementById("clock"); // 时钟
 var icon = new Image(); // 用于拖动的图片
-icon.src = "http://www.icosky.com/icon/png/Application/Crystal%20Project%20Application/clock.png";
+icon.src = "https://beats0.github.io/js-practice/JavaScript_TheDefinitiveGuide/img/clock.png";
 
 // 让时钟每秒更新一次
 function displayTime() {

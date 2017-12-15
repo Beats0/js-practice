@@ -134,7 +134,7 @@
 
 #### API
 
-#### [JavaScript_TheDefinitiveGuide](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/)
+## [《JavaScript The Definitive Guide》](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/)
 
 ##### [Function](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/Function)
 
@@ -157,6 +157,10 @@
 ##### [Event](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/Event)
 
 ##### [HTTP](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/HTTP)
+
+##### [JQuery库类](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JQuery%E7%B1%BB%E5%BA%93)
+
+##### [客户端存储](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AD%98%E5%82%A8)
 
 ## JQuery
  - [选择器](https://github.com/Beats0/js-practice/tree/master/jQuery/%E9%80%89%E6%8B%A9%E5%99%A8/)

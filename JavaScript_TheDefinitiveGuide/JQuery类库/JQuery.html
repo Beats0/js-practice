@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".btn1").click(function () {
+                $("p").fadeOut()
+            });
+            $(".btn2").click(function () {
+                $("p").fadeIn({
+                    complete: function () {
+                        $(this).text("hello world")
+                    }
+                });
+
+            });
+
+            $("img").bind({
+                mouseover: function () {
+                    $(this).stop(true).delay(100).fadeTo(300, 1.0);
+                },
+                mouseout: function () {
+                    $(this).stop(true).fadeTo(300, 0.5)
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#b01").click(function () {
+                htmlobj = $.ajax({url: "./response.txt", async: false});
+                $("#myDiv").html(htmlobj.responseText);
+            });
+        });
+    </script>
+</head>
+<body>
+<p>This is a paragraph.</p>
+<button class="btn1">Hide</button>
+<button class="btn2">Show</button>
+<img id="clock" src="https://beats0.github.io/js-practice/JavaScript_TheDefinitiveGuide/img/clock.png" alt="clock">
+
+<div id="myDiv"><h2>通过 AJAX 改变文本</h2></div>
+<button id="b01" type="button">改变内容</button>
+</body>
+</html>

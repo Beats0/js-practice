@@ -259,6 +259,10 @@ function enclose(content, framewidth, frameheight, contentX, contentY) {
 ### 拖放事件
 ##### dnd.js
 ```js
+var clock = document.getElementById("clock");   // 时钟
+var icon = new Image();                         // 用于拖动的图片
+icon.src = "https://beats0.github.io/js-practice/JavaScript_TheDefinitiveGuide/img/clock.png";
+
 function displayTime() {
     var now = new Date();
     var hours = now.getHours();

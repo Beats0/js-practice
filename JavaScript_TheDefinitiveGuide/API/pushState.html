@@ -1,0 +1,133 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        table {
+            height: 20px;
+            width: 90%;
+            margin: 10px;
+            margin-left: 5%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            height: 20px;
+        }
+
+        #low, #high {
+            background: lightgray;
+        }
+
+        #mid {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<title>thinking a number</title>
+<h1 id="heading">你思考一个数字</h1>
+<table>
+    <tr>
+        <td id="low"></td>
+        <td id="mid"></td>
+        <td id="high"></td>
+    </tr>
+</table>
+
+<label id="prompt"></label><input id="input" type="text"/>
+<script>
+    //使用popState方法管理历史记录，前进后退将保留记录并打印
+    window.onload = newgame;
+    window.onpopstate = popState;
+    var state, ui;
+
+    function newgame(playagain) {            //初始游戏
+        playagain ? true : false;
+        //console.log(playagain);
+        ui = {
+            heading: null,
+            prompt: null,
+            input: null,
+            low: null,
+            mid: null,
+            high: null
+        };
+        for (id in ui) ui[id] = document.getElementById(id);
+        ui.input.onchange = handleGuess;
+
+        state = {                           //数字随机，初始游戏状态
+            n: Math.floor(Math.random() * 99 + 1),
+            low: 0,
+            high: 100,
+            guesstimes: 0,
+            guess: undefined                //最后一次时
+        };
+        display(state);                     //修改文档内容显示该初始状态
+        /**
+         * 此函数将作为onload事件处理调用，play again也会再调用
+         * 在第二种情况下play again === true，保存
+         * 但如果作为load事件则不会保存，进行历史管理将会覆盖真正的历史记录
+         * 所以等待popstate事件而不是直接进行状态保存，提供对象，使用replaceState()方法并保存状态
+         *
+         * */
+        if (playagain === true) save(state);
+    }
+
+    function save(state) {              //如果支持的话使用pushState()方法
+        if (!history.pushState) return;
+        var url = "#guess" + state.guessnum;
+        history.pushState(state, "", url);//保存状态，标题，url
+    }
+
+    function popState(event) {          //恢复历史状态
+        if (event.state) {
+            console.log(event);         //打印历史状态信息
+            state = event.state;        //恢复历史状态
+            display(state);
+        }
+        else {
+            history.replaceState(state, "", "#guess" + state.guessnum);
+        }
+    }
+
+    function handleGuess() {            //每次输入数字时调用，更新，保存，显示状态
+        var g = parseInt(this.value);
+        if ((g > state.low) && (g < state.high)) {
+            if (g < state.n) state.low = g;
+            else if (g > state.n) state.high = g;
+            state.guess = g;
+            state.guesstimes++;
+            save(state);
+            display(state);
+        } else {
+            alert("Please enter a number greater than" + state.low + "and less than" + state.high);//无效的不保存
+        }
+    }
+
+    function display(state) {           //修改文档显示当前状态
+        ui.heading.innerHTML = "I'm thinking a number between" + state.low + "and" + state.high;
+        ui.low.style.width = state.low + "%";
+        ui.mid.style.width = state.high - state.low + "%";
+        ui.high.style.width = (100 - state.high) + "%";
+        ui.input.style.visibility = "visible";
+        ui.input.value = "";
+        ui.input.focus();
+
+        if (state.guess === undefined) {//提示
+            ui.prompt.innerHTML = "请输入一个数字";
+        }
+        else if (state.guess < state.n) {
+            ui.prompt.innerHTML = "太小";
+        }
+        else if (state.guess > state.n) {
+            ui.prompt.innerHTML = "太大";
+        } else {
+            ui.input.style.visibility = "hidden";
+            ui.heading.innerHTML = "正确";
+            ui.prompt.innerHTML = "恭喜你<button onclick='newgame(true)'>Play again</button>";
+        }
+    }
+</script>
+</body>
+</html>

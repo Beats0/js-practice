@@ -133,6 +133,15 @@
  -  Canvas
 
 #### API
+ - 地理位置
+ - 历史记录管理
+ - 跨域消息传递
+ - Web Worker
+ - 类型化数组与Array Buffer
+ - Blob
+ - 文件系统API
+ - 客户端数据库
+ - Web嵌套字节
 
 ## [《JavaScript The Definitive Guide》](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/)
 
@@ -161,6 +170,10 @@
 ##### [JQuery库类](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JQuery%E7%B1%BB%E5%BA%93)
 
 ##### [客户端存储](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AD%98%E5%82%A8)
+
+##### [多媒体与图形](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/%E5%A4%9A%E5%AA%92%E4%BD%93%E4%B8%8E%E5%9B%BE%E5%BD%A2)
+
+##### [API](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/API)
 
 ## JQuery
  - [选择器](https://github.com/Beats0/js-practice/tree/master/jQuery/%E9%80%89%E6%8B%A9%E5%99%A8/)

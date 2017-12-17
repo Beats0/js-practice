@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+    var offscreen = document.getElementById("canvas");
+    var c = canvas.getContext('2d');                        //创建屏幕
+    offscreen.width = offscreen.height = 100;               //canvas大小同比
+    offscreen.getContext("2d").strokeRect(0, 0, 6, 6);
+    var pattern = c.createPattern(offscreen, "repeat");
+
+    //线性渐变
+    var bgfade=c.createLinearGradient(0,0,canvas.width,canvas.height);
+    bgfade.addColorStop(0.0,"#88f");
+    bgfade.addColorStop(1.0,"#fff");
+
+    //同心圆渐变
+    var peekhole=c.createLinearGradient(300,300,100,300,300,300);
+    peekhole.addColorStop(0.0,"transparent");           //透明
+    peekhole.addColorStop(0.7,"rgba(100,100,100,.9)");  //灰度半透明
+    peekhole.addColorStop(1.0,"rgba(0,0,0,0)");         //再次透明
+
+    c.fillStyle=bgfade;
+    c.fillStyle=(0,0,600,600);
+    c.strokeStyle=pattern;
+    c.lineWidth=100;
+    c.strokeStyle=peekhole;
+    c.fillRect(0,0,600,600);
+</script>
+</body>
+</html>

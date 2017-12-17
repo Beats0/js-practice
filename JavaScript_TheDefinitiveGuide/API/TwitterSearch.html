@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    Twitter搜索,将它通过iframe的形式嵌入在任何web页面
+    通过postMEssage()方法将查询字符串传递给它来搜索
+    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body {
+            font: 9pt sans-serif;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">
+        if (window.addEventListener)            //兼容性管理
+            window.addEventListener("message", handleMessage, false);
+        else
+            window.attachEvent("onmessage", handleMessage);
+
+        function handleMessage(e) {
+            /**
+             * 不在意消息来源，愿意接受任何来源的Twitter搜索结果
+             * 但消息源自其内嵌的窗口
+             * 使用JQuery的getJson()工具函数
+             */
+            if (e.source !== window.parent) return;
+            var searchterm = e.data; //  获取搜索内容
+            jQuery.getJSON("http://search.twitter.com/search.json?callback=?", {q: searchterm},
+                function (data) {   //  使用请求结果调用
+                    var tweets = data.results;
+                    //  构造一个HTML文档来显示搜索结果
+                    var escaped = searchterm.replace("<", "&lt;");
+                    var html = "<h2>" + escaped + "</h2>";
+                    if (tweets.length == 0) {
+                        html += "No tweets found";
+                    }
+                    else {
+                        html += "<dl>";
+                        for (var i = 0; i < tweets.length; i++) {
+                            var tweet = tweets[i];
+                            var text = tweet.text;
+                            var from = tweet.from_user;
+                            var tweeturl = "http://twitter.com/#!/" +
+                                from + "/status/" + tweet.id_str;
+                            html += "<dt><a target='_blank' href='" +
+                                tweeturl + "'>" + tweet.from_user +
+                                "</a></dt><dd><dd>" + tweet.text + "</dd>";
+                        }
+                        html += "</dl>";
+                    }
+                    //  设置<iframe>文档
+                    document.body.innerHTML = html;
+                }
+            );
+        }
+        $(function () {
+            window.parent.postMessage("Twitter Search v0.1", "*");
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-## JavaScript_TheDefinitiveGuide
+## [《JavaScript The Definitive Guide》](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/)
 
 ##### [Function](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/Function)
 
@@ -25,3 +25,11 @@
 ##### [JQuery库类](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JQuery%E7%B1%BB%E5%BA%93)
 
 ##### [客户端存储](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AD%98%E5%82%A8)
+
+##### [多媒体与图形](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/%E5%A4%9A%E5%AA%92%E4%BD%93%E4%B8%8E%E5%9B%BE%E5%BD%A2)
+
+##### [API](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/API)
+
+##### [JavaScript核心参考](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JavaScript%E6%A0%B8%E5%BF%83%E5%8F%82%E8%80%83/)
+
+##### [JavaScript客户端参考](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JavaScript%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%82%E8%80%83/)

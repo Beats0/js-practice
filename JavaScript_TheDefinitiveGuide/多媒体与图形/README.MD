@@ -1,5 +1,28 @@
 ## 图形编程
-##### img src变换
+* [动态修改img-src属性](#动态修改img-src属性)
+* [媒体事件](#媒体事件)
+* [Canvas](#canvas)
+ > 绘制<br>
+颜色<br>
+透明度<br>
+渐变<br>
+图案<br>
+赛贝尔曲线<br>
+绘制<br>
+图片操作<br>
+* 裁剪 参考
+ > [fengyuanchen/cropper](https://github.com/fengyuanchen/cropper)<br>
+ [tapmodo/Jcrop](https://github.com/tapmodo/Jcrop)
+ - 放大缩小 参考
+> [fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)<br>
+合成<br>
+像素操作<br>
+图片识别<br>
+
+## WebGL
+3D绘图协议
+* [WebGL](webgl)
+##### 动态修改img-src属性
 html:添加data-rollover属性
 ```html
 <img src="../img/clock.png" data-rollover="./github.PNG" alt="">
@@ -137,10 +160,10 @@ v.currentTime = 10.0;
  - 绘制
 
 ##### 图片操作
-* 裁剪
+* 裁剪 参考
  > [fengyuanchen/cropper](https://github.com/fengyuanchen/cropper)<br>
  [tapmodo/Jcrop](https://github.com/tapmodo/Jcrop)
- - 放大缩小
+ - 放大缩小 参考
 > [fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
  * 合成
  - 像素操作

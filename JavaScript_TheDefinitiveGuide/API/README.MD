@@ -220,8 +220,140 @@ function steve(n) {
 
 #### Blob
 
+以下选自:[Blod对象的介绍与使用](https://www.cnblogs.com/wangfajing/p/7202139.html?utm_source=itdadao&utm_medium=referral)
+
+`blob对象：`
+
+一个 Blob对象表示一个不可变的, 原始数据的类似文件对象。Blob表示的数据不一定是一个JavaScript原生格式 blob对象本质上是js中的一个对象，里面可以储存大量的二进制编码格式的数据。
+
+`blob对象实际用途：`
+
+ - 分片上传:
+ 在进行文件上传的时候，因为服务器的限制，会限制每一次上传到服务器的文件大小不会很大，这个时候我们就需要把一个需要上传的文件进行切割，然后分别进行上传到服务器。
+```js
+var BYTES_PER_CHUNK = 1024 * 1024; // 每个文件切片大小定为1MB .
+var blob = document.getElementById("file").files[0];
+var slices = Math.ceil(blob.size / BYTES_PER_CHUNK);
+var blobs = [];
+slices.forEach(function(item, index) {
+    blobs.push(blob.slice(index,index + 1));
+});
+```
+
+- 粘贴图片:
+获取剪切板上的数据来进行粘贴的操作。例如通过QQ截图后，需要在网页上进行粘贴操作。
+```js
+document.addEventListener('paste', function (e) {
+    console.info(e);
+    var cbd = e.clipboardData;
+        var fr = new FileReader();
+        var html = '';
+        for(var i = 0; i < cbd.items.length; i++) {
+            var item = cbd.items[i];
+            console.info(item);
+            if(item.kind == "file"){
+                var blob = item.getAsFile();
+                if (blob.size === 0) {
+                    return;
+                }
+                console.info(blob);
+                fr.readAsDataURL(blob);
+                fr.on<x>load=function(e){
+                    var result=document.getElementById("result");
+                    //显示文件
+                    result.innerHTML='<img src="' + this.result +'" alt="" />';
+                }
+            }
+        }
+});
+```
+
+##### Blob API
+  ![Blob API](https://ws1.sinaimg.cn/large/006nOlwNgy1fmlzxdqohxj30lf0imq6y.jpg)
+
+用Blob显示一个拖放图片的文件及地址(可多选)
+```js
+var getBlobURL = (window.URL && URL.createObjectURL.bind(URL)) || window.createObjectURL || (window.webkitURL && webkitURL.revokeObjectURL.bind(webkitURL));
+var revokeBlobURL = (window.URL && URL.revokeObjectURL.bind(URL)) || (window.webkitURL && webkitURL.revokeObjectURL.bind(webkitURL)) || window.revokeBlobURL;
+//拖放
+window.onload = function () {
+    var droptarget = document.getElementById('droptarget');
+    droptarget.ondragenter = function (e) {
+        var types = e.dataTransfer.types;
+        if (!types || (types.contains && types.contains("Files")) || (types.indexOf && types.indexOf("Files") != -1)) { //是否为文件
+            droptarget.classList.add("active");         //高亮显示
+            return false;
+        }
+    };
+    //移除时取消
+    droptarget.ondragleave = function () {
+        droptarget.classList.remove("active");
+    };
+    //通知浏览器继续发出提醒
+    droptarget.ondragover = function (e) {
+        return false;
+    };
+    //放下文件时获取url并显示对应缩略图
+    droptarget.ondrop = function (e) {
+        var files = e.dataTransfer.files;               //放下文件
+        for (var i = 0; i < files.length; i++) {
+            var type = files[i].type;
+            if (type.substring(0, 6) !== "image/") continue;//不是图片的忽略
+            var img = document.createElement('img');    //创建<img>元素
+            img.src = getBlobURL(files[i]);             //使用Blob URL
+            img.onload = function () {                  //图片载入时
+                this.width = 200;                       //调整图片大小并合并
+                document.body.appendChild(this);        //添加到文档
+                revokeBlobURL(this.src);                //避免内存泄露
+                console.log(this.src);                  //打印图片地址
+            }
+        }
+        droptarget.classList.remove("active");
+        return false;
+    }
+};
+```
+[Demo BlobImage](https://beats0.github.io/js-practice/JavaScript_TheDefinitiveGuide/API/blobURL.html)
+
+参考:
+[blueimp/JavaScript-Load-Image](https://github.com/blueimp/JavaScript-Load-Image)
+
 #### 文件系统API
+允许web应用对一个私有的文件系统"沙箱"进行读写文件、创建目录、列出目录等操作。
+
+ - 异步文件系统API:[fs.js](https://github.com/Beats0/js-practice/blob/master/JavaScript_TheDefinitiveGuide/API/fs.js)
+ - 异步文件系统API:[fs worker.js](https://github.com/Beats0/js-practice/blob/master/JavaScript_TheDefinitiveGuide/API/fsworker.js)
 
 #### 客户端数据库
 
+存储美国邮政编码的IndexDB数据库:
+
+Test:
+
+Zipcode: 12201
+
+City: Albany
+
+[Demo Zipcode](https://beats0.github.io/js-practice/JavaScript_TheDefinitiveGuide/API/Zipcode.html)
+
 #### Web嵌套字节
+
+- WebSocket协议:
+
+为什么还需要另一个协议？WebSocket协议能带来什么好处？
+
+答案很简单，因为 HTTP 协议有一个缺陷：通信只能由客户端发起。
+
+- 参考:
+
+[阮一峰-WebSocket 教程](http://www.ruanyifeng.com/blog/2017/05/websocket.html?utm_source=tuicool&utm_medium=referral)
+
+- 实例:
+
+使用WebSocket和Node的聊天服务器，基于Node，需运行一个WebSocket服务器:https://github.com/miksago/node-websocket-server/
+
+包含:
+
+[WebSocket chart server](https://github.com/Beats0/js-practice/blob/master/JavaScript_TheDefinitiveGuide/API/wschatserver.js)
+
+[WebSocket chart client](https://github.com/Beats0/js-practice/blob/master/JavaScript_TheDefinitiveGuide/API/wschatclient.html)

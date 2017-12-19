@@ -8,6 +8,20 @@
 
 ##### 纸上得来终觉浅，绝知此事要躬行
 
+## List
+* [JavaScript书籍](#javascript书籍)
+* [JQuery](#jquery)
+* [JavaScript Tips](#javascript-tips)
+* [ES6语法](#es6语法)
+* [Node.js](#node)
+* [文章及博客](#文章及博客)
+* [JavaScript库类](#javascript库类)
+* [Git](#git)
+* [HTTP](#http)
+* [News](#news)
+* [其他](#其他)
+
+
 ## 简单的js初识
 ##### [chapter1-声明变量](https://github.com/Beats0/js-practice/tree/master/chapter/chapter1)
 ##### [chapter2-常用数组和字符串方法](https://github.com/Beats0/js-practice/tree/master/chapter/chapter2)
@@ -17,6 +31,7 @@
 ##### [chapter6-scroll属性相关](https://github.com/Beats0/js-practice/tree/master/chapter/chapter6)
 ##### [chapter7-简单的事件处理](https://github.com/Beats0/js-practice/tree/master/chapter/chapter7)
 
+## javascript书籍
 ## 《JavaScript高级程序设计》
 ##### [Function](https://github.com/Beats0/js-practice/tree/master/chapter/function)
 ##### [函数](https://github.com/Beats0/js-practice/tree/master/chapter/%E5%87%BD%E6%95%B0)
@@ -175,6 +190,10 @@
 
 ##### [API](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/API)
 
+##### [JavaScript核心参考](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JavaScript%E6%A0%B8%E5%BF%83%E5%8F%82%E8%80%83/)
+
+##### [JavaScript客户端参考](https://github.com/Beats0/js-practice/tree/master/JavaScript_TheDefinitiveGuide/JavaScript%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%82%E8%80%83/)
+
 ## JQuery
  - [选择器](https://github.com/Beats0/js-practice/tree/master/jQuery/%E9%80%89%E6%8B%A9%E5%99%A8/)
  - [事件](https://github.com/Beats0/js-practice/tree/master/jQuery/%E4%BA%8B%E4%BB%B6/)
@@ -182,6 +201,27 @@
  - [HTML](https://github.com/Beats0/js-practice/tree/master/jQuery/HTML/)
  - [CSS](https://github.com/Beats0/js-practice/tree/master/jQuery/CSS/)
  - [JQuery归纳](https://github.com/Beats0/js-practice/tree/master/jQuery/JQuery%E5%BD%92%E7%BA%B3/)
+
+##### [chokcoco/jQuery-](https://github.com/chokcoco/jQuery-)
+ - jQuery- v1.10.2 源码解读
+<br>
+
+## JavaScript Tips
+
+##### [mqyqingfeng/Wheels](https://github.com/mqyqingfeng/Wheels)
+ - 一起造轮子，如果你想造些轮子，不妨可以看看这里。
+<br>
+
+##### [zhangxinxu/powerSwitch](https://github.com/zhangxinxu/powerSwitch)
+ - 万能切换插件，选项卡、跑马灯、手风琴、无限切换都不在话下~ http://www.zhangxinxu.com/wordpress/?p=3758
+<br>
+
+##### [RubyLouvre/mobileHack](https://github.com/RubyLouvre/mobileHack)
+ - 这里收集了许多移动端上遇到的各种坑与相对解决方案
+<br>
+
+##### [justjavac/the-front-end-knowledge-you-may-dont-know](https://github.com/justjavac/the-front-end-knowledge-you-may-dont-know)
+ -  你可能不知道的前端知识点 https://git.io/vQzNx
 <br>
 
 ## ES6语法
@@ -194,7 +234,7 @@
  - ES6的学习笔记and代码练习
 <br>
 
-## Node.js
+## Node
 
 ##### [socketio/socket.io](https://github.com/socketio/socket.io)
  - Realtime application framework (Node.JS server) http://socket.io
@@ -271,7 +311,7 @@
 <br>
 
 
-###### [helloqingfeng/Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource)
+##### [helloqingfeng/Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource)
  - :octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、求职面试等） https://helloqingfeng.github.io/front-end-index/index.html
 <br>
 
@@ -287,6 +327,9 @@
  - 分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者
 <br>
 
+##### [xufei/blog](https://github.com/xufei/blog)
+- 包含Angular系列、Web应用、随笔系列
+<br>
 
 ##### [stone0090/javascript-lessons](https://github.com/stone0090/javascript-lessons)
  - 《JavaScript 闯关记》，部分章节精心设计了挑战关卡，通过提供更多的实战机会，让大家可以循序渐进地、有目的地、有挑战地开展学习。
@@ -295,6 +338,7 @@
 ##### [nefe/You-Dont-Need-jQuery](https://github.com/nefe/You-Dont-Need-jQuery)
  - Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.
  <br>
+
 
 ## 图形界面类:
 
@@ -310,6 +354,10 @@
 
 ##### [answershuto/learnVue](https://github.com/answershuto/learnVue)
  - Vue.js 源码解析 https://github.com/answershuto/learnVue
+<br>
+
+##### [wxyyxc1992/Web-Development-And-Engineering-Practices](https://github.com/wxyyxc1992/Web-Development-And-Engineering-Practices)
+ - Web 开发基础、工程实践、应用架构与性能优化、React & Vue.js 实战教程系列文章 https://parg.co/bMe
 <br>
 
 ##### [OOP-Code-Bunny/angular](https://github.com/OOP-Code-Bunny/angular)
@@ -337,9 +385,16 @@
  - 提炼的关于《HTTP权威指南》每章的知识点总结！
 <br>
 
-## 其他:
-##### [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
-- 免费的计算机编程类中文书籍，欢迎投稿 http://weibo.com/justjavac
+## News
+##### [xitu/gold-miner](https://github.com/xitu/gold-miner)
+ - 🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台： https://juejin.im/tag/掘金翻译计划
 <br>
 
+##### [kujian/frontendDaily](https://github.com/kujian/frontendDaily)
+ - 前端开发技术日报，每日分享互联网最精彩的前端技术、前端资讯、后端编程、设计和资源等，欢迎关注Watch http://caibaojian.com/c/news
+<br>
 
+## 其他:
+##### [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
+ - 免费的计算机编程类中文书籍，欢迎投稿 http://weibo.com/justjavac
+<br>

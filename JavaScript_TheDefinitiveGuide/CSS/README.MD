@@ -1,4 +1,5 @@
-### CSS shake
+## css 操作
+##### 使用CSS shake()方法
 ```js
 //1.id,2.e为参数,3.指定shake距离,默认为5px,4.shake时间
 function shake(e, oncomplete, distance, time) {
@@ -121,11 +122,10 @@ CSSClassList.prototype.toArray = function () {
 <button ONCLICK="shake(this,fadeOut);">shake and fade</button>
 <div ONCLICK="shake(this,fadeOut);">shake and fade</div>
 ```
-#### Demo
-##### [fade and shake](https://github.com/Beats0/js-practice/JavaScript_TheDefinitiveGuide/CSS/)
+[Demo fade and shake](https://beats0.github.io/js-practice/JavaScript_TheDefinitiveGuide/CSS/)
 
 #### 参考
-github:shake.css
+[elrumordelaluz/csshake](https://github.com/elrumordelaluz/csshake)
 
 #### 创建样式表
 ```js

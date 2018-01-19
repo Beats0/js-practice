@@ -139,7 +139,7 @@
 
 #### 客户端存储
  -  localstorage、sessionstorage
- -  cookie_session
+ -  cookie
  -  离线web
 
 #### 图形编程

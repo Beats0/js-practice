@@ -6,33 +6,33 @@ if (title_text) alert((title_text));
 //创建一个函数来检查是否已设置 cookie：
 function getCookie(c_name) {
     if (document.cookie.length > 0) {
-        c_start = document.cookie.indexOf(c_name + "=")
+        c_start = document.cookie.indexOf(c_name + "=");
         if (c_start != -1) {
-            c_start = c_start + c_name.length + 1
-            c_end = document.cookie.indexOf(";", c_start)
-            if (c_end == -1) c_end = document.cookie.length
+            c_start = c_start + c_name.length + 1;
+            c_end = document.cookie.indexOf(";", c_start);
+            if (c_end == -1) c_end = document.cookie.length;
             return unescape(document.cookie.substring(c_start, c_end))
         }
     }
     return ""
 }
 
-//创建一个可在 cookie_session 变量中存储访问者姓名的函数：参数存有 cookie_session 的名称、值以及过期天数。
+//创建一个可在 cookie 变量中存储访问者姓名的函数：参数存有 cookie 的名称、值以及过期天数。
 function setCookie(c_name, value, expiredays) {
-    var exdate = new Date()
-    exdate.setDate(exdate.getDate() + expiredays)
+    var exdate = new Date();
+    exdate.setDate(exdate.getDate() + expiredays);
     document.cookie = c_name + "=" + escape(value) +
-        ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())//将天数转换为有效的日期，然后，我们将 cookie_session 名称、值及其过期日期存入 document.cookie_session 对象。
+        ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())//将天数转换为有效的日期，然后，我们将 cookie 名称、值及其过期日期存入 document.cookie 对象。
 }
 
 //如果 cookie 已设置，则显示欢迎词，否则显示提示框来要求用户输入名字。
 function checkCookie() {
-    username = getCookie('username')
+    username = getCookie('username');
     if (username != null && username != "") {
         alert('Welcome again ' + username + '!')
     }
     else {
-        username = prompt('Please enter your name:', "")
+        username = prompt('Please enter your name:', "");
         if (username != null && username != "") {
             setCookie('username', username, 365)
         }

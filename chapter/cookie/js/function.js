@@ -17,12 +17,12 @@ function getCookie(c_name) {
     return ""
 }
 
-//创建一个可在 cookie 变量中存储访问者姓名的函数：参数存有 cookie 的名称、值以及过期天数。
+//创建一个可在 cookie_session 变量中存储访问者姓名的函数：参数存有 cookie_session 的名称、值以及过期天数。
 function setCookie(c_name, value, expiredays) {
     var exdate = new Date()
     exdate.setDate(exdate.getDate() + expiredays)
     document.cookie = c_name + "=" + escape(value) +
-        ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())//将天数转换为有效的日期，然后，我们将 cookie 名称、值及其过期日期存入 document.cookie 对象。
+        ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())//将天数转换为有效的日期，然后，我们将 cookie_session 名称、值及其过期日期存入 document.cookie_session 对象。
 }
 
 //如果 cookie 已设置，则显示欢迎词，否则显示提示框来要求用户输入名字。

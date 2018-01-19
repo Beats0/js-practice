@@ -21,7 +21,7 @@ function getCookie(c_name) {
 }
 ```
 
-*创建一个可在 cookie 变量中存储访问者姓名的函数：参数存有 cookie 的名称、值以及过期天数。*
+*创建一个可在 cookie_session 变量中存储访问者姓名的函数：参数存有 cookie_session 的名称、值以及过期天数。*
 ```js
 function setCookie(c_name, value, expiredays) {
     var exdate = new Date()

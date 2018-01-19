@@ -9,21 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01dd863f-3861-4825-9758-cda8c9842101" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/Zipcode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/blobURL.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/blobURL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fsworker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/wschatclient.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/wschatserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript客户端参考/README.MD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript核心参考/README.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/mysql/PatchNavicat.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/consolidate/README.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/consolidate/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/consolidate/server_route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/cookie_session/server-cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/ejs/README.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/ejs/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/ejs/ejs_include/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/ejs/ejs_include/user.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/ejs/ejs_view/1.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/express/Express整合.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/multer/FileRename.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/multer/README.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/multer/UploadFile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/multer/server_file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/mysql/README.MD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/mysql/SQLServer.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/package-lock.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/README.MD" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/CSS/README.MD" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/CSS/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/README.MD" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/README.MD" afterPath="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/README.MD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/node_learning/cookie_session/README.MD" afterPath="$PROJECT_DIR$/Node/node_learning/cookie_session/README.MD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/node_learning/get_post/README.MD" afterPath="$PROJECT_DIR$/Node/node_learning/get_post/README.MD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/node_learning/node_modules/README.MD" afterPath="$PROJECT_DIR$/Node/node_learning/node_modules/README.MD" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter/cookie/README.MD" afterPath="$PROJECT_DIR$/chapter/cookie/README.MD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter/cookie/js/function.js" afterPath="$PROJECT_DIR$/chapter/cookie/js/function.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Node/node_learning/cookie_session/server.js" afterPath="$PROJECT_DIR$/Node/node_learning/consolidate/www/upload/upload.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +53,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/README.MD">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="973">
-                <caret line="272" column="0" lean-forward="true" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+              <first_editor relative-caret-position="775">
+                <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -55,57 +67,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="649">
-                <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="UploadFile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/UploadFile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-9545">
-                <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="server_file.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/server_file.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript核心参考/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="378">
-                <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript客户端参考/README.MD">
+      <file leaf-file-name="server_route.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/server_route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/www/upload/upload.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="18" />
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -115,22 +122,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wschatserver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/wschatserver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-354">
-              <caret line="1" column="77" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="77" />
-              <folding />
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1567">
+                <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wschatclient.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/wschatclient.html">
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="297">
+                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLServer.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/SQLServer.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileRename.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/FileRename.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="780">
+              <caret line="36" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,9 +185,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
+        <option value="tsconfig.json" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="package_json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -187,44 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/dnd.html" />
-        <option value="$PROJECT_DIR$/jQuery/JQuery归纳/README.MD" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/dnd.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/drop_target.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/drop_target.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/InputFilter.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/InputFilter.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/KeyMap.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/KeyMap.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/POST.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/post.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/post.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/upload.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/upload.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/README.MD" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/HTTp跨域.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/HTTP跨域.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/README.MD" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/rollover.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/rollover.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/sample.svg" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/svg.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/svg.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/svg_clock.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/js_clock.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/canvas.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/yuewen.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/PI.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/API.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/pushState.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/TwitterSearch.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/WebWorkerPic.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/sieve.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/CSS/README.MD" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/blobURL.html" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/blobURL.js" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/README.MD" />
-        <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fs_API.js" />
         <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fsworker.js" />
         <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fs.js" />
         <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/Zipcode.html" />
@@ -238,6 +246,44 @@
         <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/README.MD" />
         <option value="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/README.MD" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Node/fs_read.txt" />
+        <option value="$PROJECT_DIR$/Node/fs.js" />
+        <option value="$PROJECT_DIR$/Node/user.html" />
+        <option value="$PROJECT_DIR$/Node/NodeServer.js" />
+        <option value="$PROJECT_DIR$/Node/urlLib.js" />
+        <option value="$PROJECT_DIR$/Node/querystring.js" />
+        <option value="$PROJECT_DIR$/Node/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node/www/user.html" />
+        <option value="$PROJECT_DIR$/Node/node/server.js" />
+        <option value="$PROJECT_DIR$/Node/node/www/tsconfig.json" />
+        <option value="$PROJECT_DIR$/Node/node/www/test.html" />
+        <option value="$PROJECT_DIR$/exview.css" />
+        <option value="$PROJECT_DIR$/exview.js" />
+        <option value="$PROJECT_DIR$/Node/node/1-14/model1.js" />
+        <option value="$PROJECT_DIR$/Node/node/1-14/model.js" />
+        <option value="$PROJECT_DIR$/Node/node/1-14/node_modules/www/a.html" />
+        <option value="$PROJECT_DIR$/Node/node/1-14/ajax.js" />
+        <option value="$PROJECT_DIR$/Node/node/1-14/index.html" />
+        <option value="$PROJECT_DIR$/Node/node/1-14/server.js" />
+        <option value="$PROJECT_DIR$/Node/node-modules/fs.js" />
+        <option value="$PROJECT_DIR$/Node/node_learning/package.json" />
+        <option value="$PROJECT_DIR$/Node/node_learning/package-lock.json" />
+        <option value="$PROJECT_DIR$/Node/node_learning/express/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/cookie/COOKIE.js" />
+        <option value="$PROJECT_DIR$/Node/node_learning/cookie_session/server.js" />
+        <option value="$PROJECT_DIR$/Node/node_learning/node_modules/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/get_post/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/cookie_session/server-cookie.js" />
+        <option value="$PROJECT_DIR$/Node/node_learning/ejs/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/cookie_session/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/multer/server_file.js" />
+        <option value="$PROJECT_DIR$/Node/node_learning/multer/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/mysql/SQLServer.md" />
+        <option value="$PROJECT_DIR$/Node/node_learning/multer/FileRename.js" />
+        <option value="$PROJECT_DIR$/Node/node_learning/consolidate/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/mysql/README.MD" />
+        <option value="$PROJECT_DIR$/Node/node_learning/consolidate/server_route.js" />
+        <option value="$PROJECT_DIR$/Node/node_learning/consolidate/server.js" />
       </list>
     </option>
   </component>
@@ -246,6 +292,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Node/node_learning/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
@@ -292,17 +341,6 @@
               <item name="js-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="js-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript_TheDefinitiveGuide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript_TheDefinitiveGuide" type="462c0819:PsiDirectoryNode" />
-              <item name="Event" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -315,12 +353,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../www.mygalgame.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../nodejs/node" />
     <property name="SearchEverywhereHistoryKey" value="json&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\consolidate" />
+      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\multer" />
+      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\ejs" />
+      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\cookie_session" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\fs" />
+      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node\1-14\www" />
       <recent name="E:\Sites\Beats0.github.io-master\js-practice\JavaScript_TheDefinitiveGuide" />
       <recent name="E:\Sites\Beats0.github.io-master\js-practice\jQuery\事件" />
     </key>
@@ -337,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.wschatserver.js">
+  <component name="RunManager" selected="Node.js.server.js (2)">
     <configuration name="NodeServer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="NodeServer.js" working-dir="$PROJECT_DIR$/Node">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -361,15 +407,24 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="wschatserver.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="wschatserver.js" working-dir="$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API" />
-    <list size="2">
+    <configuration name="querystring.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="querystring.js" working-dir="$PROJECT_DIR$/Node" />
+    <configuration name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Node/node/1-14" />
+    <configuration name="server.js (2)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Node/node_learning/consolidate" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Node/node" />
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.NodeServer.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.wschatserver.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.querystring.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.server.js (2)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.wschatserver.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.NodeServer.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.server.js (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.querystring.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.server.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.NodeServer.js" />
       </list>
     </recent_temporary>
   </component>
@@ -554,7 +609,27 @@
       <workItem from="1513509673334" duration="7956000" />
       <workItem from="1513519006820" duration="256000" />
       <workItem from="1513519367287" duration="363000" />
-      <workItem from="1513658194585" duration="14441000" />
+      <workItem from="1513658194585" duration="14469000" />
+      <workItem from="1513850511591" duration="304000" />
+      <workItem from="1514016547319" duration="7446000" />
+      <workItem from="1514266263393" duration="10925000" />
+      <workItem from="1514532234857" duration="5000" />
+      <workItem from="1514532354293" duration="569000" />
+      <workItem from="1514623529609" duration="91000" />
+      <workItem from="1514623770224" duration="593000" />
+      <workItem from="1515216733683" duration="1715000" />
+      <workItem from="1515240484356" duration="1416000" />
+      <workItem from="1515828992887" duration="1212000" />
+      <workItem from="1515912076358" duration="6381000" />
+      <workItem from="1516003682698" duration="8649000" />
+      <workItem from="1516073520737" duration="11085000" />
+      <workItem from="1516177265751" duration="3334000" />
+      <workItem from="1516190780435" duration="257000" />
+      <workItem from="1516248248583" duration="611000" />
+      <workItem from="1516258436123" duration="85000" />
+      <workItem from="1516261183367" duration="1805000" />
+      <workItem from="1516332945447" duration="598000" />
+      <workItem from="1516345886935" duration="4348000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1503657454943</created>
@@ -836,11 +911,25 @@
       <option name="project" value="LOCAL" />
       <updated>1513518717778</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update">
+      <created>1513674209791</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1513674209791</updated>
+    </task>
+    <task id="LOCAL-00042" summary="node">
+      <created>1516019484697</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1516019484697</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="554251000" />
+    <option name="totallyTimeSpent" value="615708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,12 +943,12 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15433404" sideWeight="0.49550563" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16701902" sideWeight="0.49550563" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15505618" sideWeight="0.49312896" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21797752" sideWeight="0.5121564" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280899" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15803383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36629215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15697674" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23707865" sideWeight="0.48784354" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20295984" sideWeight="0.50449437" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -877,18 +966,19 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21797752" sideWeight="0.5121564" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21797752" sideWeight="0.5121564" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280899" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21797752" sideWeight="0.48784354" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23784356" sideWeight="0.49550563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37045455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23707865" sideWeight="0.48784354" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32150537" sideWeight="0.49550563" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11205074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15697674" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20295984" sideWeight="0.50449437" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20295984" sideWeight="0.50449437" order="1" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -931,7 +1021,8 @@
     <MESSAGE value="update2017-09-10" />
     <MESSAGE value="update2017-09-18" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="node" />
+    <option name="LAST_COMMIT_MESSAGE" value="node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,391 +1034,170 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/KeyMap.html" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/InputFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/KeyMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="110" column="28" lean-forward="false" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/whenReady.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4725">
-          <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/HTTP跨域.html" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JQuery类库/JQuery.html">
+    <entry file="file://$PROJECT_DIR$/exview.js" />
+    <entry file="file://$PROJECT_DIR$/exview.css" />
+    <entry file="file://$PROJECT_DIR$/Node/node/www/test.html" />
+    <entry file="file://$PROJECT_DIR$/Node/node/www/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/chapter/chapter6/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/客户端存储/permanote.html">
+    <entry file="file://$PROJECT_DIR$/chapter/chapter6/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node/1-14/model1.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node/1-14/model.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node/1-14/node_modules/www/a.html" />
+    <entry file="file://$PROJECT_DIR$/Node/node/server.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node/1-14/ajax.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node/www/ajax.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node/1-14/www/index.html" />
+    <entry file="file://$PROJECT_DIR$/Node/node/1-14/server.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node-modules/fs.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/package.json" />
+    <entry file="file://$PROJECT_DIR$/Node/node/1-14/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/Node/querystring.js" />
+    <entry file="file://$PROJECT_DIR$/Node/form.html" />
+    <entry file="file://$PROJECT_DIR$/Node/README.MD" />
+    <entry file="file://$PROJECT_DIR$/Node/NodeServer.js" />
+    <entry file="file://$PROJECT_DIR$/Node/httputils/httputils.js" />
+    <entry file="file://$PROJECT_DIR$/Node/Node_HttpServerClientTool/Node_HttpServerClientTool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/Node_HttpServer/Node_HttpServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/fs/fs_write.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/fs/fs_read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="144" lean-forward="false" selection-start-line="0" selection-start-column="144" selection-end-line="0" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/cookie_session/COOKIE.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/cookie_session/server.js" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/ejs/ejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/ejs/ejs_view/1.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/类和模块/README.MD">
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/node_modules/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="594">
+            <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/get_post/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="243">
+            <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/express/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2133">
+            <caret line="79" column="3" lean-forward="false" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/ejs/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="648">
+            <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/cookie_session/server-cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/cookie_session/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2322">
+            <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="10" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/express/Express整合.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/客户端存储/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JQuery类库/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="810">
-            <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/sample.svg" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/svg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/svg_clock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/js_clock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5184">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/rollover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/svg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/rollover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/yuewen.js" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/PI.js" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/pushState.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3483">
-          <caret line="129" column="5" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="129" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/API.js" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/WebWorkerPic.html" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/TwitterSearch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/sieve.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/blobURL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/blobURL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/CSS/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="27">
-            <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/HTTP/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-7127">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/多媒体与图形/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fs_API.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fsworker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="54" column="2" lean-forward="false" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/fs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="126" column="1" lean-forward="false" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/NodeServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/Zipcode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="219" column="38" lean-forward="true" selection-start-line="219" selection-start-column="38" selection-end-line="219" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/wschatclient.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/wschatserver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
-          <caret line="1" column="77" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript核心参考/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-405">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript核心参考/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript客户端参考/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/JavaScript客户端参考/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/API/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="973">
-            <caret line="272" column="0" lean-forward="true" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="649">
-            <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_TheDefinitiveGuide/Event/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="27">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="15" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -1338,8 +1208,127 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-9545">
-            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <first_editor relative-caret-position="621">
+            <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/HTML/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/SQLServer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="775">
+            <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/FileRename.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="297">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/UploadFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/server_file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/www/upload/upload.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/server_route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1567">
+            <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor>

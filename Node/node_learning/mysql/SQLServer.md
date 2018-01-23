@@ -1,3 +1,15 @@
+##### LIMIT-限制输出
+```sql
+WHERE GROUP ORDER LIMIT
+筛选  合并  排序  限制
+
+SELECT class,COUNT(class) FROM student_table
+WHERE score>60
+GROUP BY class
+ORDER BY COUNT(class) DESC
+LIMIT 2;
+```
+
 ```sql
 --创建create
 create database test	--创建

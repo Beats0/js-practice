@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>banners</title>
+</head>
+<body>
+<div class="page">
+    <% include header.inc.ejs %>
+    <div class="content-wrap">
+        <div class="left-wrap"></div>
+        <form action="?" method="post">
+            标题: <input type="text" name="title"><br>
+            文章内容： <textarea type="text" name="description"></textarea><br>
+            链接：<input type="text" name="href"><br>
+            <input type="submit" value="添加">
+        </form>
+        <table style="border: 1px solid red;">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>title</th>
+                <th>description</th>
+                <th>href</th>
+                <th>operations</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for (var i = 0;i < banners_data.length;i++) { %>
+            <tr>
+                <td><%- banners_data[i].ID %></td>
+                <td><%- banners_data[i].title %></td>
+                <td><%- banners_data[i].description %></td>
+                <td><%- banners_data[i].href %></td>
+                <td class="setting-operations">
+                    <!--<em class="more-item-container" style="z-index: 0;"><a href="">查看报告</a></em>-->
+                    <!--<em class="more-item-container" style="z-index: 0;"><a href="javascript:void(0);" onclick="$.holmes.settingPage.deleteSite(11095201);">删除</a></em>-->
+                    <em><a href="?act=mod&id=<%= banners_data[i].ID %>">修改</a></em>
+                    <em><a href="?act=del&id=<%= banners_data[i].ID %>" onclick="return confirm('确定删除？')">删除</a></em>
+                </td>
+
+            </tr>
+            <% } %>
+            </tbody>
+        </table>
+
+        <div class="right-wrap" style="border: 1px solid black">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

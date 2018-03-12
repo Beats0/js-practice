@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>vue</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="lib/vue.js"></script>
+    <script>
+        window.onload = function () {
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    message: 'Hello Vue!',
+                    arr: [1, 2, 3, 4, 5],
+                    json: {
+                        a: 1,
+                        b: 2,
+                        c: 3
+                    },
+                    IsShow: true
+
+                },
+                methods: {
+                    show: function () {
+                        alert(1)
+                    },
+                    add: function () {
+                        this.arr.push('6');
+                    }
+                },
+
+            });
+            var app2 = new Vue({
+                el: '#app-2',
+                data: {
+                    message: '页面加载于 ' + new Date().toLocaleString()
+                }
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div id="app">
+                {{ message }}
+                <input type="text" v-model="message">
+                <input type="text" v-model="arr">
+                <input type="text" v-model="json">
+                <ul>
+                    <li v-for="value in arr">
+                        {{value}}
+                    </li>
+                </ul>
+                <ul>
+                    <li v-for="(k,v) in json">
+                        {{k}} {{v}}
+                    </li>
+                </ul>
+                <input type="button" value="show()" v-on:click="show()">
+                <input type="button" value="add()" v-on:click="add()">
+                <div style="width:100px;height:100px;background-color:hotpink" v-show="IsShow"></div>
+            </div>
+
+
+            <div id="app-2">
+                <span v-bind:title="message">
+                    鼠标悬停几秒钟查看此处动态绑定的提示信息！
+                </span>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flipbox {
+            width: 200px;
+            display: block;
+            overflow: hidden;
+            background-color: #ccc;
+            text-align: center;
+        }
+
+        .flipToggle {
+            width: 100%;
+            height: 50px;
+            background-color: hotpink;
+        }
+
+        .content {
+            width: 100%;
+            height: 150px;
+        }
+    </style>
+    <script src="../lib/jquery.js"></script>
+    <script>
+        var clickEvent;
+        $(document.ready = function () {
+            $('#sayHi').bind('click', sayHi);
+            $('#sayHello').on('click', sayHello);
+            $('#appendText').on('click', appendText);
+            $('.flip').click(function () {
+                console.log(this.nextElementSibling.className);
+                $(this.nextElementSibling).slideToggle(500)
+            });
+            $('#set').click(function () {
+                $('p').css('color', 'red').slideUp(1000).slideDown(1000);
+            });
+            clickEvent = $('#clickEvent');
+            clickEvent.click(function () {
+                var e = jQuery.Event('myEvent');
+                clickEvent.trigger(e);
+            });
+            clickEvent.bind('myEvent', function (e) {
+                console.log(e)
+            })
+        });
+
+        function sayHi() {
+            alert("Hi");
+        }
+
+        function sayHello() {
+            alert("Hello")
+        }
+
+        function appendText() {
+            var text1 = "<p>text1</p>";                 //Element
+            var text2 = $("<p></p>").text('text2');     //text
+            var text3 = document.createElement("p");    //createElement
+            text3.innerHTML = "text3";
+            $('#textBox').append(text1, text2, text3)
+        }
+    </script>
+    <script>
+        $.fn.mySay = function () {
+            $(this).text("hello world")
+        }
+    </script>
+    <script>
+        $(document.ready = function () {
+            $('#mySay').mySay()
+        })
+    </script>
+</head>
+<body>
+<input type="button" value=".bind sayHi" id="sayHi">
+<input type="button" value=".on sayHello" id="sayHello">
+<input type="button" value="clickMe Event" id="clickEvent">
+<div id="textBox">
+    <p>some text</p>
+</div>
+<input type="button" value="append()" id="appendText">
+<div class="flipbox">
+    <div class="flip flipToggle">flip toggle</div>
+    <div class="content">content</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="flipbox">
+    <div class="flip flipToggle">flip toggle</div>
+    <div class="content">content</div>
+</div>
+<input type="button" value="append()" id="set">
+<p>some colorful text</p>
+<br>
+<div id="mySay"></div>
+
+</body>
+</html>

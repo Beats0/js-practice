@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>交互</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <style>
+        .mybody {
+            -moz-box-shadow: 0px 0px 8px black;
+            -webkit-box-shadow: 0px 0px 8px black;
+            background-color: rgba(230, 238, 232, 0.5);
+            box-shadow: 0px 0px 8px black;
+            transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -moz-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -webkit-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -o-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .mybody:hover {
+            -moz-box-shadow: 0px 0px 50px black;
+            -webkit-box-shadow: 0px 0px 50px black;
+            box-shadow: 0px 0px 50px black;
+        }
+
+        .item {
+            padding: 10px;
+        }
+
+        .selectColor {
+            background: #ccc;
+        }
+    </style>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../lib/vue.js"></script>
+    <script src="../../lib/vue-resourceR.js"></script>
+    <script>
+        window.onload = function () {
+            var app = new Vue({
+                el: '#box',
+                data: {
+                    msg: 'some massage',
+                    mydata: [],
+                    li: '',
+                    selectIndex: -1,
+                    WeiboJson:{"code":"100000","msg":"","data":[{"word":"\u5076\u9047\u8303\u51b0\u51b0"},{"count":2749,"key":"\u54d4\u54e9\u54d4\u54e9\u5f39\u5e55\u7f51"}]}
+                },
+                methods: {
+                    get: function (ev) {
+                        if (ev.keyCode==38 || ev.keyCode==40) return;
+                        if (ev.keyCode==13) {
+                            window.open('https://www.baidu.com/s?wd='+this.li)
+                        }
+                        this.$http.jsonp('https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su',
+                            {wd: this.li}, {jsonp: 'cb'}).then(function (res) {
+                            this.mydata = res.data.s;
+                        }, function (res) {
+                            alert('数据获取出错' + res.status);
+                        })
+                    },
+
+                    getBaidu: function (ev) {
+                        if (ev.keyCode==38 || ev.keyCode==40) return;
+                        if (ev.keyCode==13) {
+                            window.open('https://www.baidu.com/s?wd='+this.li)
+                        }
+                        this.$http.jsonp('https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su',
+                            {wd: 'a'}, {jsonp: 'cb'}).then(function (res) {
+                            alert(res.data.s);
+                        }, function (res) {
+                            alert('数据获取出错' + res.status);
+                        })
+                    },
+
+                    getWeibo:function (ev) {
+                        if (ev.keyCode==38 || ev.keyCode==40) return;
+                        if (ev.keyCode==13) {
+                            window.open('http://s.weibo.com/weibo/'+this.li+'&Refer=index')
+                        }
+                        this.$http.jsonp('http://s.weibo.com/ajax/suggestion',{key:''},{jsonp:'where=gs_weibo'}).then(function (res) {
+                                console.log(res.data);
+                            this.mydata = res.data.s;
+                        }, function (res) {
+                            alert('数据获取出错' + res.status);
+                        })
+                    },
+                    changedowm: function () {
+                        this.selectIndex++;
+                        if (this.selectIndex == this.mydata.length - 1)
+                            this.selectIndex = -1;
+                        this.li=this.mydata[this.selectIndex];
+                    },
+                    changeup: function () {
+                        this.selectIndex--;
+                        if (this.selectIndex == -1)
+                            this.selectIndex = this.mydata.length - 1;
+                        this.li=this.mydata[this.selectIndex];
+                    }
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+<div id="box" class="container">
+    <div class="row">
+        <div class="col-md-8 mybody">
+            <div class="item">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="input key"
+                           v-model="msg" >
+                    <button type="button" class="btn btn-default" @click="getBaidu()">GET Baidu</button>
+                    <br>
+                    https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=bilibili&cb
+                    <br>
+                    http://s.weibo.com/ajax/suggestion?key=bilibili&where=gs_weibo
+                    <br>
+                    <input type="text" v-model="li" @keyup="getWeibo($event)" @keydown.down="changedowm()"
+                           @keydown.up="changeup()">
+                    <ul>
+                        <li v-for="value,index in mydata" :class="{selectColor:index== selectIndex}">
+                            {{value}}
+                        </li>
+                    </ul>
+                    <p v-show="mydata.length==0">暂无数据...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

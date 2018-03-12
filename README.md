@@ -21,16 +21,6 @@
 * [News](#news)
 * [其他](#其他)
 
-
-## 简单的js初识
-##### [chapter1-声明变量](https://github.com/Beats0/js-practice/tree/master/chapter/chapter1)
-##### [chapter2-常用数组和字符串方法](https://github.com/Beats0/js-practice/tree/master/chapter/chapter2)
-##### [chapter3-常用显示隐藏](https://github.com/Beats0/js-practice/tree/master/chapter/chapter3)
-##### [chapter4-计时器](https://github.com/Beats0/js-practice/tree/master/chapter/chapter4)
-##### [chapter5-scroll属性](https://github.com/Beats0/js-practice/tree/master/chapter/chapter5)
-##### [chapter6-scroll属性相关](https://github.com/Beats0/js-practice/tree/master/chapter/chapter6)
-##### [chapter7-简单的事件处理](https://github.com/Beats0/js-practice/tree/master/chapter/chapter7)
-
 ## javascript书籍
 ## 《JavaScript高级程序设计》
 ##### [Function](https://github.com/Beats0/js-practice/tree/master/chapter/function)

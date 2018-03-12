@@ -1,48 +1,872 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/chapter/chapter2/js/function.js" line="7" />
-    <bookmark url="file://$PROJECT_DIR$/chapter/chapter3/index.html" line="53" />
     <bookmark url="file://$PROJECT_DIR$/chapter/高级技巧/js/function.js" line="276" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/chapter/离线应用与客户端存储/js/function.js" line="48" />
     <bookmark url="file://$PROJECT_DIR$/jQuery/HTML/getter.html" line="22" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01dd863f-3861-4825-9758-cda8c9842101" name="Default" comment="node">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/node_learning/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/libs/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/libs/md5.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/route/R1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/route/R2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/route/admin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/server.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/static/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/banners.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/blog.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/contact.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/custom.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/header.inc.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/index.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/intro.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/login.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/msg.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/admin/news.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/component/footer.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/component/header.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/component/left.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/component/right.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Node/simple node/template/index.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/React/README.MD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/README.MD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/class/1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Navica/PatchNavicat.exe" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ajax/README.MD" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ajax/ajax.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ajax/ajax.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ajax/ajax.txt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ajax/ajax_get.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vue/README.MD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vue/vue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jQuery/class/1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jQuery/class/README.MD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jQuery/lib/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/event/事件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/form/简易表单操作.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/data.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/.bin/mime" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/.bin/mime.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/accepts/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/accepts/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/accepts/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/accepts/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/accepts/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/array-flatten/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/array-flatten/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/array-flatten/array-flatten.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/array-flatten/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/UPGRADE_GUIDE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/dist/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/dist/axios.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/dist/axios.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/dist/axios.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/adapters/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/adapters/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/adapters/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/cancel/Cancel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/cancel/CancelToken.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/cancel/isCancel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/Axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/InterceptorManager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/createError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/dispatchRequest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/enhanceError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/settle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/core/transformData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/defaults.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/bind.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/btoa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/buildURL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/combineURLs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/cookies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/deprecatedMethod.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/isAbsoluteURL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/isURLSameOrigin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/normalizeHeaderName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/parseHeaders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/helpers/spread.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/axios/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/lib/read.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/lib/types/json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/lib/types/raw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/lib/types/text.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/lib/types/urlencoded.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/body-parser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/bytes/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/bytes/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/bytes/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/bytes/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/bytes/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-disposition/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-disposition/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-disposition/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-disposition/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-disposition/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-type/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-type/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-type/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-type/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/content-type/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie-signature/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie-signature/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie-signature/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie-signature/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie-signature/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/cookie/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/.coveralls.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/component.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/src/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/src/debug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/src/inspector-log.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/debug/src/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/lib/browser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/lib/compat/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/depd/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/destroy/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/destroy/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/destroy/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/destroy/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ee-first/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ee-first/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ee-first/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ee-first/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/encodeurl/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/encodeurl/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/encodeurl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/encodeurl/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/encodeurl/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/escape-html/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/escape-html/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/escape-html/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/escape-html/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/etag/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/etag/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/etag/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/etag/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/etag/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/application.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/express.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/middleware/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/middleware/query.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/request.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/response.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/router/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/router/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/router/route.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/lib/view.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/express/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/finalhandler/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/finalhandler/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/finalhandler/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/finalhandler/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/finalhandler/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/https.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/.coveralls.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/src/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/src/debug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/node_modules/debug/src/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/follow-redirects/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/forwarded/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/forwarded/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/forwarded/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/forwarded/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/forwarded/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/fresh/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/fresh/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/fresh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/fresh/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/fresh/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/lib/browser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/lib/compat/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/depd/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/setprototypeof/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/setprototypeof/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/setprototypeof/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/node_modules/setprototypeof/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/http-errors/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/Changelog.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/dbcs-codec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/dbcs-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/internal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/sbcs-codec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/sbcs-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/big5-added.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/cp936.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/cp949.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/cp950.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/eucjp.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/utf16.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/encodings/utf7.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/lib/bom-handling.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/lib/extend-node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/lib/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/lib/streams.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/iconv-lite/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/inherits/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/inherits/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/inherits/inherits.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/inherits/inherits_browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/inherits/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/Cakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/ipaddr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/lib/ipaddr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/src/ipaddr.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/is-buffer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/is-buffer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/is-buffer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/is-buffer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/is-buffer/test/basic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/media-typer/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/media-typer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/media-typer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/media-typer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/media-typer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/merge-descriptors/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/merge-descriptors/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/merge-descriptors/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/merge-descriptors/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/merge-descriptors/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/methods/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/methods/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/methods/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/methods/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/methods/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-db/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-db/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-db/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-db/db.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-db/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-db/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-types/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-types/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-types/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-types/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime-types/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/build/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/build/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/cli.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/mime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/mime/types.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ms/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ms/license.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ms/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/ms/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/lib/charset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/lib/encoding.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/lib/language.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/lib/mediaType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/negotiator/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/on-finished/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/on-finished/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/on-finished/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/on-finished/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/on-finished/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/parseurl/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/parseurl/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/parseurl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/parseurl/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/parseurl/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/path-to-regexp/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/path-to-regexp/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/path-to-regexp/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/path-to-regexp/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/path-to-regexp/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/proxy-addr/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/proxy-addr/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/proxy-addr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/proxy-addr/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/proxy-addr/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/.eslintignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/dist/qs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/lib/formats.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/lib/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/lib/stringify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/test/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/test/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/test/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/test/stringify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/qs/test/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/range-parser/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/range-parser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/range-parser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/range-parser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/range-parser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/raw-body/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/raw-body/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/raw-body/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/raw-body/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/raw-body/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/raw-body/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/safe-buffer/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/safe-buffer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/safe-buffer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/safe-buffer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/safe-buffer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/safe-buffer/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/send/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/send/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/send/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/send/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/send/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/serve-static/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/serve-static/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/serve-static/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/serve-static/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/serve-static/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/setprototypeof/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/setprototypeof/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/setprototypeof/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/setprototypeof/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/setprototypeof/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/statuses/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/statuses/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/statuses/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/statuses/codes.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/statuses/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/statuses/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/type-is/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/type-is/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/type-is/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/type-is/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/type-is/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/unpipe/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/unpipe/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/unpipe/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/unpipe/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/unpipe/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/utils-merge/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/utils-merge/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/utils-merge/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/utils-merge/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/utils-merge/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/vary/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/vary/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/vary/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/vary/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/node_modules/vary/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/package-lock.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/jiaohu/交互.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/css/weibo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/ad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/bodyBg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/btns.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/inputBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/jj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/takeSbmComment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/img/userBj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/.bin/mime" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/.bin/mime.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/accepts/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/accepts/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/accepts/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/accepts/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/accepts/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/array-flatten/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/array-flatten/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/array-flatten/array-flatten.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/array-flatten/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/UPGRADE_GUIDE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/dist/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/dist/axios.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/dist/axios.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/dist/axios.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/adapters/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/adapters/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/adapters/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/cancel/Cancel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/cancel/CancelToken.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/cancel/isCancel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/Axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/InterceptorManager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/createError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/dispatchRequest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/enhanceError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/settle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/core/transformData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/defaults.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/bind.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/btoa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/buildURL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/combineURLs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/cookies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/deprecatedMethod.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/isAbsoluteURL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/isURLSameOrigin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/normalizeHeaderName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/parseHeaders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/helpers/spread.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/axios/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/lib/read.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/lib/types/json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/lib/types/raw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/lib/types/text.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/lib/types/urlencoded.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/body-parser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/bytes/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/bytes/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/bytes/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/bytes/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/bytes/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-disposition/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-disposition/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-disposition/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-disposition/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-disposition/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-type/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-type/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-type/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-type/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/content-type/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie-signature/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie-signature/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie-signature/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie-signature/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie-signature/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/cookie/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/.coveralls.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/component.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/src/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/src/debug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/src/inspector-log.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/debug/src/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/lib/browser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/lib/compat/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/depd/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/destroy/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/destroy/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/destroy/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/destroy/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ee-first/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ee-first/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ee-first/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ee-first/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/Jakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/ejs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/ejs.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/lib/ejs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ejs/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/encodeurl/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/encodeurl/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/encodeurl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/encodeurl/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/encodeurl/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/escape-html/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/escape-html/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/escape-html/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/escape-html/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/etag/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/etag/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/etag/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/etag/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/etag/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/application.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/express.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/middleware/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/middleware/query.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/request.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/response.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/router/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/router/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/router/route.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/lib/view.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/express/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/finalhandler/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/finalhandler/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/finalhandler/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/finalhandler/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/finalhandler/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/https.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/.coveralls.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/src/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/src/debug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/node_modules/debug/src/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/follow-redirects/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/forwarded/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/forwarded/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/forwarded/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/forwarded/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/forwarded/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/fresh/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/fresh/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/fresh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/fresh/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/fresh/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/lib/browser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/lib/compat/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/depd/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/setprototypeof/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/setprototypeof/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/setprototypeof/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/node_modules/setprototypeof/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/http-errors/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/Changelog.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/dbcs-codec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/dbcs-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/internal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/sbcs-codec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/sbcs-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/big5-added.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/cp936.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/cp949.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/cp950.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/eucjp.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/utf16.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/encodings/utf7.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/lib/bom-handling.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/lib/extend-node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/lib/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/lib/streams.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/iconv-lite/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/inherits/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/inherits/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/inherits/inherits.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/inherits/inherits_browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/inherits/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/Cakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/ipaddr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/lib/ipaddr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/src/ipaddr.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/is-buffer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/is-buffer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/is-buffer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/is-buffer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/is-buffer/test/basic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/media-typer/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/media-typer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/media-typer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/media-typer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/media-typer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/merge-descriptors/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/merge-descriptors/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/merge-descriptors/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/merge-descriptors/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/merge-descriptors/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/methods/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/methods/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/methods/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/methods/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/methods/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-db/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-db/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-db/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-db/db.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-db/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-db/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-types/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-types/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-types/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-types/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime-types/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/build/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/build/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/cli.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/mime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/mime/types.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ms/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ms/license.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ms/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/ms/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/lib/charset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/lib/encoding.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/lib/language.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/lib/mediaType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/negotiator/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/on-finished/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/on-finished/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/on-finished/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/on-finished/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/on-finished/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/parseurl/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/parseurl/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/parseurl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/parseurl/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/parseurl/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/path-to-regexp/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/path-to-regexp/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/path-to-regexp/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/path-to-regexp/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/path-to-regexp/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/proxy-addr/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/proxy-addr/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/proxy-addr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/proxy-addr/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/proxy-addr/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/.eslintignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/dist/qs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/lib/formats.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/lib/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/lib/stringify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/test/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/test/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/test/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/test/stringify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/qs/test/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/range-parser/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/range-parser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/range-parser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/range-parser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/range-parser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/raw-body/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/raw-body/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/raw-body/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/raw-body/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/raw-body/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/raw-body/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/safe-buffer/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/safe-buffer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/safe-buffer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/safe-buffer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/safe-buffer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/safe-buffer/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/send/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/send/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/send/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/send/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/send/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/serve-static/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/serve-static/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/serve-static/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/serve-static/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/serve-static/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/setprototypeof/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/setprototypeof/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/setprototypeof/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/setprototypeof/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/setprototypeof/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/statuses/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/statuses/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/statuses/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/statuses/codes.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/statuses/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/statuses/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/type-is/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/type-is/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/type-is/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/type-is/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/type-is/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/unpipe/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/unpipe/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/unpipe/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/unpipe/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/unpipe/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/utils-merge/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/utils-merge/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/utils-merge/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/utils-merge/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/utils-merge/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/vary/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/vary/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/vary/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/vary/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/node_modules/vary/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/package-lock.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/class/weibo/weibo/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/lib/vue-resource.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/lib/vue-resourceR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue/lib/vue.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Node/node_learning/express/README.MD" afterPath="$PROJECT_DIR$/Node/node_learning/express/README.MD" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter1/README.MD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter1/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter1/js/function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter2/README.MD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter2/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter2/js/function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter3/README.MD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter3/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter3/js/function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter4/README.MD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter4/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter4/js/function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter5/README.MD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter5/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter5/js/function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter6/README.MD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter6/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter6/js/function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter7/README.MD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter7/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter/chapter7/js/function.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,96 +884,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/ajax.html">
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/class/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="403">
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax_get.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/ajax_get.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/ajax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/vue.js">
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery/lib/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <entry file="file://$PROJECT_DIR$/jQuery/class/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery/class/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="496">
+                <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/React/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <entry file="file://$PROJECT_DIR$/vue/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/ajax.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-              <folding />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -208,9 +1021,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Node/fs_read.txt" />
-        <option value="$PROJECT_DIR$/Node/fs.js" />
-        <option value="$PROJECT_DIR$/Node/user.html" />
         <option value="$PROJECT_DIR$/Node/NodeServer.js" />
         <option value="$PROJECT_DIR$/Node/urlLib.js" />
         <option value="$PROJECT_DIR$/Node/querystring.js" />
@@ -247,7 +1057,6 @@
         <option value="$PROJECT_DIR$/Node/node_learning/mysql/README.MD" />
         <option value="$PROJECT_DIR$/Node/node_learning/mysql/SQLServer.md" />
         <option value="$PROJECT_DIR$/Node/README.MD" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/README.MD" />
         <option value="$PROJECT_DIR$/Node/node_learning/express/README.MD" />
         <option value="$PROJECT_DIR$/ajax/README.MD.js" />
@@ -259,11 +1068,21 @@
         <option value="$PROJECT_DIR$/vue/index.html" />
         <option value="$PROJECT_DIR$/vue/README.MD" />
         <option value="$PROJECT_DIR$/React/README.MD" />
+        <option value="$PROJECT_DIR$/ECMAScript/class/1.html" />
+        <option value="$PROJECT_DIR$/jQuery/class/1.HTML.html" />
+        <option value="$PROJECT_DIR$/jQuery/class/1.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -272,9 +1091,10 @@
     <handled-path value="$PROJECT_DIR$/Node/node_learning/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1050" />
+    <option name="x" value="323" />
+    <option name="y" value="66" />
+    <option name="width" value="1931" />
+    <option name="height" value="559" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -283,12 +1103,19 @@
           <State>
             <id />
           </State>
-        </expanded-state>
-        <selected-state>
           <State>
-            <id>AngularJS</id>
+            <id>General</id>
           </State>
-        </selected-state>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+        </expanded-state>
       </profile-state>
     </entry>
   </component>
@@ -307,6 +1134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,22 +1142,11 @@
               <item name="js-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="js-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Node" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,8 +1154,8 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../nodejs/node" />
     <property name="SearchEverywhereHistoryKey" value="json&#9;null&#9;null" />
   </component>
@@ -350,11 +1167,11 @@
       <recent name="E:\Sites\Beats0.github.io-master\js-practice\jQuery\事件" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sites\Beats0.github.io-master\js-practice\Navica" />
+      <recent name="D:\Sites\Beats0.github.io-master\js-practice\jQuery\lib" />
       <recent name="E:\Sites\Beats0.github.io-master\js-practice\ajax" />
       <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\consolidate" />
       <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\multer" />
-      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\ejs" />
-      <recent name="E:\Sites\Beats0.github.io-master\js-practice\Node\node_learning\cookie_session" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -613,7 +1430,11 @@
       <workItem from="1518257277507" duration="419000" />
       <workItem from="1518337965684" duration="1248000" />
       <workItem from="1518506788923" duration="67000" />
-      <workItem from="1518858419479" duration="516000" />
+      <workItem from="1518858419479" duration="547000" />
+      <workItem from="1518919731828" duration="30000" />
+      <workItem from="1520659510724" duration="10445000" />
+      <workItem from="1520673366509" duration="25000" />
+      <workItem from="1520823767526" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1503657454943</created>
@@ -930,11 +1751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516700494861</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="node">
+      <created>1518858954555</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1518858954555</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638517000" />
+    <option name="totallyTimeSpent" value="649481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,16 +1776,16 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1358351" sideWeight="0.49550563" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12737843" sideWeight="0.49550563" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15505618" sideWeight="0.49312896" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21797752" sideWeight="0.5121564" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36629215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36629215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15697674" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23707865" sideWeight="0.48784354" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20295984" sideWeight="0.50449437" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1043,12 +1871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Node/node-modules/fs.js" />
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/package.json" />
-    <entry file="file://$PROJECT_DIR$/Node/node/1-14/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/Node/querystring.js" />
-    <entry file="file://$PROJECT_DIR$/Node/form.html" />
-    <entry file="file://$PROJECT_DIR$/Node/NodeServer.js" />
     <entry file="file://$PROJECT_DIR$/Node/httputils/httputils.js" />
     <entry file="file://$PROJECT_DIR$/Node/Node_HttpServerClientTool/Node_HttpServerClientTool.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1101,42 +1923,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/node_modules/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="594">
-            <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/get_post/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="243">
-            <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/ejs/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="648">
-            <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/node_modules/README.MD" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/get_post/README.MD" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/ejs/README.MD" />
     <entry file="file://$PROJECT_DIR$/Node/node_learning/cookie_session/server-cookie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -1144,54 +1933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/cookie_session/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2322">
-            <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="10" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/express/Express整合.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/HTML/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1944">
-            <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/cookie_session/README.MD" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/express/Express整合.MD" />
+    <entry file="file://$PROJECT_DIR$/jQuery/HTML/README.MD" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/README.MD" />
     <entry file="file://$PROJECT_DIR$/Node/node_learning/multer/FileRename.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1213,18 +1958,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/www/upload/upload.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/www/upload/upload.md" />
     <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1239,30 +1973,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="775">
-            <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter/cookie/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="621">
-            <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/consolidate/README.MD" />
+    <entry file="file://$PROJECT_DIR$/chapter/cookie/README.MD" />
     <entry file="file://$PROJECT_DIR$/chapter/cookie/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5211">
@@ -1270,18 +1982,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/SQLServer.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/SQLServer.md" />
     <entry file="file://$PROJECT_DIR$/Node/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/Node/default.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1290,77 +1991,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1350">
-            <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/node_learning/express/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/mysql/README.MD" />
+    <entry file="file://$PROJECT_DIR$/css/README.MD" />
+    <entry file="file://$PROJECT_DIR$/Node/node_learning/express/README.MD" />
     <entry file="file://$PROJECT_DIR$/ajax/README.MD.js" />
     <entry file="file://$PROJECT_DIR$/ajax/ajax.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/ajax_get.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="186">
           <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
+        <state relative-caret-position="1178">
           <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1368,7 +2030,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/index.html" />
+    <entry file="file://$PROJECT_DIR$/Node/README.MD" />
+    <entry file="file://$PROJECT_DIR$/React/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1376,67 +2049,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/class/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/class/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/class/1.HTML.html" />
+    <entry file="file://$PROJECT_DIR$/jQuery/class/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="9909">
-            <caret line="367" column="23" lean-forward="false" selection-start-line="367" selection-start-column="23" selection-end-line="367" selection-end-column="23" />
+          <first_editor relative-caret-position="496">
+            <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             <folding />
           </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="621">
-            <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

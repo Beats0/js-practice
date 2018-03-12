@@ -1,0 +1,241 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简易表单操作</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <style>
+        .mybody {
+            -moz-box-shadow: 0px 0px 8px black;
+            -webkit-box-shadow: 0px 0px 8px black;
+            background-color: rgba(230, 238, 232, 0.5);
+            box-shadow: 0px 0px 8px black;
+            transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -moz-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -webkit-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -o-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .mybody:hover {
+            -moz-box-shadow: 0px 0px 50px black;
+            -webkit-box-shadow: 0px 0px 50px black;
+            box-shadow: 0px 0px 50px black;
+        }
+
+        .mybody2 {
+            -moz-box-shadow: 0px 0px 8px black;
+            -webkit-box-shadow: 0px 0px 8px black;
+            background-color: rgba(230, 238, 232, 0.5);
+            box-shadow: 0px 0px 8px black;
+            transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -moz-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -webkit-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            -o-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .mybody2:hover {
+            -moz-box-shadow: 0px 0px 50px black;
+            -webkit-box-shadow: 0px 0px 50px black;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0px 0px 50px black;
+        }
+
+        .mybody3 {
+            -moz-box-shadow: 0px 0px 8px black;
+            -webkit-box-shadow: 0px 0px 8px black;
+            background-color: rgba(230, 238, 232, 0.5);
+            box-shadow: 0px 0px 8px black;
+        }
+
+        .mybody3:hover {
+            -moz-box-shadow: 0px 0px 50px black;
+            -webkit-box-shadow: 0px 0px 50px black;
+            box-shadow: 0px 0px 50px black;
+        }
+
+        .mybody4 {
+            -moz-box-shadow: 0px 0px 8px black;
+            -webkit-box-shadow: 0px 0px 8px black;
+            background-color: rgba(230, 238, 232, 0.5);
+            box-shadow: 0px 0px 8px black;
+        }
+
+        .mybody4:hover {
+            -moz-box-shadow: 0px 0px 50px black;
+            -webkit-box-shadow: 0px 0px 50px black;
+            background-color: rgba(255, 255, 255, 255);
+            box-shadow: 0px 0px 50px black;
+        }
+
+        .item {
+            padding: 10px;
+        }
+    </style>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../lib/vue.js"></script>
+    <script>
+        window.onload = function () {
+            var app = new Vue({
+                el: '#box',
+                data: {
+                    formData: [],
+                    // { name: "AAA", age: 111, sex: "男" },
+                    // { name: "BBB", age: 222, sex: "女" }
+                    // username:'1',
+                    // age:'1',
+                    // sex:'1'
+                    // username: 'Beats0',
+                    // age: '18',
+                    // sex: '男',
+                    // selectIndex: -1
+
+                    username: '',
+                    age: '',
+                    sex: '',
+                    selectIndex: ''
+                },
+                methods: {
+                    formAdd: function () {
+                        this.formData.push({
+                            name: this.username,
+                            age: this.age,
+                            sex: this.sex
+                        });
+                        this.username = '';
+                        this.age = '';
+                    },
+                    deleteMassage: function (n) {
+                        this.formData.splice(n, 1);
+                    },
+                    deleteAll: function () {
+                        this.formData = [];
+                    },
+                    console:function () {
+                        console.log(this.formData)
+                    }
+                }
+
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container" id="box">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="item mybody">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>序列号</th>
+                                <th>姓名</th>
+                                <th>年龄</th>
+                                <th>性别</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="(item,index) in formData">
+                                <td> {{index+1}}</td>
+                                <td> {{item.name}}</td>
+                                <td> {{item.age}}</td>
+                                <td> {{item.sex}}</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#layer" v-on:click="selectIndex=index">删除
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr v-show="formData.length!=0">
+                                <td colspan="5" class="text-right">
+                                    <button class="btn btn-danger btn-sm" data-toggle="model" data-target="#layer" v-on:click="deleteAll">删除全部
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr v-show="formData.length==0">
+                                <td colspan="5" class="text-center">
+                                    <p class="text-center">没有数据......</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div role="dialog" class="modal fade bs-example-modal-sm" id="layer">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">
+                                            <span>&times;</span>
+                                        </button>
+                                        <h4 class="modal-title">确认删除么?</h4>
+                                    </div>
+                                    <!-- <div class="modal-body">
+
+                                    </div> -->
+                                    <div class="modal-body text-right">
+                                        <button data-dismiss="modal" class="btn btn-danger btn-sm" v-on:click="deleteMassage(selectIndex)">确认</button>
+                                        <button data-dismiss="modal" class="btn btn-primary btn-sm">取消</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <aside class="mybody">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Panel title</h3>
+                        </div>
+                        <div class="panel-body">
+                            Panel content
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="mybody">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">编辑表</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form action="" method="POST" role="form">
+                                <!-- <legend>Form title</legend> -->
+                                <div class="form-group">
+                                    <label for="name">用户名</label>
+                                    <input type="text" class="form-control" id="username" v-model="username">
+                                    <label for="age">年龄</label>
+                                    <input type="text" class="form-control" id="age" v-model="age">
+                                    <label for="age">性别</label>
+                                    <input type="text" class="form-control" id="sex" v-model="sex">
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" value="添加" class="btn btn-primary" v-on:click="formAdd()">
+                                    <input type="reset" value="重置" class="btn btn-danger">
+                                    <input type="reset" value="打印" class="btn btn-danger" v-on:click="console()">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </aside>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
